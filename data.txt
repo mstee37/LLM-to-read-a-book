@@ -1,0 +1,94 @@
+Logic Question
+
+Question 1.43
+
+Assume that the random variables XandYare normally dis-
+tributed: Xâ¼N(ÂµX,Ï2
+X), and Yâ¼N(ÂµY,Ï2
+Y). The correlation between X
+andYisÏ.H o w c a n y o u c h o o s e c o n s t a n t s aandbsuch that you minimize
+the variance of the random variable sum S=aX+bYunder the constraints
+that a+b=1 ,0 â¤aâ¤1, and 0 â¤bâ¤1?8
+8Another version of this question asked in interviews is: âYou are driving around with one wheel
+on the gravel and one wheel on the pavement. The variance of the gravel and pavement surfaces
+are described by Ï2
+GandÏ2
+P. Whereabouts on the axle should you sit between x= 0 (right over
+the wheel on the gravel) and x= 1 (right over the wheel on the pavement) if you want the most
+comfortable ride?â
+Â©2021 Timothy Falcon Crack 56 All Rights Reserved Worldwide
+
+Answer 1.43
+
+The obvious application is to proportions of a portfolio invested
+in risky assets (see Questions 3.19 and 3.20). Make the substitution b=1âa.
+Then the variance of the sum is
+V(S)=a2Ï2
+X+2a(1âa)ÏÏXÏY+( 1 âa)2Ï2
+Y.
+The ï¬rst-order condition isâV(S)
+âa= 0. The partial derivative is:
+âV(S)
+âa=2 aÏ2
+X+2ÏÏXÏYâ4aÏÏ XÏY+2 ( 1 âa)(â1)Ï2
+Y
+=2/â­râ¬cketleftâig
+a(Ï2
+Xâ2ÏÏXÏY+Ï2
+Y)+ÏÏXÏYâÏ2
+Y/â­râ¬cketrightâig
+.
+Thus, the particular athat satisï¬es the ï¬rst-order condition is
+aâ=Ï2
+YâÏÏXÏY
+(Ï2
+Xâ2ÏÏXÏY+Ï2
+Y).
+We should check the second-order condition
+â2V(S)
+âa2/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle
+a=aâ>0,
+to make sure this is a minimum, not a maximum. This is straightforward:
+1
+2â2V(S)
+âa2=Ï2
+Xâ2ÏÏXÏY+Ï2
+Y
+â¥Ï2
+Xâ2(+1) ÏXÏY+Ï2
+Y
+=( ÏXâÏY)2
+â¥0,
+and the ï¬rst inequality is strict unless Ï=+ 1 .
+In fact, I have solved the unconstrained problemâignoring the constraint 0 â¤
+aâ¤1. If aâbreaches the constraints, the constrained solution for ais either 1
+or 0, depending upon whether ÏXorÏYis the smaller respectively.43
+43Theaâwill breach the constraints if the correlation Ïis large enough or the standard deviations
+are disparate enough that eitherÏX
+ÏY<ÏorÏY
+ÏX<Ï.
+Â©2021 Timothy Falcon Crack 142 All Rights Reserved Worldwide
+
+Statistics Question
+
+Question 4.47
+
+If the coin in Question 4.46 is biased, is the expected number of
+tosses to get âthree of the sameâ going to be greater or less than it was with
+the unbiased coin?
+
+Answer 4.47
+
+A bias towards either heads or tails in the coin in Question 4.46
+is a bias in favor of âmore of the same.â Given that the stopping rule is âthree
+of the same,â the expected number of tosses required to end the game must
+decrease in this case.
+So, if the probability of a head is one-half, and Tis the number of tosses
+required to end the game, E(T)=41
+8, and it cannot be higher. If, however, the
+probability of a head is two-thirds (or, given symmetry, if it is one-third), the
+expected number of tosses to end the game drops to E(T)=1 0 7 / 2 7 â3.96. If
+the probability of a head is 3/4 (or, given symmetry, if it is 1/4), the expected
+number of tosses to end the game drops to E(T)=4 8 3 / 1 2 8 â3.77. If the
+probability of a head is one (or, given symmetry, if it is zero), the expected
+number of tosses to end the game drops to E(T)=3 ,a n di tc a n n o tb el o w e r .
