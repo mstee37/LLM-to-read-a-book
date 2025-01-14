@@ -1,0 +1,2196 @@
+,Question Number,Question,Number,Answer Number,Answer
+0,Question 1.1,"/_387 You are given two glass jugs. Each contains the same volume,
+V,o fl i q u i d . O n ej u gc o n t a i n sp u r ea l c o h o l ,a n dt h eo t h e rj u gc o n t a i n sp u r e
+water. A modest quantity, Q,o fw a t e ri sp o u r e df r o mt h ew a t e rj u gi n t ot h e
+alcohol jug, which is then thoroughly mixed. The same modest quantity, Q,
+of (now diluted) alcohol is then poured back into the water jug to equalize the
+volumes of the jugs at their initial levels.
+The initial concentration of alcohol in the alcohol jug equals the initial concen-
+tration of water in the water jug (at 100%). What is the relationship between
+the ﬁnal concentrations of alcohol in the alcohol jug and water in the water
+jug?1",1.1,Answer 1.1,"This question has appeared over and over again. Although simple,
+it is rarely answered well. No calculation is required to determine the answer.
+If you used anyalgebra whatsoever, stop now, go back, reread the question,
+and try again.
+When the quantity Qof water is poured into the alcohol jug, the concentration
+of alcohol in the alcohol jug becomesV
+V+Q.A f t e r m i x i n g a n d p o u r i n g s o m e
+back, the concentration of alcohol in the alcohol jug does not change again
+(because no new water is added). However, when the diluted alcohol is poured
+back into the water jug, the concentration of water in the water jug changes
+from 100% toV
+V+Q.T h a ti s ,t h eﬁ n a lc o n c e n t r a t i o n sa r ei d e n t i c a l .
+How do you see that the ﬁnal concentrations must be identical? Remember,
+you do not need any calculations at all. In fact, the only reason for any
+calculation is if you also want to ﬁnd out what the ﬁnal concentrations are
+(you were not asked this, but if you wish to work it out, your calculations need
+not go beyond those of the previous paragraph).
+Here is how it works. At the end of the process, both jugs contain the same
+volume of ﬂuid as they did at the start. The only way for the concentration
+of alcohol (for example) to have changed from 100% is if some alcohol was
+displaced by water. Similarly, the only way for the concentration of water to
+have changed from 100% is if some water was displaced by alcohol. Volume is
+conserved (both total volume and volume in each jug), so all that has happened
+is that identical quantities of water and alcohol have traded places (and these
+identical quantities are slightly less than Q). By symmetry, the concentrations
+of alcohol in the alcohol jug and water in the water jug must be identical. This
+ﬁnal result is true no matter how many times you repeat the experiment.
+If you are still stuck, here is another way of thinking about it. Imagine a
+black bucket with 1,000 black marbles in it and a white bucket with 1,000
+©2021 Timothy Falcon Crack 102 All Rights Reserved Worldwide"
+1,Question 1.10,"/_387 Picture a 10 ×10×10 “macro-cube” ﬂoating in mid-air. The
+macro-cube is composed of 1 ×1×1 “micro-cubes,” all glued together. Weather
+damage causes the outermost layer of micro-cubes to become loose. This
+outermost layer falls to the ground. How many micro-cubes are on the ground?",1.1,Answer 1.10,"The 10 ×10 macro-cube question has been very popular. The most
+common mistake is for people to count the number of 1 ×1 micro-cubes on
+each face and add them up. Even if you do the mathematics correctly (and
+most people do not), you miss the whole point.
+If you focus on the 1 ×1m i c r o - c u b e so nt h ef a c e sa n dh o wt oc o u n tt h e m
+directly (e.g., How many faces? How many on each face? How many edges?),
+then you have been bumped by the pickpocket’s accomplice (see story on
+p. 286). Go back now and ﬁgure out a better way. As I stated before, the
+path of greatest resistance bears the highest rewards, so read no further unless
+you did it a better way.
+You must look for structure in a problem that leads you to a simple and speedy
+solution. The most structure here is to be found in the macro-cube you start
+with and the (now slightly smaller) macro-cube that remains. The diﬀerence
+between their volumes is how many micro-cubes fell.
+The volume of a cube of side length nisncubed; that is, n3.T h ea n s w e ri s ,
+therefore, 103−83.
+How do you calculate this without a calculator? You should know that 10k
+is a 1 with kzeroes attached, so 103=1,000. You should know that 8 = 23
+and, therefore, that 83=23×3=29.Y o u s h o u l d d e ﬁ n i t e l y k n o w t h a t 210
+11In fact, the average number of children per family is only/summ⎬tiontext∞
+k=1k
+2k= 2. This formula is a
+special case of a more general series result:/summ⎬tiontext∞
+k=1k
+xk=x
+(x−1)2,for|x|>1, derived as follows.
+Assume |y|<1, then/summ⎬tiontext∞
+k=0yk=1
+1−y.N o w d i ﬀ e r e n t i a t e b o t h s i d e s w i t h r e s p e c t t o y,t oﬁ n d/summ⎬tiontext∞
+k=0k·yk=y
+(1−y)2.N o ws u b s t i t u t ei n y= 1/ x, for |x|>1, and drop the null ﬁrst term. Then,/summ⎬tiontext∞
+k=1k
+xk=1/x
+(1−1/x)2=x
+(x−1)2.I thank NK for pointing out this simple derivation; any errors are
+mine.
+©2021 Timothy Falcon Crack 111 All Rights Reserved Worldwide"
+2,Question 1.11,"/_387 There are two cities, A and B, 1,000 miles apart. You have
+3,000 apples at City A, and you want to deliver as many as possible of them
+to City B. The only delivery method available is a truck. There are, however,
+two problems. The truck can hold at most only 1,000 apples, and if there are
+any apples at all in the truck, the hungry dishonest driver will steal and eat
+one apple for every mile he drives. What is the maximum number of apples
+you can deliver from City A to City B? Note that you are welcome to stop
+part way, dump oﬀ some apples, and then come back and pick them up later.",1.11,Answer 1.11,"If not for the ability to stop and dump apples along the way,
+you could not deliver any apples at all.12So, the key is to make repeated
+trips where you dump apples in a pile at the side of the road and then you
+subsequently pick up and deliver apples from that apple dump. For example,
+suppose you made three trips where each time you left City A with 1,000
+apples and dumped 500 uneaten apples at the 500-mile marker. You would
+then have accumulated 1,500 apples at the 500-mile marker and you could
+deliver 500 of those to City B (e.g., in one trip of 1,000 apples where 500 are
+delivered uneaten, and 500 are left to rot at 500-mile marker).
+To ﬁnd the optimal strategy, we must put some bounds on what is sensible.
+If you are driving away from City A, or away from an apple dump at the side
+of the road, then if there are 1,000 or more apples available, it would never
+make sense to leave with fewer than 1,000 apples on the truck. For example,
+suppose your very ﬁrst move was to drive away from City A with only 900
+apples. Well, no matter where you dump the uneaten balance, you missed
+out on giving an extra 100 apples a free ride to that spot, and that must be
+suboptimal. So, we should drive away from City A only three times, with
+1,000 apples on board each time.
+The next question is whether, for any one of these three departures from
+City A, we dump the uneaten apples at only one apple dump, or whether we
+dump them at more than one location. Suppose on one trip we dump 100
+apples at the 100-mile marker, and then the uneaten balance at some later
+spot. That cannot be sensible, because again, no matter where you dump the
+uneaten balance, you missed out on giving an extra 100 apples a free ride to
+that spot. So, we must choose a single dump location for each run.
+Could dump locations diﬀer by run? Well, as long as we can get the dump
+contents to cumulate to a multiple of 1,000 (see below), they should all be
+dumped in the same place. Suppose instead that on the third run we dump
+apples beyond the location of the dump from the ﬁrst two runs. Then driving
+that odd-lot of apples to a further location unnecessarily burns apples because
+it subsequently forces the truck to leave the earlier apple dump with fewer
+than 1,000 apples. So, not only must we dump the apples in only one location
+on any given trip, but we must dump them at the same location on each trip.
+So, where do we dump the apples on the three departures from City A, before
+subsequently loading up from that combined dump and carrying them further
+on? Well, if we dump them at the k-mile marker, we will end up with a total
+12Dumping apples part-way into the journey is akin to the “depoting” of food and supplies that
+took place during Antarctic journeys (Scott, 2008).
+©2021 Timothy Falcon Crack 112 All Rights Reserved Worldwide"
+3,Question 1.12,"/_387 How many degrees (if any) are there in the angle between the
+hour and minute hands of a clock when the time is a quarter past three?",1.12,Answer 1.12,"People have given me answers to this one ranging from 0◦to 75◦
+(and many answers in between). The big hand is on the three; the little hand
+13If we could slice the apples up, the continuous solution would be to dump them ﬁrst at the
+3331
+3-mile marker, then again at the 8331
+3mile marker, ultimately delivering 8331
+3apples.
+14IfNis a very big number, and assuming a continuous solution, then using harmonic series
+and the Euler-Mascheroni result lim n→∞/⎭r⎬cketleft⎜ig/summ⎬tiontextn
+j=11
+j−ln(n)/⎭r⎬cketright⎜ig
+=γ,where γ≈0.5772156649 is the
+Euler-Mascheroni constant, I was able to show that you end up delivering a proportion1
+eof your
+apples (roughly 36.8%). With N=3( 3 , 0 0 0a p p l e s ) ,w ed e l i v e ro n l y8 3 3a p p l e s( 2 7 . 8 % ) ,b u tt h i s
+number rises steadily with N,c o n v e r g i n gt o1
+e.
+©2021 Timothy Falcon Crack 113 All Rights Reserved Worldwide"
+4,Question 1.13,"/_387 What is the ﬁrst time after 3 pmwhen the hour and minute hands
+of a clock are exactly on top of each other?",1.13,Answer 1.13,"I present three diﬀerent solutions: ﬁrst, an approximation that
+draws upon the answer to the previous question; second, an exact algebraic
+solution; and, third, an exact and slightly more elegant algebraic solution.
+FIRST SOLUT ION
+An approximate answer is a great place to start.16There are 360◦around the
+clock face. The minute hand therefore travels at 6◦per minute. At 3:15 the
+minute hand is 7 .5◦behind the hour hand (from the previous answer). To
+travel that distance takes 7 .5/6 = 1 .25 minutes. That is, one minute and 15
+seconds, or 75 seconds. So, at 3:16:15 the minute hand will arrive where the
+hour hand was 75 seconds ago. Of course, the hour hand will have moved ever
+so slightly during that 75 seconds. So, maybe you need to wait another, say,
+ﬁve seconds until the two hands are perfectly coincident. That would be at
+3:16:20. The exact solutions following are less than two seconds away from
+this approximate answer.
+SECOND SOLUT ION
+The question asks the ﬁrst time after 3 pmwhen the hour and minute hands
+of a clock are coincident. More generally, we can ask the ﬁrst time after npm
+when the hour and minute hands are coincident, for n=1,2,. . . ,11 (we miss
+out the 12 because the hands are not coincident after 12 and before 1).
+Assume we start at npm,f o ro n eo f n=1,2,. . . ,11. By the time the minute
+hand whips around to the non the dial, the hour hand will have moved slowly
+on already. When the minute hand ﬁnally catches up with the hour hand, the
+hour hand will have moved by a total of θ(n) degrees past the non the dial,
+say. The minute hand whips around the dial 12 times faster than the hour
+hand. So, while the hour hand covers θ(n) degrees, the minute hand covers
+12·θ(n)d e g r e e s .
+We can also state that the minute hand must have covered 30 n+θ(n)d e g r e e s .
+That is 30 ndegrees to get around to the non the dial, and another θ(n)d e g r e e s
+to ﬁnally catch the hour hand. So, we may write 30 n+θ(n)=1 2 ·θ(n), and
+thus, θ(n)=3 0 n/11 degrees.17
+15There are 2 πradians in a full circle. Thus, 360◦=2πradians; 180◦=πradians; 90◦=π
+2
+radians; and so on. It is just another way of measuring angles.
+16I thank Eoin Healy for suggesting this approximation; any errors are mine.
+17It also follows that θ(n)=n·θ(1) for n=1,2,. . . ,11, where θ(1) = 30/11 degrees.
+©2021 Timothy Falcon Crack 114 All Rights Reserved Worldwide"
+5,Question 1.14,"/_387 There are 100 light bulbs lined up in a row in a long room. Each
+bulb has its own switch and is currently switched oﬀ. The room has an entry
+door and an exit door. There are 100 stockbrokers lined up outside the entry
+©2021 Timothy Falcon Crack 50 All Rights Reserved Worldwide",1.14,Answer 1.14,"Well now, this looks pretty complicated the ﬁrst time you see it.
+However, there is a simple way to ﬁgure it out. If you think about it, you see
+that the only brokers who touch the switch for light bulb number 64 are those
+whose numbers are divisors of 64.
+That is, light bulb number 64 has its state of illumination changed by brokers
+whose numbers are factors of 64. That is, brokers 1, 2, 4, 8, 16, 32, and 64
+ﬂip the switch. Because light bulb 64 is originally oﬀ,i tm u s tb et h a ta f t e r
+this odd number of switches it is on. See Answer 1.15 for a closely related but
+more general solution technique."
+6,Question 1.15,"/_387 Exactly the same set-up as Question 1.14, with a diﬀerent ﬁnal
+question: How many of the light bulbs are illuminated after the 100th person
+has passed through the room, and which light bulbs are they?",1.15,Answer 1.15,"If you now know the answer to Question 1.14, you should be able
+to ﬁgure this one out swiftly. If you have not yet ﬁgured out Question 1.14,
+then read no further—solve that one ﬁrst.
+The only way for a light bulb to be illuminated after the 100th person has
+passed through is if its switch was ﬂipped an odd number of times. The
+switch for light bulb number Kgets ﬂipped only by people whose numbers
+are factors of K.T h u s ,t h eo n l yl i g h tb u l b si l l u m i n a t e da tt h ec o n c l u s i o na r e
+those with a number that has an odd number of factors.
+However, factors for numbers go in pairs. For example, 32 has factors (1 ,32),
+(2,16), and (4 ,8). This means that 32 has an even number of factors, and bulb
+©2021 Timothy Falcon Crack 115 All Rights Reserved Worldwide"
+7,Question 1.16,"/_387 Your bedroom sock drawer contains eight red socks and 11 blue
+socks that are otherwise identical. The light is broken in your bedroom, and
+you must select your socks in the dark. What is the minimum number of socks
+you need to take out of your drawer and carry into your (well-lit) living room
+to guarantee that you have with you at least a matching pair to choose from?",1.16,Answer 1.16,"This is an old favorite. I have tried this out on people and have
+received almost all imaginable responses. The answer is three, and it cannot
+be anything else. Two socks can be diﬀerent, but a third must match one of
+the ﬁrst two—giving a matching pair."
+8,Question 1.17,"/_387 Following on from the previous question, can you generalize your
+answer to otherwise-identical socks of Ndiﬀerent colors? For example, suppose
+you have 50 socks of color 1, 50 socks of color 2, . . . , and 50 socks of color N,
+how many socks must you pull from your sock drawer in the dark to guarantee
+that you have a matching pair?",1.17,Answer 1.17,"With socks of Ndiﬀerent colors, you must pull ( N+1 ) s o c k s
+from the drawer to be sure that you have a matching pair. The argument is
+the same as it was for the previous question; Nsocks can be diﬀerent (the
+worst-case scenario), but the ( N+1 )stsock must match one of the ﬁrst N
+socks—giving a matching pair."
+9,Question 1.18,"/_387 Following on from the previous two questions, your bedroom
+sock drawer contains 2 red, 4 yellow, 6 purple, 8 brown, 10 white, 12 green,
+14 black, 16 blue, 18 gray, and 20 orange socks. It is dark, so you cannot
+distinguish between the colors of the otherwise-identical socks. How many
+socks do you need to take out of the drawer to guarantee that you have at
+least three pairs of socks of the same color?
+Story: One of my students was asked to “Describe the best boss you have
+ever had. ” Watch out for the opposite question: “Describe the worst boss you
+have ever had. ” Your answer may indicate disloyalty to a (former) employer.",1.18,Answer 1.18,"Like the answer to the previous question, ask yourself ﬁrst what is
+the worst-case scenario? That is, what is the maximum number of socks you
+can select without obtaining the required three matching pairs? Recall that
+the counts/colors are 2 red, 4 yellow, 6 purple, 8 brown, 10 white, 12 green,
+14 black, 16 blue, 18 gray, and 20 orange socks. You will never be able to get
+three-pair of the red or yellow socks because there are too few of them. There
+are only eight candidate colors remaining. Thus, the worst-case scenario is
+that you select 2 red, 4 yellow, and 5 of each of the remaining eight colors,
+giving a total of 46 socks. As soon as you select a 47thsock, however, its color
+must match the color of one of the previously selected quintuples in those eight
+colors. Thus, you need at least 47 socks to guarantee a matching pair."
+10,Question 1.19,"/_387 You and I are to play a competitive game. We shall take it in
+turns to call out integers. The ﬁrst person to call out “50” wins. The rules
+are as follows:
+1. The player who starts must call out an integer between one and 10,
+inclusive;
+2. A new number called out must exceed the most recent number called by
+at least one and by no more than 10. For example, if the ﬁrst player calls
+out “nine,” then the range of valid numbers for the opponent is 10 to 19,
+inclusive.
+©2021 Timothy Falcon Crack 51 All Rights Reserved Worldwide",1.19,Answer 1.19,"You get the answer by working backwards. If I am your opponent,
+and I am able to call out “39,” then you cannot reach 50, but I can after you
+say whatever you say. So, my goal is to call out “39. ” However, if I am able
+to call out “28,” then you cannot get to 39, but I can after you say whatever
+you say. So, my goal is to call out “28. ” To get to 28, I need only to be able
+to call out “17,” and to do this, I need only to be able to call out “6.”
+So, my strategy, as your opponent, is to get onto the series 6, 17, 28, 39, 50 at
+whichever point I can. If you get to go ﬁrst, you should call out “6.” As long
+as you know the winning numbers and stick to them, you cannot lose. If you
+start with anything other than 6, I cannot lose.
+©2021 Timothy Falcon Crack 116 All Rights Reserved Worldwide"
+11,Question 1.2,"/_387 Fischer and Myron just stepped side-by-side onto a moving es-
+calator. They are climbing up the stairs, and counting steps as they climb.
+Myron is climbing more quickly than Fischer. Myron climbs three steps in
+the time it takes Fischer to climb only two steps. Neither of them skips any
+steps. Myron steps oﬀ at the top, having counted 25 steps. He waits at the
+top for the slower Fischer, who steps oﬀ having counted only 20 steps. How
+many steps are showing on the escalator at any instant?",1.2,Answer 1.2,"I give three successively shorter solutions. The ﬁrst is a hammer-
+and-tongs solution that lays everything out in detail. The second is more
+elegant, and the third is more elegant still. Each solution brings something
+slightly diﬀerent to the table.
+FIRST SOLUT ION
+LetDbe the number of steps showing on the escalator at any moment ( D
+for distance, counted in units of one step). Let ebe the (assumed constant)
+speed of the escalator, in steps per second. Let vMbe Myron’s relative speed
+of ascent up the escalator (which is the same whether the steps are moving or
+not). If vM= 0, then Myron will climb zero steps under his own steam. If
+vM=∞,t h e nM y r o nw i l lc l i m b Dsteps. So, it will be the relative diﬀerences
+in speed that let us identify D.
+Myron’s absolute speed up the incline holding the escalator is e+vM.S o ,
+Myron must cover the distance Din time tM, spent on the escalator, as given
+by Equation A.1.
+tM=D/(e+vM) (A.1)
+How many steps does Myron climb in time tM?W e l l , a t s p e e d vM,w ej u s t
+need to multiply time taken by speed, as in Equation A.2.
+steps climbed (Myron) = tM·vM=DvM/(e+vM) (A.2)
+We should double check that the RHS of Equation A.2 conforms to our intu-
+ition. If we plug vM= 0 into Equation A.2 we get zero steps, as expected, for
+anye>0. Similarly, if we take the limit of Equation A.2 as vM→∞,w eg e t
+Dsteps, for any e≥0.
+Now let vFdenote Fischer’s slower speed, where 2 vM=3vF.T h e n , f r o m
+Equation A.2 and the relative speeds, we have Equations A.3–A.5.
+steps climbed (Myron) = 25 = DvM/(e+vM) (A.3)
+steps climbed (Fischer) = 20 = DvF/(e+vF) (A.4)
+2vM=3 vF (A.5)
+©2021 Timothy Falcon Crack 103 All Rights Reserved Worldwide"
+12,Question 1.20,"/_387 You are to open a safe without knowing the combination. Be-
+ginning with the dial set at zero, the dial must be turned counter-clockwise to
+the ﬁrst combination number, (then clockwise back to zero), and clockwise to
+the second combination number, (then counter-clockwise back to zero), and
+counter-clockwise again to the third and ﬁnal combination number, whereupon
+the door shall immediately spring open; there is no handle or key to turn. The
+dial has numbers from zero to 40, and the zero is not one of the combination
+numbers.
+Without knowing the combination numbers, what is the maximum number of
+trials required to open the safe? One trial equals one attempt to dial a full
+three-number combination, and you must start again from zero for each trial.
+Story: 1. During the interview, an alarm clock went oﬀ from the candidate’s
+briefcase. He took it out, shut it oﬀ, apologized, and said he had to leave
+for another interview. 2. An applicant came in wearing only one shoe. She
+explained that the other shoe was stolen oﬀ her foot in the bus.
+Interview Horror Stories from Recruiters
+Reprinted by kind permission of MBA Style Magazine
+©1996–2021 MBA Style Magazine, www.mbastyle.com",1.2,Answer 1.20,"Safe-cracking in a ﬁnance interview? Yes indeed. The naive an-
+swer is that there are 40 possible numbers for the ﬁrst combination, 40 for the
+second, and 40 for the third. It would then take at most 403possible trials
+to get the safe open. That is 64,000 trials. There are two factors that reduce
+this number considerably. The ﬁrst you should have ﬁgured out; the second
+you are excused.
+The ﬁrst factor is that although three numbers are required to open the safe,
+you need only ﬁnd the ﬁrst two of them. If you dial the ﬁrst two numbers
+correctly, then you need only turn the dial until the safe pops open. You do
+not need to know the last number. This gives 402possible combinations. That
+is only 1,600 trials. For extra safe-cracking advice along these lines see Gleick
+(1993, pp. 189–190).18
+The interviewer in this case suggested a second factor, as follows (and I think it
+is a little unfair to any interviewee who is inexperienced in safe-cracking). The
+safe is a mechanical device designed with a particular tolerance for inaccuracy.
+If the ﬁrst combination number is 14, then dialing either 13, 14, or 15 suﬃces.
+This tolerance for inaccuracy brings you down to roughly/p⎬renleft⎜ig
+40
+3/p⎬renright⎜ig2trials. This
+is fewer than 200 trials.
+One reader suggested that because you need only ﬁnd a sequence of numbers,
+diﬀerent attempts could overlap with other attempts, to reduce the number of
+trials needed. If you need to start again at zero every time, however, then this
+approach fails. In practice, with real safes, you need to dial clockwise three
+times past zero to 75, counter-clockwise two times past zero to 50, clockwise
+once past zero to 25, or something like that. So, you need to start anew each
+time."
+13,Question 1.21,"(**) You are given a set of scales and 90 coins (this question is
+similar to Question 1.6). The scales are of the old balance variety. That is, a
+small dish hangs from each end of a rod that is balanced in the middle. The
+device enables you to conclude either that the contents of the dishes weigh
+the same or that the dish that falls lower has heavier contents than the other.
+You must pay $100 every time you use the scales.
+The 90 coins appear to be identical. In fact, 89 of them are identical, and one
+is of a diﬀerent weight. Your task is to identify the unusual coin and to discard
+it while minimizing the maximum possible cost of weighing.3What is your
+algorithm to complete this task? What is the most it can cost to identify the
+unusual coin (assuming your strategy minimizes the maximum possible cost)?
+Note that the unusual coin may be heavier than the others, or it may be
+lighter. You are asked to both identify it and determine whether it is heavy
+or light.4",1.21,Answer 1.21,"To minimize the maximum possible cost of weighing, your strategy
+must use the scales as few times as possible, wherever the location of the “bad”
+coin. From Answer 1.6, you know that you need three weighings to ﬁnd a bad
+coin in a group of 12. You have 90 coins, so it must take at least four weighings.
+However, by the same argument, if you had 144 coins (12 groups of 12), you
+could identify a bad group of 12 in three weighings and then the bad coin in
+another three. So, (because 90 is less than 144) it should take no more than
+six weighings—either four, ﬁve, or six weighings.
+In fact, it takes only ﬁve weighings (and at most $500) to both ﬁnd the bad
+coin and identify it as heavy or light. I present two quite diﬀerent solution
+techniques plus a third quasi-solution: the ﬁrst is an ingenious “hammer-
+and-tongs” technique, the second is slightly more structured, and the third
+generalizes the second but applies only in special cases. In each case, it takes
+only ﬁve weighings to both ﬁnd the bad coin and identify it as heavy or light.
+18I went to a presentation at MIT at which Jim Gleick (pronounced “Glick”) talked about his then
+soon-to-be-published book “Genius. ” He talked about genius in general and Richard P. Feynman
+in particular. Feynman was an interesting guy, and this is a good book about him.
+©2021 Timothy Falcon Crack 117 All Rights Reserved Worldwide"
+14,Question 1.22,"(***) Suppose that the function f(z) is complex valued in the
+complex plane. Suppose also that f(z) is both bounded and entire. Prove
+3As l i g h t l yd i ﬀ e r e n tt a s ki st om i n i m i z et h ee x p e c t e dc o s to fw e i g h i n g . M i n i m i z i n gt h ee x -
+pected cost of weighing does not necessarily minimize the maximum possible cost. This is a subtle
+distinction that you should not overlook.
+4Does the answer change if you must identify the coin without saying whether it is heavy or
+light?
+©2021 Timothy Falcon Crack 52 All Rights Reserved Worldwide",1.22,Answer 1.22,"This question is unusually esoteric, but I like it. The result is
+known as Liouville’s Theorem. It can be proved directly using Picard’s The-
+orem,23or with very slightly more work, using a Cauchy integral.24Ih a v e
+23Picard: A non-constant entire function assumes every complex value, with at most one possible
+exception. Thus, a bounded function must be a constant.
+24Cauchy integral: let C(z0,r)b eac i r c l eo rr a d i u s rabout arbitrary z0∈C,t h e n f′(z0)=
+1
+2πi/integr⎬ltext
+C(z0,r)f(z)
+(z−z0)2dz(a contour integral), so |f′(z0)|≤1
+rsupz∈C|f(z)|. Bounded fimplies the
+RHS tends to zero as r→∞.T h u s , f′(z0)≡0,for arbitrary z0∈C, and fmust be a constant.
+©2021 Timothy Falcon Crack 121 All Rights Reserved Worldwide"
+15,Question 1.23,"/_387 Ih a v ed r o p p e d1 0 , 0 0 0a n t sr a n d o m l yo n t oar u l e rt h a ti so n e
+meter (i.e., 100 centimeters) long and oriented to point north–south. The
+ants are of very small size and mass. Each ant walks at a steady pace of
+one centimeter per second in a straight line parallel to the long edge of the
+ruler. Their initial direction is randomly either north or south. The ants are
+all from the same colony and possess an inherited vision problem: they have
+peripheral vision only. This means that they can collide with each other if
+they meet head on (although very small, they are large enough to collide). If
+two ants do collide head on, however, then they each turn around instantly
+and head back the way they came at their steady pace. With so many ants in
+one small space, a single ant may experience multiple collisions before it walks
+oﬀ of the ruler. So, how long must you wait to be sure that all the ants have
+walked oﬀ of the ruler?",1.23,Answer 1.23,"After 100 seconds you can be sure that the ants have all walked
+oﬀ the ruler. The answer is the same as if the ants had perfect vision. The
+key is that if two ants who collide, immediately about face and continue, then
+each member of any colliding pair eﬀectively exchanges its exit route with the
+other; the ants are fungible. It is just as if one of the colliding pair crawled
+over the other and they both kept going without pause.
+27This theorem and its proof are adapted from Holland (1973, p. 10), with copyright permission
+from Academic Press.
+©2021 Timothy Falcon Crack 123 All Rights Reserved Worldwide"
+16,Question 1.24,"/_387 You start with a single lily pad sitting on an otherwise empty
+pond. You are told that the surface area of the lily pad doubles every day
+and that it will take 30 days for the single lily pad to cover the surface of the
+pond.6
+If instead of one lily pad you start with eight lily pads (each identical in
+characteristics to the original single lily pad), how many days will it take for
+the surface of the pond to become covered?",1.24,Answer 1.24,"If you can ﬁgure out the correct relationship between the eight
+lily pads and the single one, you get the answer. If you do not have it yet, or
+you think it is 3.75 days, then you should stop reading now, and go back and
+try again. I am serious; this is a nice question, and you lose a great deal by
+peeking at the answers to help you out.
+The naive answer is that it takes30
+8=3.75 days. This is, of course, incorrect.
+The lily pads in the question all grow at the same rate. This means that you
+may think of the eight lily pads as being equivalent to one big lily pad. Indeed,
+when the single lily pad is three days old, it has the same area as the eight
+lily pads do at time zero. This means that you may think of the eight lily
+pads as a single lily pad that is three days old. It takes another 27 days for a
+three-day-old single lily pad to cover the pond, so it also takes 27 days for the
+eight lily pads to cover the pond.
+The interviewee suggested that I use 3,000 days instead of 30 days as the time
+it takes for the single lily pad to cover the pond. The idea was to make the
+question more confusing. The problem with this is that, no matter how small
+the initial lily pad (assuming it is visible to the naked eye), it will cover the
+surface of the Earth within 100 days and the entire solar system not long
+after. Within 3,000 days, the universe will be blotted out—such is the power
+of compound growth."
+17,Question 1.25,"/_387 Another lily pad problem. There are 27 lily pads on a pond.
+Each of the lily pads is one square foot in area. The pond is 6,000 square feet
+in area. Each lily pad doubles its size every day. How long until the pond is
+covered in lily pads?",1.25,Answer 1.25,"You use the same idea as in the previous lily pad question. Each
+pad needs to cover6,000
+27square feet to choke the pond. The size of each
+pad is 2Nafter Ndays, so you need to solve:6,000
+27=2N.T h e s o l u t i o n i s
+N=log(2,000
+9)
+log(2)≈7.8d a y s .28
+Without a calculator, you can still do it in your head. You calculate6,000
+27as
+approximately 200. You know that 28is 256, which exceeds 200; whereas 27
+is 128, which falls short, so eight days should do the trick."
+18,Question 1.26,"/_387 Interviewer: “Alright, you’re from MIT; you must be a quanti-
+tative type of person. ” Interviewee: (conﬁdently, after a slight pause) “Yes
+indeed. ” Interviewer: “Give me the decimal equivalent of13
+16and of9
+16.”",1.26,Answer 1.26,"Decimal pricing was introduced on the New York Stock Exchange
+in 2001. I have left this question in because there are many people who lived
+with eighths and sixteenths for most of their working life, and they may be
+tempted to ask you about it. I am still seeing this question being asked every
+year.
+Most people stumble a little. Do not memorize all the possible sixteenths
+before your interview—you have worse things to worry about (much worse).
+Add or subtract one-sixteenth to get the requested fraction into quarters or
+eighths and then compensate for your adjustment.
+You should remember that1
+8is 0.1250 and deduce from that that1
+16is 0.0625
+(you should be able to give anyeighth in decimal form). The fraction13
+16is only
+one-sixteenth away from12
+16which is exactly three quarters (0 .7500). You need
+28An interesting aside here is that it does not matter which logarithm function you use. The
+result is the same regardless of the base.
+©2021 Timothy Falcon Crack 124 All Rights Reserved Worldwide"
+19,Question 1.27,"/_387 A snail is climbing up a 10-foot pole. It climbs up by three feet
+every day. Each night it sleeps. While sleeping, it slides down by one foot.
+When does it reach the top of the pole?
+5Recall that an “entire” function is a function that is analytic in the entire ﬁnite complex plane.
+Thus, f(z) may be represented by an everywhere-convergent power series: f(z)=/summ⎬tiontext∞
+n=0anzn
+(Holland [1973, p. 5]).
+6The student who was asked this question says that his interviewer used the number 30. However,
+he suggested that I use the number 3,000 to make it more complicated. What is wrong with saying
+that it takes 3,000 days for the lily pad to cover the pond?
+©2021 Timothy Falcon Crack 53 All Rights Reserved Worldwide",1.27,Answer 1.27,"This is a common question. The naive answer is that the snail
+climbs a net of two feet per day, so it reaches the 10-foot mark at the end of
+the ﬁfth day. However, on the morning of the ﬁfth day, the snail starts out
+at the eight-foot mark (having slid down from the nine-foot mark overnight).
+Two-thirds of the way through the ﬁfth day, the snail reaches the 10-foot mark
+and stops because there is no pole left to climb.
+Story: One interviewee was asked, “If you are holding a dinner party, and
+you can invite any three dead people (presumably resurrected), who would
+you choose? Please do not choose any relatives.” Give it some thought."
+20,Question 1.28,"/_387 A windowless room contains three identical light ﬁxtures, each
+containing an identical light bulb. Each light ﬁxture is connected to one of
+three switches outside of the room. Each bulb is switched oﬀ at present. You
+are outside the room, and the door is closed. You may ﬂip any of the external
+switches in any manner you choose. After this, you must take your hands oﬀ
+the switches and then you may go into the room and do as you please (but
+you will not be allowed to damage anything or touch the switches again). How
+can you tell which switch goes to which light?",1.28,Answer 1.28,"Here are two answers.29
+1. Turn Switch #1 on. Wait a while. Then turn it oﬀ while simultaneously
+turning Switch #2 on. Go into the room. The illuminated light corre-
+sponds to Switch #2. The warm non-illuminated bulb corresponds to
+Switch #1. The cold non-illuminated bulb corresponds to Switch #3.
+2. Guess. You have a one-in-six chance if they are random. However, light
+switches are not usually random. If you assume the switches are phys-
+ically located in an order that relates to the physical placement of the
+bulbs (as they usually are), then you have a ﬁfty-ﬁfty chance!"
+21,Question 1.29,"/_387 Inside of a dark closet are ﬁve hats: three blue and two red.
+Three smart men go into the closet, and each selects a hat in the dark and
+places it unseen upon his head. Each man knows both that the closet con-
+tains three blue hats and two red and that the other two men have the same
+knowledge.
+Once outside the closet, no man can see his own hat. The ﬁrst man looks
+at the other two, thinks, and says, “I cannot tell what color my hat is.” The
+second man hears this, looks at the other two, and says, “I cannot tell what
+color my hat is either. ” The third man is blind. The blind man says, “Well, I
+know what color my hat is.” What color is his hat, and how does he know?",1.29,Answer 1.29,"The only way the ﬁrst man can know the color of his own hat is if
+he sees the other two wearing red hats—of which there are only two. However,
+the ﬁrst man does notknow his hat color, so the other two must be wearing
+either both blue or one red and one blue. The second man, upon hearing the
+ﬁrst, knows then that he and the third man are either both wearing blue hats,
+or one wears a red hat, and one a blue. If he still does not know what color
+hat he is wearing, it must be because the third man is wearing a blue hat.
+Why? Well, if the third man wears red, then that pinpoints his own hat as
+blue since this is the only option left from the choice of either both blue or
+one red and one blue. Since the second man does not know his hat color, then
+the third man must be wearing blue. The third man, upon hearing the ﬁrst
+two, deduces that his own hat is blue via the same reasoning."
+22,Question 1.3,"/_387 There are two bells. One rings ﬁve times per minute, and the
+other rings four times per minute. If they start at the same time, how long
+will it be until they next ring together?
+1This is not a chemistry problem. Please ignore the fact that mixing a volume V1of water with
+av o l u m e V2of alcohol results in a total volume less than V1+V2.F o l l o w - u pq u e s t i o n :R e p e a tt h e
+mixing, and ask the same question. Now do it again, and again, and ask the same question.
+©2021 Timothy Falcon Crack 48 All Rights Reserved Worldwide",1.3,Answer 1.3,"If you answered 20 (i.e., 4 ×5) minutes, then go back to the ques-
+tion and think again. You need to be hardwired to ignore such “pickpocket
+answers” (see story on p. 286).
+Although not stated, we should assume the bells ring at equal spaced intervals.
+If one bell rings ﬁve times per minute, then that is every 12 seconds. The other,
+at four times per minute, rings every 15 seconds. They will next ring together
+at the 60 second mark. The answer is one minute.
+Story: “One cocky job candidate interviewed with several male managers at
+a major bank before being ushered into an interview with a female manager.
+He sat across from her, put his feet on her desk and said, ‘Get me a Coke. ’ ”
+Michael Zwell
+Michael Zwell & Associates, Chicago
+“Doomed Days: The Worst Mistakes Recruiters Have Ever Seen,”
+The Wall Street Journal ,F e b r u a r y2 5 ,1 9 9 5 ,p R 4 .
+Reprinted by permission of The Wall Street Journal
+©1995 Dow Jones and Company, Inc.
+All Rights Reserved Worldwide.
+1It h a n kM a l c o l mA .C r a c kf o rs u g g e s t i n gt h i st e c h n i q u e ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 105 All Rights Reserved Worldwide"
+23,Question 1.30,"(**) Find the smallest positive integer that leaves a remainder
+of 1 when divided by 2, a remainder of 2 when divided by 3, a remainder of 3
+when divided by 4, ... and a remainder of 9 when divided by 10.",1.3,Answer 1.30,"You may be looking to the solutions for a hint. My ﬁrst hint is
+that, if you are using linear algebra (i.e., solving systems of equations by sub-
+stitution) then stop that right now. There are nine equations in 10 unknowns,
+so this will get you nowhere. In fact, there are inﬁnitely many integers that
+solve the problem statement; we are searching for the smallest such number.
+My second hint is that you might like to try drawing a picture.
+29I thank Dahn Tamir for assistance on this question; any errors are mine.
+©2021 Timothy Falcon Crack 125 All Rights Reserved Worldwide"
+24,Question 1.31,"/_387 There are two motorcyclists on a single lane road. They are 25
+miles apart. At a signal, they start moving toward each other with constant
+speeds. The ﬁrst motorcyclist rides at 20 mph; the second rides at 30 mph.
+When the signal goes oﬀ, a ﬂy on the helmet of the ﬁrst motorcyclist is startled
+and starts ﬂying toward the second motorcyclist at 40 mph. When the ﬂy
+reaches the second motorcyclist (now moving toward the ﬁrst), he immediately
+reverses course and ﬂies back to the ﬁrst motorcyclist. When the ﬂy gets back
+to the ﬁrst motorcyclist, he reverses course again. The ﬂy continues to ﬂy
+backwards and forwards between the two motorcyclists until they all collide.
+How many miles will the ﬂy have traveled before his life is extinguished?",1.31,Answer 1.31,"This is easier than it sounds. You do not need any inﬁnite sums,
+and, if you used them, go back and try again before reading on. For every two
+miles covered by the ﬁrst motorcyclist, the second covers three miles. Two plus
+three is ﬁve, and there are ﬁve multiples of ﬁve between them. This means
+they will meet after the ﬁrst has traveled 10 miles and the second 15. We
+know that the ﬂy moves at twice the speed of the ﬁrst motorcyclist, so it must
+cover 20 miles before its miserable life ends.
+Many other solutions exist. Here is one I liked.31The second motorcyclist is
+approaching the ﬁrst at a relative speed of 20 + 30 = 50 miles per hour. With
+25 miles between them, they will collide after one-half of an hour. Meanwhile,
+31I thank Adam Rej for suggesting this one; any errors are mine.
+©2021 Timothy Falcon Crack 127 All Rights Reserved Worldwide"
+25,Question 1.32,"Prove that the area of a triangle is given by
+A=/r⎬dic⎬l⎜ig
+s(s−a)(s−b)(s−c),
+where a,b,a n d care the side lengths, and s≡a+b+c
+2is the semi-perimeter.7
+Story: Instead of being asked her greatest weakness, one of my students was
+asked: “Why shouldn’t we hire you?” It is pretty diﬃcult to maneuver your
+way out of that one!
+7Mark Rubinstein kindly pointed out to me that this is “Heron’s Formula. ” Strogatz (2009,
+pp. 143–152, 160) refers to it as “Hero’s Formula” and “Heron’s Formula. ”
+©2021 Timothy Falcon Crack 54 All Rights Reserved Worldwide",1.32,Answer 1.32,"To derive Heron’s (Hero’s) formula, let Adenote the area of a
+triangle of sides a,b,a n d c.32We may make several statements that apply to
+any triangle and which are clearly visible in Figure A.3:
+1. The area Ais given by A=1
+2bh.
+2. Pythagoras’ Theorem implies that a2=h2+d2andc2=h2+(b+d)2.
+3. The ﬁrst Pythagorean result implies h2=a2−d2.W h e n t h e s e c o n d
+Pythagorean result is subtracted from the ﬁrst, it yields c2−a2=(b+
+d)2−d2, which implies that d=c2−a2−b2
+2b.
+If we combine the above results, we get
+A2=1
+4b2h2=1
+4b2(a2−d2)=1
+4b2/⎭r⎬cketleft⎜igg
+a2−(c2−a2−b2)2
+4b2/⎭r⎬cketright⎜igg
+=1
+4b2a2−1
+16(c2−a2−b2)2
+=1
+16/⎭r⎬cketleft⎜ig
+(2ba)2−(c2−a2−b2)2/⎭r⎬cketright⎜ig
+. (A.9)
+Equation A.9 stands out for several reasons. First, although expressed in terms
+ofa,b,a n d c, it must, ultimately, be a polynomial in s,w h e r e s=(a+b+c)/2
+32I thank Thomas C. Watson and Henri Bourdeau for comments and improvements on an earlier
+version of this proof; any errors are mine. I have since discovered that my proof is essentially the
+same as that in Raifaizen (1971), which I had not seen previously.
+©2021 Timothy Falcon Crack 129 All Rights Reserved Worldwide"
+26,Question 1.33,"A,B,C,D,E,F,G,H,a n d I, are the nine integers from one
+to nine (not necessarily in order). They satisfy the following constraints:
+A+B+C+D=2 0 ,
+B+C+D+E+F=2 0 ,
+D+E+F+G+H=2 0 ,and
+F+G+H+I=2 0
+What values are taken by each of AtoI?",1.33,Answer 1.33,"Let me begin by repeating the constraints:35
+A+B+C+D =2 0 ,
+B+C+D+E+F =2 0 ,
+D+E+F+G+H =2 0 ,and
+F+G+H+I=2 0
+We have four equations in nine unknowns. The additional information ( Ato
+Iare some permutation of the integers 1 to 9) restricts the solution space, but
+there can be no unique solution.
+If the ﬁrst four ( AtoD)a n dt h el a s tf o u r( FtoI), each add to 20, then
+because/summ⎬tiontexti=9
+i=1i= 45, it follows immediately that E=5 . I fw es u b t r a c tt h e
+second constraint from the ﬁrst and use E=5 ,w eg e t A=F+5 . I f w e
+subtract the fourth constraint from the third, we get I=D+5 .
+The derived restrictions A=F+5 ,a n d I=D+5i m p l yt h a t FandDmust
+be in the set {1,2,3,4}.O n c e FandDare chosen, AandIare determined
+within the set {6,7,8,9}.T h e r ea r et h u s4 ×3=1 2p o s s i b l ep e r m u t a t i o n s
+forF,D,A,a n d I(that is four choices for Ffollowed by three choices for
+D;s e ee x a m p l eb e l o w ) .T h i sl e a v e s B,C,G,a n d Hﬂoating in the remaining
+four spaces. However, subtracting the second constraint from the third implies
+that B+C=G+H. There are four choices for B,b u t ,o n c e Bis chosen, C
+is uniquely determined; see example below. There are thus 12 ×4×2=9 6
+diﬀerent solutions.
+For example, if F=3a n d D=4 ,t h e n A=8a n d I= 9 immediately. That
+leaves B,C,G,a n d Hﬂoating in the remaining four spaces: {1,2,6,7}.
+IfB=1 ,t h e n Cmust equal 7; there is no other choice for Cthat satisﬁes
+B+C=G+H. With BandCchosen, there are two ways to allocate Gand
+Hto the remaining two slots. In this example, it would either be G=2,H=6
+orG=6,H=2 .
+Here are several solutions (reverse the orderings to get several more):36
+684251397 ,
+684251937 ,
+648251397 ,
+648251937 .
+35I thank Dahn Tamir and James Hirschorn for contributions to this solution technique; any
+errors are mine.
+36Note: The MATLAB commands perms andunique were useful in checking this answer.
+©2021 Timothy Falcon Crack 131 All Rights Reserved Worldwide"
+27,Question 1.34,"Av e r yl a r g en u m b e r , N,o fp e o p l ea r r i v ea tac o n v e n t i o n .T h e r e
+are exactly Nsingle rooms in the hotel where the convention takes place. Each
+guest is given a numbered key for a speciﬁc room. Before they even go upstairs,
+they are all invited to a large party in the banquet hall. To gain admittance
+to the hall, they have to give up their keys to a doorman. At the end of the
+evening, the guests are not sober enough to recall their room numbers, so the
+doorman simply hands out the keys randomly. Each guest ends up spending
+the night in a random room. What is the probability that at least one guest
+ends up in the room to which he or she was originally assigned?",1.34,Answer 1.34,"I present two solution techniques: an elegant approach followed
+by a “hammer-and-tongs” brute-force approach. I think you should start with
+ar o u g hg u e s s ;m i n ei sa b o u tah a l f .
+FIRST SOLUT ION37
+Simplify the problem by assuming that the “very large number” of people is
+almost an inﬁnite number. In this case, it is as though each person is ﬁrst
+in line to be allocated a key because the previous ﬁnite number of people
+are negligible compared to the almost inﬁnite number of people waiting to
+receive keys. It follows that each person has the same probability,1
+N, of being
+allocated his or her key. Let Xbe the number of people who end up sleeping
+in their own rooms, then
+P(X≥1) = 1 −P(X=0 )∗=1 −/p⎬renleft⎭igg
+1−1
+N/p⎬renright⎭iggN
+=1 −/p⎬renleft⎭igg
+1+−1
+N/p⎬renright⎭iggN
+→1−e−1=e−1
+easN→∞,
+where “ * ” is true for Ninﬁnitely large.
+SECOND SOLUT ION38
+Consider ﬁrst the simple cases in which there are two or three guests. It soon
+becomes clear that you need to consider many diﬀerent overlapping events and
+that you need to account for intersections of events. That is, you need basic
+set theory.
+LetAk,f o r k=1,. . . , N ,d e n o t et h ee v e n tt h a tt h e kth guest sleeps in the
+room to which he or she was originally assigned (i.e., his or her “own room”).
+What we need to ﬁnd is the probability that at least one of the guests ends up
+in his or her own room. This event is the union of the individual events and
+occurs with probability: P(/uniontextN
+k=1Ak).
+If you draw the familiar case of three intersecting circles—each representing
+an event—it is relatively straightforward to deduce the following inclusion-
+exclusion formula:
+P/p⎬renleft⎜iggN/uniondispl⎬y
+k=1Ak/p⎬renright⎜igg
+=/summ⎬tiondispl⎬y
+iP(Ai)−/summ⎬tiondispl⎬y
+1≤i<j≤NP(Ai∩Aj)
++/summ⎬tiondispl⎬y
+1≤i<j<k ≤NP(Ai∩Aj∩Ak)−···
++(−1)N+1P(A1∩···∩ AN)
+All you are doing here is adding the original event probabilities, then taking
+out the intersections where you double counted, then adjusting for the fact
+37It h a n kJ a s o nR o t hf o rs u p p l y i n gt h i st e c h n i q u e ;a n ye r r o r sa r em i n e .
+38I thank Taras Klymchuk for suggesting a very similar solution technique; any errors are mine.
+©2021 Timothy Falcon Crack 132 All Rights Reserved Worldwide"
+28,Question 1.35,"/_387 At another party, everybody shakes hands with everybody else.
+If there are 66 handshakes, how many people are at the party?",1.35,Answer 1.35,"Assume there are Npeople at the party. Assume the ﬁrst person
+starts the ball rolling by shaking hands with the N−1 other people. Then
+the second person has already shaken hands with the ﬁrst person, and only
+needs to shake hands with N−2 people. Similarly, the third person only
+needs to shake hands with N−3 people. And so on. Eventually, the ( N−1)th
+person shakes hands with the Nthperson, and by this time, the Nthperson has
+already shaken hands with everyone. So, the count of handshakes is/summ⎬tiontextN−1
+i=1i.
+From Answer 1.4, we know this sum is/summ⎬tiontextN−1
+i=1i=N(N−1)/2. We could set
+©2021 Timothy Falcon Crack 133 All Rights Reserved Worldwide"
+29,Question 1.36,"There are 25 people at a party. What is the expected number of
+pairs of people with the same birthday? For example, if John, Jon, Stephen,
+and Mark all have the same birthday, say, January 15, but nobody else at the
+party has a matching birthday, the count of pairs is six. (See also the next
+two questions.)",1.36,Answer 1.36,"Before tackling this problem (i.e., the expected number of pairs
+of people with a matching birthday in a group of 25), let us solve the more
+traditional birthday problem. In a group of Npeople, what is the probability
+p(N)t h a tt h e r ea r ea tl e a s tt w op e o p l ew i t ht h es a m eb i r t h d a y ? I ti so f t e n
+easier to work out the complement. So, let us ﬁgure the probability that no
+people in a group of Npeople share a birthday.
+Assume 365 days in a year, and all birthdays equally likely, and all birthdays
+independent across partygoers. Let D(N)d e n o t et h ee v e n tt h a ta l l Nper-
+sons have d iﬀerent birthdays. How does D(N)h a p p e n ?W e l l ,w i t h o u tl o s so f
+generality, suppose the ﬁrst person we pick has birthday January 1. Then, to
+have diﬀerent birthdays, there are only 364 choices left for the second person.
+Without loss of generality, let us assume the second person’s birthday is Jan-
+uary 2. Then, to have diﬀerent birthdays, there are only 363 choices left for
+the third person, and so on. The overall space of possible birthday N−tuples
+contains 365Nchoices. So, the probability that all Npersons’ birthdays are
+diﬀerent is given by Equation A.10, for N=1,...,365.
+P[D(N)] =365
+365·364
+365····(365 −N+1 )
+365/⎭r⎬cehtipupleft /⎭r⎬cehtipdownright/⎭r⎬cehtipdownleft /⎭r⎬cehtipupright
+Nterms
+=365!
+(365 −N)!365N=/p⎬renleft⎜igg
+365
+N/p⎬renright⎜igg
+N!
+365N(A.10)
+Thus, the probability that there is at least one birthday match in the group
+ofNpartygoers is given by Equation A.11.
+p(N)=1 −p[D(N)] =/⎭r⎬celeft⎜igg
+1−/p⎬renleft⎭ig365
+N/p⎬renright⎭igN!
+365N,ifN=1,...,365
+1 N≥366.(A.11)
+For example, some values of p(N) appear in Table A.3.
+©2021 Timothy Falcon Crack 134 All Rights Reserved Worldwide"
+30,Question 1.37,"There are 25 people at another party. One person asks every-
+body to announce their birthday, and for anyone who has the same birthday
+as someone else to raise a hand. How many hands do you expect to see raised?
+For example, if John, Jon, Stephen, and Mark all have the same birthday,
+January 15, but nobody else at the party has a matching birthday, the count
+of hands is four.",1.37,Answer 1.37,"Now let us turn to the expected number of people with a matching
+birthday in a group of 25. In the question, we said that we would ask the
+partygoers to raise a hand if someone else at the party had the same birthday.
+So, let us solve for E[H(N)], where H(N)i st h en u m b e ro fh a n d sr a i s e d ,t o
+indicate a birthday match, in a group of N≥1p e o p l e .
+Let me number the people from 1 to N.L e t m e l o o k a t t h e ﬁ r s t p e r s o n .
+The probability that the ﬁrst person does not have the same birthday as the
+second person is 364/365. All birthdays are independent of each other. So,
+the probability that the ﬁrst person does not have the same birthday as any
+of the other N−1p e o p l ei s( 3 6 4 / 3 6 5 )N−1.S o ,t h ep r o b a b i l i t yt h a tt h eﬁ r s t
+person has the same birthday as at least one other person, and therefore raises
+ah a n d ,i s1 −(364/365)N−1. This is true for each person. So, the expected
+number of hands raised to indicate a birthday match is
+E[H(N)] =N/p⎬renleft⎜igg
+1−/p⎬renleft⎭igg364
+365/p⎬renright⎭iggN−1/p⎬renright⎜igg
+.
+For example, some values of E(H) appear in Table A.3. In a group of size 25,
+we expect only 1.59 hands to be raised. As the size of the party increases, the
+proportion of hands raised climbs slowly to 100%."
+31,Question 1.38,"Al i n ei sa b o u tt of o r mo u t s i d et h eb o xo ﬃ c eo fat h e a t e r . Y o u
+have inside information that the manager plans to announce that he will give
+a single free ticket to one person in line. To win the free ticket, it needs to be
+true that you are the ﬁrst person in line who has someone ahead of you in line
+with same birthday as you. When (or where) do you join the line to maximize
+the probability of winning the free ticket?",1.38,Answer 1.38,"To maximize the probability that I win the free ticket, I will ask
+my twin brother to stand at position number one in line, and then I will stand
+right behind him. Failing that, let us assume that birthdays are uniformly
+©2021 Timothy Falcon Crack 136 All Rights Reserved Worldwide"
+32,Question 1.39,"/_387 A small boat is ﬂoating in a swimming pool. The boat contains
+av e r ys m a l lb u tv e r yh e a v yr o c k .I ft h er o c ki st o s s e do u to ft h eb o a ti n t ot h e
+pool, what happens to the water level in the pool?
+©2021 Timothy Falcon Crack 55 All Rights Reserved Worldwide",1.39,Answer 1.39,"First of all, “very small” is classic physics slang for very, very small
+(i.e., so small that it is a pinpoint mass). If the rock is tossed overboard, the
+water level falls as though water equal in mass to the mass of the rock is being
+sucked out of the pool. The rock forces the boat to displace the rock’s mass
+of water. After the rock is gone, the boat rises up, and the water level falls
+down (Archimedes’ Principle).40
+The next time you are washing dishes, try this experiment. With the sink
+half-full of water, ﬂoat a drinking glass. Now drop a steel ball bearing gently
+into the glass. The glass sinks down, displacing a mass of water equal in mass
+to the mass of the ball bearing, and the water level rises. Now pluck the ball
+bearing from the glass, using a magnet. The reverse happens, the glass rises,
+and the water level falls as though water equal in mass to the mass of the ball
+bearing is being sucked out of the sink.
+How does your answer change if the rock is replaced by a piece of pumice
+(i.e., ﬂoating volcanic glass), or by a 100lb ice cube, or by a tethered helium
+balloon (to be set free, tether and all)?"
+33,Question 1.4,/_387 What is the sum of the integers from 1 to 100?2,1.4,Answer 1.4,"This is a very common question, and a very simple one. You need
+to ﬁgure out the sum: 1 + 2 + 3 + ···+ 99 + 100. There are several ways to do
+this.
+FIRST SOLUT ION
+As i m p l et e c h n i q u ei st on o t et h a tt h eﬁ r s ta n dl a s tt e r m sa d dt o1 0 1 . T h e
+second and second-to-last terms also add to 101. The same is true of the third
+and third-to-last terms. Continuing in this fashion, you soon ﬁnd yourself with
+50 pairs of numbers adding to 101; 50 times 101 is 5,050.
+SECOND SOLUT ION2
+A simple technique you can picture easily is the following:
+123 ... n −1 n
+n n−1n−2... 2 1
+n+1 n+1 n+1 ... n +1 n+1
+There are nterms each equal to n+ 1. The required sum is half the grand
+total:n(n+1)
+2.
+T HIRD SOLUT ION
+Ir e a ds o m e w h e r em a n yy e a r sa g ot h a tt h eh i g hs c h o o ld r o p - o u tA l b e r tE i n s t e i n
+devised the following alternative solution technique at age 15. Think of each
+summand, i,i nt h es u m/summ⎬tiontext100
+i=1ias a group of imarbles in a row from i=1t o
+i=1 0 0( s e et h ea r r a yf o l l o w i n g ) . S t a c k i n ge a c hr o wo fm a r b l e so nt o po fe a c h
+previous row, you get the array including both the diagonal and the lower-
+triangular oﬀ-diagonal. Were the array full, it would contain 100 ×100 = 1002
+marbles. So, your answer must be roughly half this (roughly 50 ×100). This
+is not exact because although the array contains two triangular-shaped oﬀ-
+diagonals (upper and lower), there is only one diagonal. If you add another
+diagonal, and then split the total in two, you get the right answer. The diagonal
+contains 100 marbles, so the right answer must be1002+100
+2=5,000 + 50, as
+before.
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝123456 ···100
+1 •
+2 ••
+3 •••
+4 ••••
+5 •••••
+6 ••••••
+........................
+100 ••••••· · · •⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+More generally, the sum from 1 to nmay be written down asn2+n
+2=n(n+1)
+2.
+2I thank Tom Arnold for this solution technique; any errors are mine.
+©2021 Timothy Falcon Crack 106 All Rights Reserved Worldwide"
+34,Question 1.40,"(**) In a certain matriarchal town, the women all believe in an
+old prophecy that says there will come a time when a stranger will visit the
+town and announce whether any of the men folk are cheating on their wives.
+The stranger will simply say “yes” or “no,” without announcing the number
+of men implicated or their identities. If the stranger arrives and makes his
+announcement, the women know that they must follow a particular rule: If
+on any day following the stranger’s announcement a women deduces that her
+husband is not faithful to her, she must kick him out into the street at 10 am
+the next day. This action is immediately observable by every resident in the
+town. It is well known that each wife is already observant enough to know
+whether any man (except her own husband) is cheating on his wife. However,
+no woman can reveal that information to any other. A cheating husband is
+also assumed to remain silent about his inﬁdelity.
+The time comes, and a stranger arrives. He announces that there are cheating
+men in the town. On the morning of the tenth day following the stranger’s
+arrival, some unfaithful men are kicked out into the street for the ﬁrst time.
+How many of them are there?",1.4,Answer 1.40,"The answer involves both mathematical induction and game the-
+oretic arguments. If there is exactly one cheating man in the town, Mr. C, say,
+then every wife except Mrs. C knows who he is. Not only that, but Mrs. C
+is unaware of any cheats—the stranger’s announcement comes as a shock to
+her. Immediately after the stranger’s announcement, Mrs. C asks: “Who can
+be cheating if I have seen no cheats?” The only possible answer is it is Mr. C.
+Come the next morning, his happy days are over, and out he goes.
+Suppose instead that there are exactly two cheating men in town: Mr. C1 and
+Mr. C2. In this case, Mrs. C1 knows there is one cheat in town (Mr. C2), and
+Mrs. C2 knows there is one cheat in town (Mr. C1)—the stranger’s announce-
+ment comes as no shock to either woman. Each thinks there is only one cheat
+40Archimedes said simply that an object in a ﬂuid experiences an upwards force equal to the
+weight of the ﬂuid that is displaced by the object.
+©2021 Timothy Falcon Crack 139 All Rights Reserved Worldwide"
+35,Question 1.41,"/_387 In front of you are three poles. One pole is stacked with 64 rings
+ranging in weight from one ounce (at the top) to 64 ounces (at the bottom).
+Your task is to move all the rings to one of the other two poles so that they
+end up in the same order. The rules are that you can move only one ring at
+at i m e ,y o uc a nm o v ear i n go n l yf r o mo n ep o l et oa n o t h e r ,a n dy o uc a n n o t
+even temporarily place a ring on top of a lighter ring.
+What is the minimum number of moves you need to make to achieve the task?
+Story: Here are some Fermi problems from Section 5.5: “How many Mc-
+Donald’s fast food outlets are there in the U.S.? How many gas stations are
+there in the U.S.? How many elevators are there in the U.S.?”",1.41,Answer 1.41,"This is known as the Towers of Hanoi problem. If you are peeking
+here for a solution, then go back and think about mathematical induction.
+LetV(n)d e n o t et h em i n i m u mn u m b e ro fm o v e sn e e d e df o r nrings. I assert
+that V(n)=2n−1, for all positive integers n(I will justify this shortly). The
+proof uses mathematical induction.
+Case n=1 : With one ring, it certainly takes exactly one move. My assertion
+is thus true for the case n=1 .
+©2021 Timothy Falcon Crack 140 All Rights Reserved Worldwide"
+36,Question 1.42,"Solve the following ordinary diﬀerential equation (ODE):
+u′′+u′+u=1",1.42,Answer 1.42,"The ODE u′′+u′+u=1h a sas i m p l es o l u t i o n . T h i si sas e c o n d -
+order linear ODE with constant coeﬃcients, so we need only search for solu-
+tions to the homogeneous form u′′+u′+u=0 ,a n dt h e nt a go nas o l u t i o nt o
+the speciﬁc nonhomogeneous equation given.
+Solutions to a second-order linear homogeneous ODE of form Au′′+Bu′+Cu=
+0 are of form42
+u(x)=aeλ1x+beλ2x,
+where λ1andλ2are the roots of the characteristic equation:
+Aλ2+Bλ+C=0.
+It follows (using the quadratic formula) that
+λ1,λ2=−B±√
+B2−4AC
+2A=−1±√1−4
+2=−1
+2±√
+3
+2i,
+where i≡√−1. In our case, u=1i sas o l u t i o nt ot h es p e c i ﬁ cn o n h o m o g e n e o u s
+ODE, so the general solution must be of form
+u(x)=ae/p⎬renleft⎜ig
+−1
+2+√
+3
+2i/p⎬renright⎜ig
+x+be/p⎬renleft⎜ig
+−1
+2−√
+3
+2i/p⎬renright⎜ig
+x+1,
+for arbitrary constants aandb.T o p i n p o i n t aandb, you need two initial
+conditions (not supplied here) in addition to the ODE.
+41A natural question to ask is how I guessed that V(n)=2n−1 to begin with. I got this because
+Iﬁ g u r e dt h a t V(n+ 1) = 2 V(n) + 1 had to hold, and V(1) = 1 is obvious. These together are
+suﬃcient to deduce the functional form of V(n).
+42Unless λ1=λ2=λ, say (i.e., a repeated root), in which case solutions are of form u(x)=
+axeλx+beλx.
+©2021 Timothy Falcon Crack 141 All Rights Reserved Worldwide"
+37,Question 1.43,"Assume that the random variables XandYare normally dis-
+tributed: X∼N(µX,σ2
+X), and Y∼N(µY,σ2
+Y). The correlation between X
+andYisρ.H o w c a n y o u c h o o s e c o n s t a n t s aandbsuch that you minimize
+the variance of the random variable sum S=aX+bYunder the constraints
+that a+b=1 ,0 ≤a≤1, and 0 ≤b≤1?8
+8Another version of this question asked in interviews is: “You are driving around with one wheel
+on the gravel and one wheel on the pavement. The variance of the gravel and pavement surfaces
+are described by σ2
+Gandσ2
+P. Whereabouts on the axle should you sit between x= 0 (right over
+the wheel on the gravel) and x= 1 (right over the wheel on the pavement) if you want the most
+comfortable ride?”
+©2021 Timothy Falcon Crack 56 All Rights Reserved Worldwide",1.43,Answer 1.43,"The obvious application is to proportions of a portfolio invested
+in risky assets (see Questions 3.19 and 3.20). Make the substitution b=1−a.
+Then the variance of the sum is
+V(S)=a2σ2
+X+2a(1−a)ρσXσY+( 1 −a)2σ2
+Y.
+The ﬁrst-order condition is∂V(S)
+∂a= 0. The partial derivative is:
+∂V(S)
+∂a=2 aσ2
+X+2ρσXσY−4aρσ XσY+2 ( 1 −a)(−1)σ2
+Y
+=2/⎭r⎬cketleft⎜ig
+a(σ2
+X−2ρσXσY+σ2
+Y)+ρσXσY−σ2
+Y/⎭r⎬cketright⎜ig
+.
+Thus, the particular athat satisﬁes the ﬁrst-order condition is
+a∗=σ2
+Y−ρσXσY
+(σ2
+X−2ρσXσY+σ2
+Y).
+We should check the second-order condition
+∂2V(S)
+∂a2/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle
+a=a∗>0,
+to make sure this is a minimum, not a maximum. This is straightforward:
+1
+2∂2V(S)
+∂a2=σ2
+X−2ρσXσY+σ2
+Y
+≥σ2
+X−2(+1) σXσY+σ2
+Y
+=( σX−σY)2
+≥0,
+and the ﬁrst inequality is strict unless ρ=+ 1 .
+In fact, I have solved the unconstrained problem—ignoring the constraint 0 ≤
+a≤1. If a∗breaches the constraints, the constrained solution for ais either 1
+or 0, depending upon whether σXorσYis the smaller respectively.43
+43Thea∗will breach the constraints if the correlation ρis large enough or the standard deviations
+are disparate enough that eitherσX
+σY<ρorσY
+σX<ρ.
+©2021 Timothy Falcon Crack 142 All Rights Reserved Worldwide"
+38,Question 1.44,"Suppose there is a straight coastline and a lighthouse that is
+L= 3 miles away from the coast. The light revolves at one revolution per
+minute. How fast is the beam of light traveling along the coastline? When the
+beam is 3 Laway from the coastal point closest to the light, how fast is the
+light traveling along the coast?",1.44,Answer 1.44,"The lighthouse question is an old favorite.44The lighthouse is a
+distance Lfrom the coast. The beam of light casts a “spot” a distance R
+across the sea from the lighthouse (see Figure A.4).
+spot @V the coastlinethe lighthouse
+LR
+αα
+/⎭r⎬cehtipupleft /⎭r⎬cehtipdownright/⎭r⎬cehtipdownleft /⎭r⎬cehtipupright
+D=Vd tD1=ωRdtθ
+xcoord.ycoord.
+Figure A.4: The Lighthouse Problem
+Note: Refer to this ﬁgure for both solutions to the lighthouse prob-
+lem. The ﬁrst solution uses the x-ycoordinates and θ; the second
+solution uses α,D, and D1; both solutions use L,R, and V.
+44I thank Valeri Smelyansky for advice; any errors are mine.
+©2021 Timothy Falcon Crack 143 All Rights Reserved Worldwide"
+39,Question 1.45,"/_387 Ih a v ea2 0 ×20 chessboard and a very large box of identical
+cubes. Each square on the chessboard is the same size as the face of any cube.
+I am going to arrange piles of cubes on the chessboard in a special pattern.
+Ia l i g no n ee d g eo ft h eb o a r ds oi ti sr u n n i n gn o r t h – s o u t h . Is t a r ta tt h e
+northwest corner by placing one cube on that square. Whenever I step to the
+south or the east, I place a pile of cubes containing one more cube than in the
+previous square. This produces the pattern in Figure 1.2. How many cubes
+in total are there on the chessboard?
+1234···1920
+2345···2021
+3456···2122
+4567···2223
+.....................
+19202122···3738
+20212223···3839
+Figure 1.2: Number of Cubes on Each Square of a 20 ×20 Chessboard (Q)",1.45,Answer 1.45,"I present an elegant approach followed by three algebraic ap-
+proaches. Please see Figure A.5 for reference.
+FIRST SOLUT ION
+Imagine the 20 ×20 chessboard in front of you, with the stacks of cubes on it as
+in Figure A.5. Now slice through the cubes horizontally at height 20 units. The
+cubes above the slice all lie in the southeast lower-triangular section below the
+non-leading diagonal. Now ﬂip the above-the-slice cubes across the diagonal
+from southeast to northwest. They will ﬁll the lower stacks to a height of 20
+units. You now have a solid cube, and the total number of cubes must be
+n3=2 03=8,000.
+SECOND SOLUT ION45
+Think of each row as being like successive images of a moving ticker tape
+containing the numbers 1 to 39. We view the tape through a window, and we
+see only 20 numbers at a time. The tape is moving to the left, one step at a
+45I thank Sudheer Naidu D for this approach; any errors are mine.
+©2021 Timothy Falcon Crack 144 All Rights Reserved Worldwide"
+40,Question 1.46,"You are standing at the center of a circular ﬁeld of radius R.T h e
+ﬁeld has a low wire fence around it. Attached to the wire fence (and restricted
+to running around the perimeter) is a large, sharp-fanged, hungry dog who
+likes to eat any humans he can catch. You can run at speed v.U n f o r t u n a t e l y ,
+the dog can run four times as fast, at 4 v.T h e d o g w i l l d o h i s b e s t t o c a t c h
+you if you try to escape the ﬁeld. What is your running strategy to escape the
+ﬁeld without feeding yourself to the dog?",1.46,Answer 1.46,"The naive strategy is to run directly away from the dog toward
+the edge of the ﬁeld. However, at speed v,i tt a k e sy o uR
+vunits of time to get
+to the perimeter, while it takes the dog only1
+22πR
+4v=πR
+4v≈3
+4×R
+vunits of
+time to get there—so he will meet you and eat you. You somehow need to get
+further from him and closer to the fence before you make a run for it.
+Suppose you behave somewhat like the dog. Step away from the center of the
+circle until you are at a radius ofR
+4. Now constrain yourself to running circuits
+around that radius. It takes youπR
+4vunits of time to run half-way around this
+circle. The dog can also run half-way around the ﬁeld in the same time. That
+is, at this radius, you and the dog are perfectly matched in your abilities to
+run around in circles.
+47Im a k eu s eo ft h ep r o p e r t yt h a t/summ⎬tiontextn
+j=1j=n(n+1)
+2(see Answer 1.4).
+©2021 Timothy Falcon Crack 146 All Rights Reserved Worldwide"
+41,Question 1.47,"Please prove that the following relationship holds:
+/integr⎬ldispl⎬y+∞
+−∞e−x2dx=√π
+©2021 Timothy Falcon Crack 57 All Rights Reserved Worldwide",1.47,Answer 1.47,"There are two methods. The ﬁrst method assumes a known prob-
+ability result (this may be suﬃcient for you); the second method subsumes the
+ﬁrst by proving the aforementioned probability result before proceeding.
+FIRST SOLUT ION
+The integral is immediately recognized as a simple transformation of an inte-
+gral over the entire domain of a normally distributed random variable.
+The standard normal distribution has probability density function f(u)≡
+1√
+2πe−1
+2u2,f o r −∞<u< +∞. Integrating over the entire domain must
+produce total probability mass of unity:
+/integr⎬ldispl⎬y+∞
+−∞f(u)du=/integr⎬ldispl⎬y+∞
+−∞1√
+2πe−1
+2u2du=1
+If we substitute in x=1√
+2u(to make the integral look like the one we seek),
+then dx=1√
+2du,a n dw eg e t
+/integr⎬ldispl⎬y+∞
+−∞1√πe−x2dx=1.
+Multiply both sides by√π, and the result follows immediately.
+©2021 Timothy Falcon Crack 147 All Rights Reserved Worldwide"
+42,Question 1.48,What is/integr⎬ltextsecθdθequal to?9,1.48,Answer 1.48,"Of all the simple trigonometric functions that you might be asked
+to integrate,/integr⎬ltextsecθdθhas arguably the most complicated answer. I get reports
+of that being asked often.
+©2021 Timothy Falcon Crack 148 All Rights Reserved Worldwide"
+43,Question 1.49,"As a follow-up to the previous question, now please integrate
+secθfrom 0 to π/6.",1.49,Answer 1.49,"Using Table A.5, we get that
+/integr⎬ldispl⎬yπ
+6
+0secθ=l n |secθ+t a n θ|/vextendsingle/vextendsingle/vextendsingle/vextendsingleπ
+6
+0
+=l n/vextendsingle/vextendsingle/vextendsingle/vextendsinglesecπ
+6+t a nπ
+6/vextendsingle/vextendsingle/vextendsingle/vextendsingle−ln|sec 0 + tan 0 |.
+From Table A.4, we have that sec θ=1
+cosθand tan θ=sinθ
+cosθ.L o o k i n g a t t h e
+limits, we need sin 0 = 0, cos 0 = 1, sinπ
+6=1
+2,a n dc o sπ
+6=√
+3
+2,w h i c ha r e
+standard results. Plugging these in, and using ln1 = 0, yields/integr⎬ltextπ
+6
+0secθ=l n√
+3.
+48The trigonometric functions’ names are short for sine, cosine, tangent, cotangent, secant, and
+cosecant.
+©2021 Timothy Falcon Crack 149 All Rights Reserved Worldwide"
+44,Question 1.5,"/_387 An old style analog clock falls oﬀ the wall and the face breaks into
+three pieces. The numbers on each piece add to the same total. Describe the
+pieces.",1.5,Answer 1.5,"The numbers on the dial add to 78 in total (recall that/summ⎬tiontext12
+i=1=
+12(12+1)
+2=6×13). So, each piece must have a total of 26 on it. My initial
+attempt was to ﬁnd slices (like pizza slices) that satisfy the constraint. Walking
+around the dial looking for consecutive numbers that add to 26, you soon ﬁnd
+that 5-6-7-8 adds to 26, and 11-12-1-2 adds to 26, but nothing else works. So,
+none of the pieces is pizza-slice shaped. They are 5-6-7-8, 11-12-1-2, and a
+band across the middle with 10-9-3-4."
+45,Question 1.50,"Does the inﬁnite sum/summ⎬tiontext∞
+n=1e−√nconverge?",1.5,Answer 1.50,"The sum/summ⎬tiontext∞
+n=1e−√ntakes the form/summ⎬tiontext∞
+n=1an,w h e r e an≡e−√n.
+There is a whole host of tests for the convergence of such sums. Before we
+look at these, a short review of the terminology is in order.
+A“ s e q u e n c e ”i sas e to fn u m b e r s a1,a2,a3,...indexed in a particular order
+corresponding to the natural numbers. We may denote the sequence as “ {an}.”
+Each number, an, in the sequence is a “term. ” The “limit of a sequence” exists
+and is equal to l<∞if the numbers anget closer and closer to lasngets
+larger. That is, lim n→∞an=l. If such a limit exists, then the sequence is
+said to “converge” to that limit, and the limit is unique. If a sequence does
+not converge, then it “diverges. ” There is no mention of additivity here: A
+sequence is a succession, not a sum.
+A “series” is formed from a sequence via partial sums. Let S1=a1,S2=
+a1+a2,S3=a1+a2+a3,a n ds oo n ,s ot h a t Sn=/summ⎬tiontextn
+i=1aiis the nth“partial
+sum” of the sequence {an}.T h e n t h e s u m/summ⎬tiontext∞
+n=1anis referred to as an “inﬁnite
+series. ” The inﬁnite series/summ⎬tiontext∞
+n=1anis said to be “convergent” if the sequence
+of its partial sums {Sn}is convergent.
+A necessary (but not suﬃcient) condition for convergence of an inﬁnite series
+{an}is that an→0a s n→∞.I n o u r c a s e , an=e−√n→0, so we cannot
+reject convergence.
+The ﬁrst (of several) formal tests that comes to mind is The Ratio Test (for
+series with positive terms only):
+©2021 Timothy Falcon Crack 150 All Rights Reserved Worldwide"
+46,Question 1.51,"/_387 One analyst (John) is talking to another (Mary) while working
+on a deal book at 2 am. Mary learns that John’s sister has three children.
+“How old are the children?” asks Mary. “Well,” replies John, “the product of
+their ages is 36.” Mary thinks for a while and says, “I need more information.”
+“Hmmm, the sum of their ages is the same as this ﬁgure right here,” says John
+pointing at the spreadsheet. “Still not enough information,” says Mary after
+thinking for a minute. “The eldest is dyslexic,” says John. How old are the
+children?",1.51,Answer 1.51,"The numbers used and the situation described may diﬀer from
+question to question, but the general solution technique is always the same.
+Factor the product into all possible triplets: (1,2,18), (1,3,12), (1,4,9), (1,6,6),
+(2,2,9), (2,3,6), and (3,3,4). Which one is it? Well, Mary knows the sum,
+and these potential triplets sum to 21,16,14,13,13,11, and 10, respectively.
+Knowing the sum was not suﬃcient for Mary to pin down the triplet, so it
+must be a triplet with a non-unique sum: 13 in this case. This cuts down the
+candidates to (1,6,6) and (2,2,9). John says the eldest is dyslexic, so there
+must be an eldest (ignoring rubbish answers like one twin is 20 minutes older
+than the other). That just leaves (2,2,9)."
+47,Question 1.52,"/_387 You are given eight balls. They appear identical, but one is
+heavier than the rest. As in the previous ball questions, you have a pair of
+scales. How do you ﬁnd the heavy ball?",1.52,Answer 1.52,"You know one of the eight balls is heavy. Compare one group of
+three to another group of three. You need only one more weighing—for a total
+of two weighings."
+48,Question 1.53,"What are/summ⎬tiontextn
+k=1k2,a n d/summ⎬tiontextn
+k=1k3?",1.53,Answer 1.53,"The sums in Table A.6 are well known (the ﬁrst is discussed ex-
+tensively in the answer to Question 1.4).49You should certainly know the ﬁrst
+sum by heart, and you should note that the third is the ﬁrst squared.
+Table A.6: Sums of k,k2,a n d k3
+/summ⎬tiontextn
+k=1kn(n+1)
+2
+/summ⎬tiontextn
+k=1k2 n(n+1)(2 n+1)
+6
+/summ⎬tiontextn
+k=1k3 n2(n+1)2
+4
+Ig i v ef o u rq u i t ed i ﬀ e r e n ts o l u t i o n s .M yﬁ r s ts o l u t i o nu s e sw h a tIh a v en a m e d
+a “visual staircase” technique, and almost no algebra. My second solution
+uses the binomial theorem and Pascal’s triangle.50My third solution uses a
+sensible guess plus induction. My fourth solution is similar, but requires that
+you notice, or already know, a special result.
+49The fourth-order result is not well known:/summ⎬tiontextn
+k=1k4=n(n+1)(2 n+1)(3 n2+3n−1)
+30(Spiegel [1968,
+p. 108]).
+50Pascal’s triangle has the following rows: [1], [1 1],[1 2 1], [ 1 3 3 1], [1 4 6 4 1], and so on.
+Apart from the 1’s, each item is the sum of the two items above when stacked like a pyramid. The
+(n+ 1)strow gives the coeﬃcients in the polynomial expansion of ( a+b)n.
+©2021 Timothy Falcon Crack 153 All Rights Reserved Worldwide"
+49,Question 1.54,"/_387 We are to play a game on a table in the next room. We each
+have an inﬁnite bag of identical quarters (i.e., American 25-cent pieces). We
+will take it in turns to put one quarter on the table. Quarters may not overlap
+on the table. When there is no room left on the table to put another quarter,
+the winner is the last person to put a quarter on the table. Let me tell you that
+there does exist a strategy for winning and that this strategy is independent
+of the size of the table.
+1. What is the shape of the table?
+2. Do you start?
+3. What is your strategy for winning?
+4. Is there any case where this does not work?",1.54,Answer 1.54,"You win if you can place the last coin on the table and leave no
+space for me to place a further coin. A necessary condition is that the table be
+radially symmetric. That is, there must exist a central point on the table (at
+its center of mass if the table is of uniform density and thickness) such that any
+line drawn upon the table passing through this central point is evenly bisected
+at this central point. Simple examples are a square, an ellipse, a rectangle, a
+circular disc, etc.
+You should play ﬁrst and place your ﬁrst quarter at the center of the table.
+You should make subsequent moves by imitating me: Place your quarter in the
+mirror image of my position when viewed looking through the central point.
+This ensures victory because if I can still place a coin on the table, then so
+can you.55
+Although radial symmetry is necessary, it is not suﬃcient. The strategy does
+not necessarily work if the table is a regular shape but not a simply-connected
+one; for example, an annulus.56If the table is an annulus and the hole in the
+middle is bigger than a quarter, then the only change to your winning strategy
+is that you should let me go ﬁrst.
+Story: A student of mine was asked “How would you value yourself?” That
+is, put a dollar ﬁgure on your value using discounted cash ﬂow analysis."
+50,Question 1.55,"/_387 You have a chessboard (8 ×8) plus a big box of dominoes (each
+2×1). I use a marker pen to put an “X” in the squares at coordinates (1,1)
+and (8,8)—a pair of diagonally opposing corners. Is it possible to cover the
+remaining 62 squares using the dominoes without any of them sticking out
+over the edge of the board and without any of them overlapping? You must
+not damage the board or the dominoes in the process or do anything weird
+like standing them on their ends—just answer the question.10
+9Similarly, you could see questions on integrals (or derivatives) of sin θ, cos θ, tan θ, cot θ, and
+cosec θ.
+10Naoki Sato has suggested a follow-up question. Place an “X” on two squares: one black, and
+one white. Can you cover the remaining squares with dominoes? See Answer 1.55 for the solution.
+©2021 Timothy Falcon Crack 58 All Rights Reserved Worldwide",1.55,Answer 1.55,"No, you deﬁnitely cannot tile the 62 squares with the dominoes.
+If you cannot see why, then go back and think again before reading on.
+55I thank Tim Hoel and Victor H. Lin for this elegant solution technique.
+56An “annulus” is a disc with a hole in the center—like a musical compact disc, for example.
+An annulus is path connected (any two points may be joined by a line), and is therefore connected
+(it cannot be split into two non-empty non-intersecting open sets), but it is not simply connected
+(which requires path-connectivity and that any loop may be shrunk continuously within the set).
+©2021 Timothy Falcon Crack 160 All Rights Reserved Worldwide"
+51,Question 1.56,"(***) You have 52 playing cards (26 red, 26 black). You draw
+cards one by one. A red card pays you a dollar. A black one ﬁnes you a
+dollar. You can stop any time you want. Cards are not returned to the deck
+after being drawn. What is the optimal stopping rule in terms of maximizing
+expected payoﬀ? Also, what is the expected payoﬀ following this optimal
+rule?11",1.56,Answer 1.56,"Deciphering the optimal strategy is analogous to locating an opti-
+mal stock price exercise boundary for an American-style option. Calculating
+the expected payoﬀ to the game, assuming the optimal strategy, is analogous
+to valuing an American-style option. Like valuing an American option, you
+have to work backward through a decision tree, calculating the expected pay-
+oﬀs to proceeding versus stopping at each node. For two, four, six, and eight
+cards, the expected payoﬀ to the game is $1
+2,$2
+3,$17
+20, and $1, respectively,
+when following the optimal strategy. The two-card game decision tree is a
+sub-tree of the four-card game decision tree, so later results can be appended
+to earlier ones. Stop reading here and try to replicate these numbers.
+LetRandBdenote the number of red and black cards, respectively, when
+you begin play ( R=B=2 6i no u rc a s e ) . L e t randbdenote the number
+of red and black cards remaining in the deck at some intermediate stage of
+the game when you are trying to decide whether to take another card. You
+get +1 for each red card drawn and −1f o re a c hb l a c kc a r dd r a w n ,s oy o u r
+current accumulated score is the number of reds drawn so far less the number
+of blacks drawn so far: ( R−r)−(B−b). The expected value of the game
+V(r, b) is the current accumulated score plus the additional expected value,
+if any, remaining in the deck, assuming optimal play. With randbcards
+remaining, denote this additional expected value as E(r, b). Thus, the value
+of the game is V(r, b)=( R−r)−(B−b)+E(r, b). Simple logic dictates that
+57An alternative solution has been suggested to me by Aidong Chen. Let each square on the
+board be described by its coordinates ( x, y) for 1 ≤x, y≤8. Any domino covers two adjacent
+squares, either ( x, y) and ( x, y+ 1), or ( x, y) and ( x+1,y). If we add those coordinates up, we
+get 2 x+2y+ 1 in either case. To tile the 62 remaining squares requires 31 dominoes. If we add
+up 31 coordinate sums, each of form 2 x+2y+ 1, we must get an odd number. If we add up the
+coordinate sums of the 62 remaining squares, however, we must get an even number (because the
+sum of the coordinate sums of all 64 squares is even by symmetry, and the two corners to subtract,
+(1,1) and (8,8), have even sums). So, it cannot be done.
+©2021 Timothy Falcon Crack 161 All Rights Reserved Worldwide"
+52,Question 1.57,"One of my students interviewed with some folks who “wanted to
+get an idea of his comfort with formulae and with explaining things to clients. ”
+They asked why it is that if pis a prime number greater than 3, then p2−1
+is always divisible by 24 with no remainder.",1.57,Answer 1.57,"A prime number has no factors other than itself and 1. Thus, 4
+is not prime because it has factors: (1,4), and (2,2). Drawing a number line
+might be a good way to explain this to an interviewer. I will just use words.
+1. A prime p bigger than 2 cannot be an integer multiple of 2, else it would
+not be prime. Thus, a prime bigger than 2 must be odd. Thus, p ? 1 is
+even. Thus, p ? 1=2n for some positive integer n. Thus, p = 2n + 1.
+2. A prime p bigger than 3 cannot be an integer multiple of 3, else it would
+not be prime. However, draw a number line and it must be that either
+p ? 1 or p + 1 (but not both) is a multiple of 3. That is, p is 1 away from
+a multiple of 3, but we do not know in which direction. Thus, p�1=3m
+for some positive integer m, where � means exactly one of + or ?, but
+not both. Thus, p = 3m � 1.
+3. The question asks about p2?1. From #1 we see that p2?1=4n2+ 4n =
+4n(n + 1). One of n or n + 1 must be even, and with that 4 there, we see
+that p2 ? 1 contains a factor of 8 (i.e., 2 � 2 � 2).
+4. From #2, we see that p2 ? 1=9m2 � 6m = 3m(m � 2). Thus, p2 ? 1
+contains 3 as a factor.
+5. If we picture p2 ? 1 factored out into all possible numbers of smallest possible size, then the results from #3 and #4 cannot overlap. That is,
+p2?1 contains factors of 2�2�2 and 3; thus, p2?1 is an integer multiple
+of 24."
+53,Question 1.58,"You are bidding Bfor a ﬁrm whose unknown true value is uni-
+formly distributed between 0 and 1. Although you do not know the true value
+Sof the ﬁrm, you do know that as soon as people learn that you have made
+ab i dt h i sn e w sw i l lc a u s et h ev a l u et od o u b l et o2 S.Y o u r b i d , h o w e v e r , w i l l
+be accepted only if it is at least as large as the original value of the ﬁrm. How
+do you bid so as to maximize your expected payoﬀ?",1.58,Answer 1.58,"LetBbe your bid. Let Sbe the true value of the ﬁrm. The
+density function of Sequals unity for 0 ≤S≤1, and zero otherwise. Your
+payoﬀ Pis
+P(S)=/⎭r⎬celeft⎜igg
+2S−B,ifB>S
+0, otherwise .
+The maximum post-bid ﬁrm value is 2, so you should bid no more than 2. You
+want to maximize E[P(S)] with respect to choice of Bin the interval [0 ,2].
+Your expected payoﬀ is
+E[P(S)] =/integr⎬ldispl⎬yS=1
+S=0P(S)·1·dS
+=/integr⎬ldispl⎬yS=min( B,1)
+S=0(2S−B)dS
+=( S2−BS)/vextendsingle/vextendsingle/vextendsingle/vextendsingleS=min( B,1)
+S=0
+=/⎭r⎬celeft⎜igg
+0,ifB≤1
+1−B,ifB>1,
+so you should bid less than or equal to 1 and expect to break even.
+©2021 Timothy Falcon Crack 164 All Rights Reserved Worldwide"
+54,Question 1.59,"/_387 You have a string-like fuse that burns in exactly one minute.
+The fuse is inhomogeneous, and it may burn slowly at ﬁrst, then quickly, then
+slowly, and so on. You have a match, and no watch. How do you measure
+exactly 30 seconds?",1.59,Answer 1.59,"What is going to happen if you light both ends simultaneously?
+The two ﬁzzing sparking ﬂames are going to burn toward each other and meet.
+When they meet 60 seconds worth of fuse has been burnt in two sections that
+each took the same amount of time. How much time? It has to be exactly
+30 seconds because they both took the same time, and these times add to 60
+seconds. Of course, you have to bend the fuse so that you can light both ends
+simultaneously and when they meet it probably won’t be in the center of the
+fuse."
+55,Question 1.6,"/_387 (**) You are given a set of scales and 12 marbles. The scales are
+of the old balance variety. That is, a small dish hangs from each end of a rod
+that is balanced in the middle ( /_554). The device enables you to conclude either
+that the contents of the dishes weigh the same or that the dish that falls lower
+has heavier contents than the other.
+The 12 marbles appear to be identical. In fact, 11 of them are identical, and
+one is of a diﬀerent weight. Your task is to identify the unusual marble and
+discard it. You are allowed to use the scales three times if you wish, but no
+more. Note that the unusual marble may be heavier than the others, or it
+may be lighter; you do not know which. You are asked to both identify it and
+determine whether it is heavy or light.",1.6,Answer 1.6,"This challenging question has been very popular. Sometimes it is
+balls, sometimes marbles, sometimes coins. I present two solutions.3
+FIRST SOLUT ION4
+Let me write, say, 1Hif marble 1 is heavy or potentially heavy (it should be
+clear by the context), but if it cannot be light. Similarly, let me write 1Lif
+marble 1 is light or potentially light, but if it cannot be heavy. Using this
+notation, the 12 marbles yield 24 diﬀerent possible outcomes, because each
+marble may be heavy or light, relative to its peers:
+1H 2H 3H 4H 5H 6H 7H 8H 9H 10H 11H 12H
+1L 2L 3L 4L 5L 6L 7L 8L 9L 10L 11L 12L.
+Split the 12 marbles into three groups: Let these be, say, marbles 1–4, marbles
+5–8, and marbles 9–12. Compare marbles {1234 }(in the ﬁrst dish) with
+marbles {5678 }(in the second dish). There are three cases, as follows.
+Case 1: The ﬁrst dish is heavy. In this case, we have reduced the 24 possible
+outcomes to only eight possible outcomes, as indicated:
+1H 2H 3H 4H 5H 6H 7H 8H 9H 10H 11H 12H
+1L 2L 3L 4L 5L 6L 7L 8L 9L 10L 11L 12L.
+3One of my readers, who tried this at home, said that the methods given here, while successful
+in theory, would not work in practice. He said he would need to add the use of a marker pen to
+the problem statement to keep track of which marble was which when swapping marbles between
+the dishes on the balance.
+4It h a n kT o d o rB o n c h e va n dJ a b r a nZ a h i df o rt h i ss o l u t i o nt e c h n i q u e ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 107 All Rights Reserved Worldwide"
+56,Question 1.60,"/_387 You have two string-like fuses. Each burns in exactly one minute.
+The fuses are inhomogeneous, and may burn slowly at ﬁrst, then quickly, then
+slowly, and so on. You have a match, and no watch. How do you measure
+exactly 45 seconds?",1.6,Answer 1.60,"Light Fuse 1 at both ends and simultaneously light Fuse 2 at one
+end. As soon as Fuse 1 is burned out (i.e., after 30 seconds), light the other
+end of Fuse 2.
+θ
+rE
+start here
+SN
+Figure A.6: S-E-N Problem: The Earth
+Note: The Earth is a perfect sphere with radius E.Y o u s t a r t
+your trek one mile north of a line of latitude having circumference
+1/nmiles, and radius rmiles (so 2 πr=1/n). You must start
+a distance of 1 + E·arcsin1
+2πnEmiles from the south pole—see
+Answer 1.61."
+57,Question 1.61,"/_387 How many places are there on the Earth where you can walk
+one mile south, one mile east, one mile north, and end up exactly where you
+started? Assume the Earth is a perfect sphere, that your compass bearing is
+constant on each leg of the walk, that all parts of the Earth are able to be
+walked upon, and that your feet are arbitrarily small.",1.61,Answer 1.61,"If your answer is “none” or “one,” then go back and think again.
+There are, in fact, an uncountably inﬁnite number of starting points that solve
+this problem.
+First of all, you could start at the north pole. On the middle leg of your walk
+you would always be one mile south of the north pole, so the ﬁnal leg would
+put you back where you started. Second, if you start at a point close to the
+south pole but one mile north of a line of latitude having circumference one
+©2021 Timothy Falcon Crack 165 All Rights Reserved Worldwide"
+58,Question 1.62,"/_387 This is an absolute classic. A king demands a tax of 1,000 gold
+sovereigns from each of 10 regions of his nation. The tax collectors for each
+region bring him the requested bag of gold coins at year end. An informant
+tells the king that one tax collector is cheating and giving coins that are
+consistently 10% lighter than they should be, but he does not know which
+collector is cheating. The king knows that each coin should weigh exactly one
+ounce. How can the king identify the cheat by using a weighing device exactly
+once? (I have seen the same question asked with 10 pill bottles, nine of which
+have pills weighing 10g, but one of which has pills weighing 9g, and your task
+is to identify the bottle of light pills by using a weighing device exactly once.)
+11Try the same question with four cards (two red, two black).
+©2021 Timothy Falcon Crack 59 All Rights Reserved Worldwide",1.62,Answer 1.62,"The king should take one coin from bag one, two coins from bag
+two, three coins from bag three, and so on, ﬁnishing with ten coins from bag
+ten. Place this collection on the weighing device, and look for the discrepancy
+from/summ⎬tiontext10
+i=1iounces. If the actual weight is 0.40 ounces short, for example,
+then bag four is light, and collector four is the cheat."
+59,Question 1.63,"How many consecutive zeroes are there at the end of 100! (100
+factorial). For example, 12!=479,001,600 has two consecutive zeroes at the
+end.",1.63,Answer 1.63,"100!=100 ×99×98×···× 3×2×1. Factor each number and
+count how many supply a 5. Combine the 5’s with all the 2’s going spare to
+get the 10’s that give 0’s at the end of 100!. The following supply a 5 (or two
+ﬁves, as indicated): 5, 10, 15, 20, 25(2), 30, 35, 40, 45, 50(2), 55, 60, 65, 70,
+75(2), 80, 85, 90, 95, 100(2). This gives the 24 zeroes at the end of 100!:60
+933 26215
+44394 41526 81699 23885 62667
+00490 71596 82643 81621 46859
+29638 95217 59999 32299 15608
+94146 39761 56518 28625 36979
+20827 22375 82511 85210 91686
+40000 00000 00000 00000 00000
+60Type vpa factorial(100) 158 in MATLAB; vpa is variable precision arithmetic.
+©2021 Timothy Falcon Crack 166 All Rights Reserved Worldwide"
+60,Question 1.64,"/_387 Again, an absolute classic. You hire a man to work in your yard
+for seven days. You wish to pay him in gold. You have one gold bar with
+seven parts—like a chocolate bar. You wish to pay him one gold part per day,
+but you may snap the bar in only two places. Where do you snap the bar so
+that you may pay him at the end of each day, and so that on successive days
+he may use what you paid him previously to make change?",1.64,Answer 1.64,"Snap the bar into pieces that are one, two, and four parts long,
+respectively. On day one, give him one part. On day two, exchange your two
+parts for his one. On day three, give him back the one part. On day four,
+exchange four parts for his three. On day ﬁve, give him one more part. On
+day six, exchange your two parts for his one. On day seven, give him back the
+one part.
+You may have missed it on ﬁrst reading, but the lengths of the pieces are 20,
+21,a n d22parts, respectively. So, we are counting in binary.61More generally,
+if we have a gold bar that is (2N)−1p a r t sl o n g ,w ec a ng e n e r a t ea n yi n t e g e r
+payment from zero parts up to (2N)−1p a r t sb yb r e a k i n gt h eb a ri n t o N
+pieces, with lengths 2iparts, for i=0,1,. . . , 2N−1."
+61,Question 1.65,"/_387You have an array that contains 99 distinct integers from the set
+{1,2,3,...,100}.H o ww o u l dy o uw r i t eap r o g r a mt oﬁ g u r eo u tw h i c hi n t e g e r
+is missing?",1.65,Answer 1.65,"We know the sum/summ⎬tiontext100
+i=1i=n(n+1)
+2/vextendsingle/vextendsingle/vextendsingle
+n=100=5,050. So, add up
+all the integers in the array and subtract them from 5,050 to ﬁnd the missing
+number."
+62,Question 1.66,"/_387 Why are images in a mirror ﬂipped horizontally and not verti-
+cally? For example, although I wear my wristwatch on my left wrist, and my
+reﬂection wears his on his right wrist, my reﬂection is not standing on his
+head.",1.66,Answer 1.66,"Let us attack the mirror problem in stages.
+Your Perspective, No Rotations: Put your wristwatch on your left wrist
+and stand facing a mirror with your arms held out as though you are being
+cruciﬁed (it is a tough interview remember). Your reﬂected self’s wristwatch-
+bearing arm is pointing the same direction as yours. Your wristwatch is to
+the left of your head, and your reﬂected self’s wristwatch is also to your left
+of his or her head. There has been no ﬂipping of left for right. Similarly, if
+your head is pointing up, then your reﬂected self’s head is also pointing up,
+andthere has been no ﬂipping of up for down.
+Perhaps this is clearer if you write a sentence on a transparent plastic sheet,
+and hold the sheet in front of your body, as though there is no mirror at all
+and you are simply reading what you have just written. Now look in the
+mirror. The reﬂection of your sheet in the mirror is notreversed. That is, the
+left-most word is still left most, the right-most word is still right most, and
+you can still read the reﬂected image from left to right.
+Viewed from your perspective, everything about you that is left, right, up,
+or down is still left, right, up, or down, respectively, in your reﬂected image.
+There is thus noﬂipping of left for right or up for down. What hasﬂipped
+61It h a n kM a r kC a w s t o nf o rd i s c u s s i o n sr e g a r d i n gt h i sa n s w e r ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 167 All Rights Reserved Worldwide"
+63,Question 1.67,"(**) I am told this is a genuine ﬁnance interview question. It
+had to be a trading interview, because no one but a trader would ask this
+in an interview. I considered transforming the question, but left it as is for
+authenticity. Avert your eyes if you are easily oﬀended!
+How can three men and one woman have mutually safe heterosexual inter-
+course with just two condoms? Assume that no condom can break or leak,
+and that you cannot wash a used one.12",1.67,Answer 1.67,"Yes, it can be done, in theory if not in practice. If you are stuck
+and looking for a hint, think about inverting a condom and covering it with
+another.
+Let us label the condoms C1, and C2, and the men M1,M2, and M3.M1
+wears C1w i t h C2p l a c e do v e ri t . M2t h e nu s e s C2, which is still clean inside.
+M3 then wears C1i n v e r t e d( C1’s outside, you will recall, was kept clean by
+C2), and places the twice-used C2o v e ri t .D o n ’ tt r yt h i sa th o m e ."
+64,Question 1.68,"Consider a grid. You start at coordinate (0 ,0) and move one
+step at a time, eventually arriving at coordinate (5 ,5). With each step you
+may move only one step east or one step north but never diagonally. How
+many paths are there from (0 ,0) to (5 ,5)?",1.68,Answer 1.68,"You will take a total of ten steps. Five of these steps will be east;
+ﬁve will be north. You only need to choose which ﬁve of the ten steps are east.
+There are/p⎬renleft⎭ig10
+5/p⎬renright⎭ig=10!
+5!(10 −5)!=10·9·8·7·6
+5·4·3·2·1=30,240
+120= 252 ways to make this choice."
+65,Question 1.69,"/_387 Six friends go out to lunch. The bill is $132.67. They decide to
+add a 20% tip and split the total six ways evenly. What does each person pay?",1.69,Answer 1.69,"Easier than it looks! If the bill is X, then with the tip it is 1.2 X
+©2021 Timothy Falcon Crack 168 All Rights Reserved Worldwide"
+66,Question 1.7,"/_387 Suppose I inscribe a circle within a square so that the circle just
+touches the four sides of the square. Suppose there is exactly enough room to
+ﬁt a rectangle of dimensions 5 ×10 into one corner of the square so that the
+rectangle just touches the circle. See Figure 1.1. What is the side length of
+the square?",1.7,Answer 1.7,"I have drawn a right-angle triangle on Figure A.1 using R,t h e
+radius of the circle. Once we solve for R,t h es i d el e n g t hi s S=2R.
+From Figure A.1 we deduce that R2=(R−10)2+(R−5)2(via Pythagoras’
+Theorem).8Collecting terms, we quickly ﬁnd that R2−30R+1 2 5 = 0 .It
+follows (using the quadratic formula) that this polynomial has two roots R1
+andR2given by
+R1,R2=−B±√
+B2−4AC
+2A=30±√900−500
+2=1 5 ±10 = 5 ,25.
+Only one of those, R= 25, has a sensible physical interpretation in our case.9
+It follows that S=2R=5 0 .
+7This solution combines independent contributions of Juan Tenorio, Bingjian Ni, Yi Shen, and
+Jinpeng Chang; any errors are mine.
+8Recall Pythagoras’ Theorem. Consider a triangle with side lengths X,Y, and Z. If the angle
+between the sides of length XandYis 90◦, then it is a right-angle triangle. The side of length Z
+(the “hypotenuse”) must be the longest side, and it must be that X2+Y2=Z2.
+9Note that the case R= 5 corresponds to S=1 0 ,i nw h i c hc a s et h ec o r n e ro ft h eb o xt o u c h e s
+the far side of the circle, not the near side. This is inconsistent with the diagram drawn by the
+interviewer.
+©2021 Timothy Falcon Crack 109 All Rights Reserved Worldwide"
+67,Question 1.70,"/_387You walk into a pizza shop. They sell three sizes of pizza: small,
+medium, and large. All are perfectly circular, have the same thickness, and
+have the same density of toppings. The price of a large pizza is equal to the
+price of a medium pizza plus the price of a small pizza: PL=PM+PS. You
+see a group of your friends already sitting in the pizza store and they have just
+had one of each size pizza delivered to their table plus they have been given
+one empty box to take any leftovers home in. Each of their pizzas has been
+pre-cut into (perfect) sixths. Their box is a (perfect) square. You are looking
+12With one man and three women, the answer is of similar type, but diﬀerent. This question also
+appears in Derman (2004, p. 104), which is probably how it drifted to Wall Street.
+©2021 Timothy Falcon Crack 60 All Rights Reserved Worldwide",1.7,Answer 1.70,"We need to ﬁgure out whether the area of the large pizza is greater
+or smaller than the sum of the areas of the medium and small pizzas. The
+area of a circle is proportional to the square of the diameter. So, let L,M,a n d
+Sbe the diameters of the three pizzas, respectively. We need only take half
+of each pizza and lay the three halves on the table so that the corners touch
+and the three diameters form a triangle. If the angle in the corner where the
+small and medium pizzas touch is a right angle (check it using one corner of
+the pizza box!), then L2=M2+S2holds by Pythagoras’ Theorem and the
+two orders are equally attractive. If the angle is larger than a right angle, then
+L2>M2+S2and the large pizza is the better deal. If the angle is smaller
+than a right angle, then L2<M2+S2and the small pizza plus medium pizza
+is the better deal. We could alternatively use a single slice from each pizza
+(with side length equal to the radius of the circle) and form a triangle of side
+lengths."
+68,Question 1.71,"Find all of the roots to the equation x6=6 4( i n c l u d i n gt h e
+complex roots).",1.71,Answer 1.71,"A sixth order polynomial has six roots. From complex analysis
+you may recall that the roots to this sort of equation are distributed evenly on
+ac i r c l ei nt h ec o m p l e xp l a n eo fr a d i u se q u a lt ot h ep o s i t i v er e a lr o o t .S o ,t h e
+roots are zk=2ek2πi
+6fork=0,1,2,3,4,5.Note that eπi=−1,so 2eπi=−2,
+which makes sense."
+69,Question 1.72,"Ap e n n yi sd r o p p e df r o mt h et o po ft h eE m p i r eS t a t eB u i l d i n g .
+At what speed does it hit the ground, and how long does it take to get there?",1.72,Answer 1.72,"Let us use the standard high school physics equations for linear
+motion with constant acceleration. There are, however, two good reasons for
+having a sensible guess before doing any math. First, if our calculations give
+an answer that is wildly diﬀerent from our guess, then we have some baseline
+ﬁgure for suspecting we may have made an error in the math. Second, if you
+start with a guess, it may be that your interviewer will hold up a hand and say
+“OK, ﬁne, let’s move to the next question.” He or she may just have wanted
+to get an estimate out of you to see if you can estimate anything. They may
+not be interested at all in whether you remember simple equations of motion.
+So, I would say “Well, I can estimate it using equations for linear motion with
+constant acceleration, but ﬁrst let me guess that it is something like ...ﬁve
+seconds and 100 miles per hour” (or whatever your guess is).
+Now, if we have to go on to the math, I would tell the interviewer that these
+equations of motion ignore air resistance, and any updraft caused by wind hit-
+ting the building. The penny may in fact reach “terminal velocity” (i.e., when
+drag from the air resistance produces an upward force that perfectly counters
+the force of gravity, and the penny stops accelerating). Even if it does not
+reach terminal velocity, my estimate of speed will be an upper bound only
+©2021 Timothy Falcon Crack 169 All Rights Reserved Worldwide"
+70,Question 1.73,"Please express the integral f(x)=/integr⎬ltext∞
+t=xe−at2
+2+btdtin terms of
+N(x)( i . e . ,t h ec u m u l a t i v es t a n d a r dn o r m a l ) .",1.73,Answer 1.73,"You are asked to express the integral f(x)=/integr⎬ltext∞
+t=xe−at2
+2+btdtin
+terms of N(x). If you take that literally, then you will get stuck because that
+cannot be done for general x. Rather, we will aim to express the integral as a
+function of N(g(x)) for some g(·).
+We are aiming for the integrand to take the functional form of the pdf of the
+standard normal: n(u)≡1√
+2πe−1
+2u2. So, we need to “complete the square” in
+the exponent, change variables, and be sure to remember the√
+2πmultiplier.
+Let us focus on completing the square in the exponent ﬁrst; we need the minus
+one-half multiplier, so we can pull that out and then add and subtract half
+©2021 Timothy Falcon Crack 170 All Rights Reserved Worldwide"
+71,Question 1.74,"What is lim x→∞/p⎬renleft⎜ig√
+x2+x−x/p⎬renright⎜ig
+?",1.74,Answer 1.74,"Well, if the answer were zero they wouldn’t be asking it. Just
+multiply by the ratio of its conjugate to itself and divide numerator and de-
+©2021 Timothy Falcon Crack 171 All Rights Reserved Worldwide"
+72,Question 1.75,How do you diﬀerentiate xxwith respect to x?,1.75,Answer 1.75,"Lety=xx,then take logs, diﬀerentiate implicitly, use the product
+rule, and then use the deﬁnition of yto recover the answer:
+ln(y)= xln(x)
+1
+ydy
+dx=l n ( x)+1
+dy
+dx=xx(1 + ln( x))."
+73,Question 1.76,"Following on from the previous question, what is the minimum
+ofxx? Please restrict your attention to x>0.",1.76,Answer 1.76,"Following on from the previous question, y=xximplies that
+dy
+dx=xx(1 + ln( x)). Solving the ﬁrst-order conditiondy
+dx= 0, restricted to
+x>0, yields immediately ln( x)=−1, and thus that x=e−1=1 / eat the
+minimum. Plugging this xback into y=xxyields y= (1/ e)1/e=e−1/eat
+its lowest point.
+We should check the second-order condition to conﬁrm that this is a minimum.
+We can use the product rule and our ﬁrst derivative result.
+dy
+dx=xx(1 + ln( x))
+=⇒d2y
+dx2=( xx)2(1 + ln( x)) +xx·1
+x
+=/p⎬renleft⎜ig
+x2x/p⎬renright⎜ig
+(1 + ln( x)) +xx−1
+Plugging in our argmin, x=1 / e,y i e l d sd2y
+dx2/vextendsingle/vextendsingle/vextendsingle
+x=1 /e=e1−1/e=e(e−1)/e>0.
+So, we have found the minimum.
+Note that when x<0,y=xxis not continuously real valued (nor is it a
+uniquely-valued function; see Meyerson [1996]). There are, however, some
+negative xvalues where y=xxis unambiguously real valued. For example,
+©2021 Timothy Falcon Crack 172 All Rights Reserved Worldwide"
+74,Question 1.77,"/_387 You are seated at a table that has 100 quarters on it. You are
+told that there are 10 heads and 90 tails turned up. Unfortunately, the room
+is pitch black (or you are blindfolded) and you cannot see the quarters. You
+also cannot tell by touch which way up they are. So, how can you divide them
+into two piles so that you have the same number of heads in each pile?",1.77,Answer 1.77,"If you ask, your interviewer will conﬁrm that he or she expects an
+exact solution and not some estimate, that you are allowed to ﬂip any coin if
+you wish, and that the two piles need not have the same number of coins in
+each. Now go back and try again before peeking any further.
+You know the total number of heads in the 100 coins is equal to 10. So,
+suppose you form one pile of Ncoins, and one pile of 100 −Ncoins. Let us
+assume that there are Hheads and N−Htails in the ﬁrst pile (but you do
+not know H).
+Thus there are 10 −Hheads in the second pile and 90 −(N−H) tails in the
+second pile. How can you get the number of heads in each pile to be the same?
+Well, you cannot balance Hand 10 −Hbecause you don’t (and can’t) know
+what His.
+What do you know? You know you can ﬂip any coin. What if you ﬂipped
+every coin in one pile? There is, after all, some sort of constrained symmetry
+going on here. Let’s say you ﬂip every coin in the ﬁrst pile. Then you have
+N−Hheads in the ﬁrst pile. Can you choose Nso that the number of heads
+in each pile is the same in that case, that is, N−H=1 0 −H?Y e s , c l e a r l y
+choosing N=1 0d o e st h ej o b .
+So, all you have to do is split the coins into a pile of 10 coins and a pile of
+90 coins, and then ﬂip every coin in the pile of 10 coins. If you had chosen
+instead to ﬂip every coin in the second pile (i.e., the pile of 100 −Ncoins),
+the algebra would have yielded exactly the same solution (you should check
+that).
+If you get mixed up in the interview, just plug some numbers in. For example,
+suppose you start oﬀ with 3 heads and 7 tails, say, in the pile of 10 coins,
+then you must have 7 heads and 83 tails in the pile of 90 coins. You can see
+immediately that ﬂipping every coin in the pile of 10 coins will give 7 heads
+in each pile.
+In practice, of course, you don’t know how many heads are in each pile, just
+that they are the same number. You might even end up with zero heads in
+each pile if you happened to initially move all 10 heads into the pile of 10
+coins.
+If the interviewer had asked instead for the same number of tails in each pile,
+you would form a pile of 10 coins and a pile of 90 coins, and ﬂip every coin in
+62Meyerson (1996) argues that xx=exlog(x)takes the values exLog|x|+iπnxwhere Log( ·)i st h e
+real-valued logarithm, log( x) is the complex multiple-valued logarithm, nis even if x>0,nis
+odd if x<0, and each ncorresponds to a “thread” around a spindle-shaped three-dimensional
+plot (i.e., an Argand plane of complex-valued z=xxperpendicular to real-valued x,w h e r e
+−∞<x< ∞). I used MATLAB to draw this three-dimensional plot for −4≤x≤2w i t h
+n=−9,−7,−5,−3,−1,0,2,4,6,8,10 (i.e., 11 threads); it looks cool when rotated in three dimen-
+sions. This interview question deals only with the special case x>0w h e n n= 0.
+©2021 Timothy Falcon Crack 173 All Rights Reserved Worldwide"
+75,Question 1.78,How would you write a computer program to estimate π?,1.78,Answer 1.78,"I will give two diﬀerent approaches to estimate π.T h e ﬁ r s t a p -
+proach uses a simple Monte-Carlo simulation. The second uses the Leibniz
+formula. Other techniques exist.
+FIRST SOLUT ION
+Simulate pairs of random variables ( x, y), each distributed uniform on the
+unit interval [0 ,1]. These pairs, when plotted in two dimensions, populate
+a unit square. A circle with unit diameter may be inscribed within the
+unit square. I just need to count what proportion of points ( x, y)s a t i s f y
+x2+y2≤1. The area of the circle dividend by the area of the unit square
+isπ·r2/sl⎬sh⎭ig1= π·/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig2/sl⎬sh⎭igg
+1= π/4. So, just multiply the relative proportion of
+points within the circle by four. Even with sample size only 1,000,000, the
+answer is generally accurate to within a tenth of a percentage point (i.e., ﬁrst
+two decimal places correct).
+SECOND SOLUT ION
+The famous Leibniz formula for πis given in Equation A.20.63
+π
+4=∞/summ⎬tiondispl⎬y
+n=0(−1)n
+2n+1(A.20)
+Cutting oﬀ Equation A.20 at n=1 0,000 yields an approximation accurate to
+three decimal places (i.e., 3.14169264359053). Cutting it oﬀ at n= 10,000,000
+is accurate to six decimal places (i.e., 3.14159275358978). Convergence is a
+little slow.
+Note, however, that the partial sums in Leibniz’s approximation (like many
+numerical techniques for pricing options) bounces up and down as nincreases,
+alternately overestimating and then underestimating π/4. Like acceleration
+techniques for pricing options, using the average of two successive estimates
+will therefore improve accuracy (Crack, 2021). So, let B(N)=4 ·/summ⎬tiontextN
+n=0(−1)n
+2n+1.
+Then with N=1 0 ,000, [ B(N)+B(N−1)]/2 = 3 .14159264859028 ,which is
+accurate to seven decimal places, or eight if you round. With N=1 0,000,000,
+[B(N)+B(N−1)]/2 = 3 .14159265358979, which is accurate to 14 decimal
+places."
+76,Question 1.79,"There are 12 people sitting around a perfectly round table that
+is marked out to look like the dial of an analog clock. The host is sitting at
+12 o’clock, and 11 guests are sitting at each hour from 1 o’clock to 11 o’clock,
+respectively. (In fact, the original question did not mention a clock, but I
+think it makes for a clear mental image.) The host holds a prize. He will
+pass the prize to someone seated next to him. Then that person will pass it
+to someone seated next to him, and so on. The host, or any guest, is equally
+likely to pass the prize clockwise or counter-clockwise. The last guest to touch
+the prize wins it. (That is, the 11th guest to lay hands upon the prize gets to
+keep it.) Which hour of the clock should you sit at to have the highest chance
+of winning the prize?",1.79,Answer 1.79,"The short answer is that sitting in any position from 1 o’clock to
+11 o’clock is equally likely to win the prize, with probability p=1 / 1 1f o re a c h
+seat. If you are peeking here for hints, go back now and think again.
+63Note that arctan( z)=/summ⎬tiontext∞
+k=0(−1)kz2k+1
+2k+1for|z|≤1 and z̸=−1(Abramowitz and Stegun, 1972,
+p. 81). Plug in z=1t og e tt h eL e i b n i zf o r m u l a .
+©2021 Timothy Falcon Crack 174 All Rights Reserved Worldwide"
+77,Question 1.8,"/_387 Interviewer: “You are a bug sitting in one corner of a cubic room.
+You wish to walk (no ﬂying) to the extreme opposite corner (the one farthest
+from you). Describe the shortest path that you can walk. Be sure to mention
+direction, length, and so on.”",1.8,Answer 1.8,"You (the bug) cannot ﬂy; you have to walk. You must ﬁnd the
+shortest path from corner to corner.
+In any world, the shortest path between two points is called a “geodesic. ” On
+a spherical world (e.g., the Earth’s surface), a geodesic is an arc of a “great
+circle. ” A great circle is a circle on the surface of the sphere with diameter
+equal to the diameter of the sphere. For example, airplanes typically follow
+great circles above the Earth (because it is the shortest path and, therefore,
+the most fuel-eﬃcient path).
+Like a spherical world, the cubic-room world has a two dimensional surface.
+However, the lack of curvature in the cubic-room world means that the shortest
+distance between two points must be a straight line rather than an arc of a
+great circle (in a world without curvature, geodesics are straight lines).
+If the cubic room is opened up and ﬂattened out it can be seen that the shortest
+path is a straight line from one corner to the other. In the un-ﬂattened room,
+this straight line corresponds to two line segments that meet exactly halfway
+up one wall-ﬂoor or wall-wall boundary. Direct computation using Pythagoras’
+Theorem10reveals that the total path length is√
+5u n i t s .
+10In this case, the path is the hypotenuse of a triangle of side lengths 2 and 1 in the ﬂattened-out
+room or two hypotenuses of triangles each of side lengths 1 and1
+2in the un-ﬂattened room. In
+either case, the path is of total length√
+5.
+©2021 Timothy Falcon Crack 110 All Rights Reserved Worldwide"
+78,Question 1.80,What is a positive deﬁnite matrix?,1.8,Answer 1.80,"As y m m e t r i c n×nreal-valued matrix Ais said to be positive
+deﬁnite if for all non-zero n×1r e a l - v a l u e dv e c t o r s ⃗z,w eh a v et h a t ⃗z′A⃗z>0,
+where ⃗z′is the transpose of ⃗z(Ayers, 1962). Similarly, Ais negative deﬁnite,
+positive semi-deﬁnite, or negative semi-deﬁnite, if under the same conditions
+⃗z′A⃗z<0,⃗z′A⃗z≥0,or⃗z′A⃗z≤0,respectively. Matrices that are none of the
+above are called indeﬁnite.
+These deﬁnitions can also be given in terms of eigenvalues. A symmetric
+n×nreal-valued matrix Ais positive deﬁnite, negative deﬁnite, positive semi-
+deﬁnite, or negative semi-deﬁnite, respectively, if and only if all of the eigen-
+values of Aare positive, negative, non-negative, or non-positive, respectively.
+Indeﬁnite matrices have both positive and negative eigenvalues.
+Am o r eg e n e r a ld e ﬁ n i t i o no fap o s i t i v ed e ﬁ n i t em a t r i xa l l o w st h a t Aand⃗z′be
+complex valued. In that case, an n×nHermitian matrix A(i.e., one that is
+equal to its complex conjugate transpose) is positive deﬁnite if for all complex-
+valued n×1 vectors ⃗z,t h er e a lp a r to f ⃗z∗A⃗z>0,where ⃗z∗is the complex
+conjugate of the transpose of ⃗z.
+All the above assumes that the matrix be symmetric (if real-valued) or Her-
+mitian (if complex valued). The deﬁnition of a positive deﬁnite matrix
+can, however, be generalized to non-symmetric and non-Hermitian matrices
+(mathworld.wolfram.com ). In that case, the deﬁnition is applied only to the
+symmetric part or Hermition part of the matrix, respectively.66
+What about portfolio theory applications, theoretical and otherwise? In prac-
+tice, portfolio optimization tools often assume that the VCV matrix is positive
+deﬁnite (Kwan, 2010). For example, to obtain the standard Markowitz frontier
+assuming short selling, you need that the variance-covariance (VCV) matrix
+be invertible (Crack, 2020b). A positive deﬁnite matrix is invertible, but a
+positive semi-deﬁnite matrix might have a zero eigenvalue, and therefore be
+non-invertible.
+Suppose that ⃗Ris an n×1v e c t o ro ff u t u r er a n d o mr e t u r n st oﬁ n a n c i a la s -
+sets. Let Vbe the population VCV matrix with σij=c o v ( Ri,Rj)i nt h e ijth
+position. Then, Vis positive semi-deﬁnite, because for any real-valued n×1
+vector ⃗z,
+⃗z′V⃗z=v a r/p⎬renleft⎜ig
+⃗z′⃗R/p⎬renright⎜ig
+≥0. (A.26)
+66As q u a r em a t r i x Amay be written as A=AS+AA,where AS=1
+2(A+A′)i st h es y m m e t r i c
+part of A, and AA=1
+2(A−A′)i st h ea n t i - s y m m e t r i cp a r to f A. An analogous result holds for
+Hermition matrices, using the complex conjugate transpose.
+©2021 Timothy Falcon Crack 177 All Rights Reserved Worldwide"
+79,Question 1.81,"Following on from the previous question, in practice, how do
+you test whether a matrix is positive deﬁnite, without using any pre-canned
+routines?
+13In the original question the pizza was not cut, there was no box, but you had a knife. I retained
+the spirit of the question but modiﬁed it because it was not, strictly speaking, able to be solved.
+©2021 Timothy Falcon Crack 61 All Rights Reserved Worldwide",1.81,Answer 1.81,"In practice, how do you test whether a square matrix is positive
+deﬁnite? You cannot possibly test whether ⃗z′A⃗z>0,for all non-zero ⃗z′.S o ,
+let us look at several techniques. Then we will discuss which one is computa-
+tionally easiest without using pre-canned routines.
+First, I would like to use Sylvester’s criterion , but we need to review
+some terms. A sub-matrix obtained by deleting the ithrow and the jthcolumn
+of an n×nmatrix is an ( n−1)×(n−1) matrix. The determinant of this
+sub-matrix is called a minor (or, more fully, a minor determinant of order
+n−1), and is sometimes denoted Mi,j.I f a n y t w o r o w s {i1,i2}and any two
+columns {j1,j2}are deleted, then the determinant of the resulting sub-matrix
+is a minor of order n−2, denoted Mi1,i2,j1,j2,a n ds oo n . I ft h en u m b e r i n g
+of the deleted row(s) is identical to the numbering of the deleted column(s),
+then the determinant of the resulting sub-matrix is a principal minor (of order
+k,w h e r e n−krows and the same n−kcolumns have been deleted). The
+determinants of the upper-left sub-matrices, in particular, are known as the
+“leading principal minors” (Ayers, 1962).
+So, for example, for a 5 ×5m a t r i x ,d e l e t i n gt h eﬁ r s tr o wa n dt h eﬁ f t hc o l u m n
+produces a sub-matrix whose determinant, M1,5,i sam i n o r . I ti sn o t ,h o w e v e r ,
+a principal minor, leading or otherwise. Deleting the second row and the sec-
+ond column of the original matrix produces a sub-matrix whose determinant,
+M2,2, is a principal minor, but it is not a leading principal minor. Finally,
+deleting rows k:5a n dc o l u m n s k:5 ,f o ra n y k∈{2,3,4,5}produces a sub-
+matrix whose determinant, Mk:5,k:5,i sal e a d i n gp r i n c i p a lm i n o r . ( N o t et h a t
+deleting no rows and no columns of the original matrix produces, trivially, a
+©2021 Timothy Falcon Crack 178 All Rights Reserved Worldwide"
+80,Question 1.82,"Suppose that f(x, y)=x3+y3−2xy.D o e st h i sf u n c t i o nh a v ea
+local maximum or a local minimum?",1.82,Answer 1.82,"To identify local extrema of a function of two variables, we need
+to conduct the second (partial) derivative test (Abramowitz and Stegun, 1972,
+p. 14; Spiegel, 1981, p. 164). Let me review the test procedure, and then we
+can apply the test to the case f(x, y)=x3+y3−2xy.
+Suppose that f(x, y) is a function of two variables whose second partial deriva-
+tives exist. Then Equation A.37 gives the Hessian matrix of f(x, y).
+H(x, y)=⎛
+⎜⎝∂2f(x,y)
+∂x2∂2f(x,y)
+∂x∂y
+∂2f(x,y)
+∂y∂x∂2f(x,y)
+∂y2⎞
+⎟⎠=/p⎬renleft⎜igg
+fxx(x, y)fxy(x, y)
+fyx(x, y)fyy(x, y)/p⎬renright⎜igg
+(A.37)
+LetD(x, y)b et h ed e t e r m i n a n to f H.T h e n D(x, y) is called the discriminant
+of the second derivative test, and is given in Equation A.38.
+D(x, y)= d e t [ H(x, y)] = fxx(x, y)fyy(x, y)−fxy(x, y)fyx(x, y)
+=fxx(x, y)fyy(x, y)−[fxy(x, y)]2(A.38)
+Suppose now that ( xc,yc)i sac r i t i c a lp o i n to ft h ef u n c t i o n f(x, y). That is,
+fx(xc,yc)=0a n d fy(xc,yc)=0 . T h e n ,w eh a v et h ef o l l o w i n gr u l e s .
+•IfD(xc,yc)>0a n d fxx(xc,yc)>0, then ( xc,yc)i sa local minimum of
+the function f(x, y).
+•IfD(xc,yc)>0a n d fxx(xc,yc)<0, then ( xc,yc)i sa local maximum of
+the function f(x, y).
+•IfD(xc,yc)<0, then ( xc,yc)i sa saddle point of the function f(x, y).
+•IfD(xc,yc)=0 ,t h e nt h et e s ti s inconclusive ,a n d( xc,yc) could be any of
+al o c a lm a x i m u m ,l o c a lm i n i m u m ,o rs a d d l ep o i n to ft h ef u n c t i o n f(x, y).
+There are several notes to add to this.
+©2021 Timothy Falcon Crack 183 All Rights Reserved Worldwide"
+81,Question 1.83,"Three random variables have equal pairwise correlation ρ. What
+is the possible range of ρ?",1.83,Answer 1.83,"At ﬁrst glance, this sounds like a statistics question. I put it in this
+chapter, however, because it follows naturally from the previous two questions
+about matrices and their properties. I discuss two solution techniques. The
+ﬁrst uses Sylvester’s criterion, and the second uses eigenvalues.
+FIRST SOLUT ION
+We have that the correlation matrix, C, of the three random variables, is given
+by Equation A.43.
+C=⎛
+⎜⎝1ρρ
+ρ1ρ
+ρρ 1⎞
+⎟⎠ (A.43)
+Before hitting this problem over the head with any deep analysis, ask yourself
+what values of ρare possible in Equation A.43. Well, ρ=0i sp e r f e c t l y
+feasible, because that is what we would get if the three random variables
+were statistically independent of each other. Also, ρ=1i sp e r f e c t l yf e a s i b l e ,
+because that is what we would get if each random variable were perfectly
+correlated with each other. For example, if the three random variables are
+X1=aY+d
+X2=bY+e
+X3=cY+f,
+©2021 Timothy Falcon Crack 185 All Rights Reserved Worldwide"
+82,Question 1.84,What is an integral?,1.84,Answer 1.84,"The point of this question is not for you to give a formal deﬁnition
+of an integral, or a rundown of diﬀerent types of integrals, but rather to provide
+an opportunity for you to demonstrate simple/deep intuition.
+©2021 Timothy Falcon Crack 187 All Rights Reserved Worldwide"
+83,Question 1.85,"How do you use a Monte-Carlo simulation to evaluate
+E[g(X)] =/integr⎬ldispl⎬yx=+∞
+x=−∞g(x)fX(x)dx,
+where g(x) is a real-valued polynomial and X∼N(µ, σ2)?",1.85,Answer 1.85,"Following on from our previous answer about integrals, E[g(X)]
+may be interpreted as a probability-weighted average of values of g(X), where
+X∼N(µ, σ2). A Monte-Carlo simulation does not discretize the domain of
+the pdf (though that would work too), but rather it relies upon the strong law
+of large numbers.
+Khinchine’s Strong Law of Large Numbers (SLLN) says that if the sample
+Y1,Y2,...,Y N,...are IID with E(Yi)=µY(a ﬁnite number) for each i,t h e n ,
+with probability one,
+¯Yn≡1
+NN/summ⎬tiondispl⎬y
+i=1Yi→µY,asn→∞.
+That is, in plain English, the sample mean approaches the true mean as the
+sample size increases.
+So, all we have to do is sample Nvalues xifrom N(µ, σ2) via computer
+program, and calculate
+/hatwiderE[g(X)] =1
+NN/summ⎬tiondispl⎬y
+i=1g(xi).
+Convergence is guaranteed because the g(xi)a r eI I Dw i t he x p e c t e dv a l u e s
+E[g(X)].
+Typical values of Nare of the order of 10,000 or 20,000. Standard central
+limit theorem results allow us to put a conﬁdence interval about our estimator.
+Large sample sizes give narrower conﬁdence intervals."
+84,Question 1.86,/_387 What is 29 ×29?,1.86,Answer 1.86,"When I saw 29 ×29, I immediately noticed that 29 is only 1 less
+than 30. I know that 30 ×30 = 900, so all I have to do is add 29 and 30 (to
+get 59) and then subtract that from 900 to get 841. Let me explain...
+You likely already know that a2−b2=(a+b)(a−b). In the case that a=b+1,
+this reduces to a2−b2=a+b.T h ef a c tt h a t2 9i so n el e s st h a n3 0 ,a n dt h a t
+302=9 0 0i se a s yt oﬁ g u r ei ny o u rh e a d ,s u g g e s t st om et h a tt h e yw a n ty o u
+to ﬁnd the answer as 302−292=3 0+2 9=5 9 . S o ,2 92is 59 less than 900,
+which is 841.
+Alternatively, just multiply it out and add the parts:
+9×9=8 1
+20×9=1 8 0
+9×20 = 180
+20×20 = 400 ,
+and 400+360+81=841.
+©2021 Timothy Falcon Crack 193 All Rights Reserved Worldwide"
+85,Question 1.87,/_387 What is 43 ×43?,1.87,Answer 1.87,"Unlike the previous question, when I saw 43 ×43, I immediately
+thought I should just multiply it out and add the parts:
+3×3=9
+3×40 = 120
+40×3=1 2 0
+40×40 = 1 ,600,
+and 1,600+240+9=1849."
+86,Question 1.88,/_387 What is 21 ×19?,1.88,Answer 1.88,"When I heard 21 ×19, it jumped out at me as ( n+1 ) ×(n−1),
+forn=2 0 . W ek n o wt h a t( n+1 ) ×(n−1) = n2−1, and that 202= 400, so
+we get 399 immediately."
+87,Question 1.89,"/_387 There are three wooden barrels in the market. One contains
+apples only, one contains oranges only, and one contains both apples and
+oranges. Labels to this eﬀect are pinned to the barrels, but the labels have
+been mixed up so that no label correctly identiﬁes the contents of the barrel
+to which it is pinned. You can see the labels, but you cannot see inside, or feel
+inside, or smell inside, any barrel. You may ask for as many pieces of fruit as
+you want from any of the labeled barrels. What is the minimum number of
+pieces of fruit you can request, and from which barrel(s) should you request
+them, if your task is to re-pin the labels so that each label correctly identiﬁes
+the contents of its barrel?14",1.89,Answer 1.89,"You need only ask for a single piece of fruit to deduce the correct
+labeling. If you are peeking here for a hint, then go back and ask yourself how
+it can be done with only a single piece of fruit.
+Given the symmetry of the problem, my initial instinct was that asking for
+fruit from the barrel labeled “Apples,” or the one labeled “Oranges,” was not
+going to solve the problem.
+If you ask for a single piece of fruit from the barrel labeled “Apples and
+Oranges,” then, given the mis-labeling, you know that every other piece of
+fruit in that barrel is the same as the piece you requested. So, suppose you are
+handed an apple from this barrel. Then, you have located the true “Apples”
+barrel, currently labeled “Apples and Oranges. ” Given that you now know
+where the true “Apples” barrel is, then you now know that the barrel labeled
+“Oranges” cannot be the true “Apples” barrel. By construction, however, the
+barrel labeled “Oranges” also cannot be the true “Oranges” barrel (because
+every barrel is mis-labeled). Therefore, the barrel labeled “Oranges” must be
+the true “Apples and Oranges” barrel (there is no other choice remaining).
+Thus, we deduce that the remaining barrel, labeled “Apples,” must be the
+true “Oranges” barrel.
+Another way to think about the problem is that once you have identiﬁed that
+the barrel labeled “Apples and Oranges” contains only apples, then you can
+unpin the “Apples” label from its barrel, remove the “Apples and Oranges”
+label, and pin the “Apples” label in its correct place. This leaves you with a
+correctly labeled “Apples” barrel, an unlabeled barrel, an incorrectly labeled
+“Oranges” barrel, and the “Apples and Oranges” label in your hand. You
+know that the “Oranges” label has to move, and that the unlabeled barrel is
+the only place to pin it. So, having done that, you can then pin the “Apples
+and Oranges” label on the remaining barrel.
+Of course, if at the initial step you are instead handed an orange from the
+barrel labeled “Apples and Oranges,” then the argument is analogous (i.e., the
+©2021 Timothy Falcon Crack 194 All Rights Reserved Worldwide"
+88,Question 1.9,"/_387 A mythical city contains 100,000 married couples but no children.
+Each family wishes to “continue the male line,” but they do not wish to over-
+populate. So, each family has one baby per annum until the arrival of the ﬁrst
+boy. For example, if (at some future date) a family has ﬁve children, then it
+must be either that they are all girls, and another child is planned, or that
+there are four girls and one boy, and no more children are planned. Assume
+that children are equally likely to be born male or female.
+Letp(t)b et h ep e r c e n t a g eo f children that are male at the end of year t.H o w
+is this percentage expected to evolve through time?
+Story: One candidate for a futures trading position in Chicago was asked:
+“Would you rather be beaten up, beat someone up, or run around the block
+naked?” The last response did not get him the job. My wife was horriﬁed to
+hear this story. Welcome to Chicago!
+2More generally, what is the sum of the integers from 1 to n?
+©2021 Timothy Falcon Crack 49 All Rights Reserved Worldwide",1.9,Answer 1.9,"People tend to overlook the brilliantly simple situation described.
+If you did any mathematics whatsoever, you probably missed the point.
+No calculation is needed to see that at each stage an equal number of male
+babies and female babies are expected to be born. The proportions of male
+and female children are, therefore, expected to remain equal at 50%.
+Still stuck? Here are the details (standing at t=0a n dl o o k i n ga te x p e c t e d
+outcomes only): by the end of the ﬁrst year, the 100,000 families have 50,000
+boys and 50,000 girls. The proportion of male children stands at 50%. By the
+end of the second year, half of the 100,000 families (the ones without a son)
+have another child. This adds 25,000 boys and 25,000 girls. There are now
+75,000 boys and 75,000 girls. The proportion of male children still stands at
+50%. There are still 25,000 families without a son. They add another 12,500
+boys and an equal number of girls, and so on.
+Some people are tempted to suppose that because all large families have many
+daughters and a single son, there must be more girls than boys. However,
+there are not many large families.11"
+89,Question 1.90,"/_387 Is 112.5larger or smaller than 400? You must do this in your
+head. You are not allowed to use a calculator or pencil and paper.",1.9,Answer 1.90,"To compare 112.5with 400, I am going to square both sides and
+ask how 115compares with 4002.I c a n q u i c k l y ﬁ g u r e t h a t 4 0 02is a 16 with
+four zeroes after it. So, I will be looking at the leading digits of 115to see how
+they compare with 16.
+The number 11 has nice properties. For example, I know that 112= 121. In
+fact, any number made just of ones, when squared, gives what I will call a
+“podium” number. For example, 1 ,1112=1,234,321.
+I have also memorized that 113=1,331. So, to get 115, I need to multiple
+1,331 and 121 in my head. I can picture that (and I don’t know about you,
+but I have to close my eyes for this one) I am going to have to add 133,100,
+26,620, and 1,331. Subtracting 100,000 from the ﬁrst term and dropping any
+thing smaller than 1,000, leaves me with 33,000, 26,000, and 1,000 which add
+to give 60,000. So, adding back in the numbers I dropped, which I am not
+going to actually bother doing, brings the grand sum to just over 160,000.
+Thus, 112.5is a little bit bigger than 400."
+90,Question 1.91,"/_387 You are given that the lengths of two sides of a triangle are 5
+and 6. What is the approximate length of the third side?",1.91,Answer 1.91,"The interviewer told you that the lengths of two sides of a triangle
+are 5 and 6, and asked you for the length of the third side. Let the two sides
+have angle θbetween them, then for 0◦<θ< 180◦,t h et h i r ds i d eh a sl e n g t h
+1<L< 11, respectively. You get equality only in the degenerate case of a
+triangle with no area (i.e., when θ=0◦,180◦).
+If the interviewer meant that it is a right-angle triangle (i.e., θ= 90◦), then we
+can use Pythagoras’ Theorem to ﬁnd L2=52+62=6 1 ,a n dt h u s L=√
+61.
+With no calculator, I noted that 8 =√
+64, and with 61 just below 64, I ﬁgured
+maybe L≈73
+4.M yg u e s si so u tb yl e s st h a n1 % : L=√
+61≈7.81."
+91,Question 1.92,"/_387 You have two large blank-faced cubic dice and a marker pen.
+You are going to write a single-digit number on each face of each die so that
+you can display the two dice together on your desk to represent days of the
+month. You must use both dice. For example, (0 ,3) is the third of the month,
+(1,0) is the tenth of the month, (1 ,9) is the nineteenth of the month, and
+(3,1) is the thirty-ﬁrst of the month. You can swap the order of the physical
+dice if you need to (e.g., maybe you only want a 0 on one die, so that you can
+use it ﬁrst during the ﬁrst nine days of the month, but use it second on the
+tenth day of the month). What numbers do you put on each die?
+14I have also heard that this question was asked as a hot drink machine with three (mis)labels
+for “tea,” “coﬀee,” or “randomly tea or coﬀee. ”
+©2021 Timothy Falcon Crack 62 All Rights Reserved Worldwide",1.92,Answer 1.92,"Let me try a step-by-step approach. I know that the doubles (1 ,1)
+and (2 ,2) are needed. So, each die needs a 1 and a 2. I need a 0 somewhere.
+So, let me start with {0,1,2}and{1,2}.I t r i e d a d d i n g 3 , 4 , 5 , a n d 6 t o
+the second die to have {0,1,2}and{1,2,3,4,5,6},a n dt h e n7 ,8 ,9t ot h e
+ﬁrst die to get {0,1,2,7,8,9}and{1,2,3,4,5,6}. Then I discovered that I
+could not get (0 ,7) or (0 ,8). I could, however, get (0 ,9) by inverting the 6.
+Using that logic, let us drop the 6 and replace it with a 0: {0,1,2,7,8,9}and
+{0,1,2,3,4,5}. I can see other equally-good choices obtained by any shuﬄing
+of the 3, 4, 5, 7, 8, and 9."
+92,Question 1.93,"/_387Id on o th a v eat o a s t e r ,b u tIh a v eaf r y i n gp a nt h a tc a nh o l d
+three slices of bread if I use it to make toast. It takes one minute to toast one
+side of the bread in my pan. Each side of the bread has to be toasted, so I can
+make at most three slices of toast in two minutes. (You may ignore any time
+required to ﬂip the bread over.) How long will it take me to make four slices
+of toast?15",1.93,Answer 1.93,"Like so many of the simpler quantitative interview questions, there
+is a naive answer that is near at hand: If you think it takes four minutes to
+make four slices of toast, then stop reading here, go back and think again.
+©2021 Timothy Falcon Crack 195 All Rights Reserved Worldwide"
+93,Question 1.94,"Consider a wire-frame 1 ×1 cube. Label one vertex as Aand the
+opposing vertex as B, as in Figure 1.3. How many non-self-intersecting paths
+lead from AtoB?( N o n - s e l f - i n t e r s e c t i n gm e a n st h a tap a t hm a yn o tt o u c ha
+vertex more than once.)
+A1
+2
+36
+4
+5B
+Figure 1.3: Graph of a Cube
+Note: We are asked to count non-self-intersecting (i.e., touching
+any vertex no more than once) paths that lead from AtoB.",1.94,Answer 1.94,"Let me label the vertices closest to Aas 1, 2, and 3, and the
+vertices closest to Bas 4, 5, and 6, as shown again in Figure A.9. Note that
+every path that leaves Amust ﬁrst hit one of 1, 2, or 3. Each of these paths
+has two possible next choices. This gives us six beginnings of paths. At this
+point, the path then either jumps to Bin one step (with no choice), or to B
+©2021 Timothy Falcon Crack 196 All Rights Reserved Worldwide"
+94,Question 1.95,Prove that there are inﬁnitely many prime numbers.,1.95,Answer 1.95,"I give two related proofs that inﬁnitely many prime numbers exist.
+FIRST SOLUT ION
+Euclid gives a proof in about 300BC (Euclid, 2008, Book 9, Proposition 20).
+Given a ﬁnite list of prime numbers p1,p2,...,p N,l e tΠ= p1·p2···pNbe
+their product. Consider (Π + 1); either (Π + 1) is a prime number or it is
+not. If (Π + 1) is a prime number, then our ﬁnite list of prime numbers was
+incomplete, for (Π+1) is yet another. If (Π+1) is not a prime number, then it
+is a composite number (i.e., a non-prime number). All composite numbers are
+divisible by a prime number (Euclid, 2008, Book 7, Proposition 31). Let this
+prime divisor be p.T h e n pcannot be one of p1,p2,...,p N.F o r ,i f i t w e r e ,s a y ,
+p=pi, then (Π + 1) would be divisible by pi,b u tΠ( b yi t sv e r yd e ﬁ n i t i o n )i s
+also divisible by pi.I n t h i s c a s e ,i t f o l l o w s t h a t 1 = ( Π + 1 ) −Πi sa l s od i v i s i b l e
+bypi, which is absurd. Thus our ﬁnite list of prime numbers was incomplete,
+forpis yet another.
+In other words, given any ﬁnite list of prime numbers, yet another prime
+number can be found. So, there must be inﬁnitely many prime numbers.
+©2021 Timothy Falcon Crack 197 All Rights Reserved Worldwide"
+95,Question 1.96,"Show that when given any positive integer n, there exists a se-
+quence of nconsecutive positive integers none of which is prime.",1.96,Answer 1.96,"Following on from the answer to the previous question, let us use
+factorials to construct a sequence of nconsecutive positive integers none of
+which is prime.73Given positive integer n, without loss of generality, consider
+the following nsuccessive numbers:
+[(n+1 ) !+2 ] ,[(n+1 ) !+3 ] ,[(n+1 ) !+4 ] ,...,[(n+1 ) !+( n+1 ) ] .
+The ﬁrst number is divisible by 2, the second number is divisible by 3, and so
+on, up until the nthnumber which is divisible by ( n+1 ) . I tf o l l o w st h a tn o n e
+of these nconsecutive numbers is prime, which was to be shown.
+Note that the ﬁrstnumber at which a run of nsuccessive composite numbers
+begins may be much lower than [( n+ 1)! + 2]. For example, when n=3 ,s u r e
+enough [(3 + 1)! + 2] = (4! + 2) = 26, and 26, 27, 28 are consecutive composite
+numbers, but so too are 8, 9, 10."
+96,Question 1.97,"/_387 Finally, can the mean of two consecutive prime numbers (e.g., 7
+and 11) ever be prime?
+15It was not asked by the interviewer, but can you ﬁnd a general formula M(n) that describes
+the minutes, M,r e q u i r e dt om a k e nslices of toast using this pan? Assume n≥2.
+©2021 Timothy Falcon Crack 63 All Rights Reserved Worldwide",1.97,Answer 1.97,"Can the mean of two consecutive prime numbers be prime? No,
+of course not. Replace the word “prime” with any other word, and the answer
+is still no. If they are consecutive, then by deﬁnition there are none of them
+in between!
+73I thank Paul Bilokon for this proof; any errors are mine.
+©2021 Timothy Falcon Crack 198 All Rights Reserved Worldwide"

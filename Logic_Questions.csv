@@ -1,0 +1,578 @@
+Question Number,Content
+Question 1.1,"/_387 You are given two glass jugs. Each contains the same volume,
+V,o fl i q u i d . O n ej u gc o n t a i n sp u r ea l c o h o l ,a n dt h eo t h e rj u gc o n t a i n sp u r e
+water. A modest quantity, Q,o fw a t e ri sp o u r e df r o mt h ew a t e rj u gi n t ot h e
+alcohol jug, which is then thoroughly mixed. The same modest quantity, Q,
+of (now diluted) alcohol is then poured back into the water jug to equalize the
+volumes of the jugs at their initial levels.
+The initial concentration of alcohol in the alcohol jug equals the initial concen-
+tration of water in the water jug (at 100%). What is the relationship between
+the ﬁnal concentrations of alcohol in the alcohol jug and water in the water
+jug?1"
+Question 1.2,"/_387 Fischer and Myron just stepped side-by-side onto a moving es-
+calator. They are climbing up the stairs, and counting steps as they climb.
+Myron is climbing more quickly than Fischer. Myron climbs three steps in
+the time it takes Fischer to climb only two steps. Neither of them skips any
+steps. Myron steps oﬀ at the top, having counted 25 steps. He waits at the
+top for the slower Fischer, who steps oﬀ having counted only 20 steps. How
+many steps are showing on the escalator at any instant?"
+Question 1.3,"/_387 There are two bells. One rings ﬁve times per minute, and the
+other rings four times per minute. If they start at the same time, how long
+will it be until they next ring together?
+1This is not a chemistry problem. Please ignore the fact that mixing a volume V1of water with
+av o l u m e V2of alcohol results in a total volume less than V1+V2.F o l l o w - u pq u e s t i o n :R e p e a tt h e
+mixing, and ask the same question. Now do it again, and again, and ask the same question.
+©2021 Timothy Falcon Crack 48 All Rights Reserved Worldwide"
+Question 1.4,/_387 What is the sum of the integers from 1 to 100?2
+Question 1.5,"/_387 An old style analog clock falls oﬀ the wall and the face breaks into
+three pieces. The numbers on each piece add to the same total. Describe the
+pieces."
+Question 1.6,"/_387 (**) You are given a set of scales and 12 marbles. The scales are
+of the old balance variety. That is, a small dish hangs from each end of a rod
+that is balanced in the middle ( /_554). The device enables you to conclude either
+that the contents of the dishes weigh the same or that the dish that falls lower
+has heavier contents than the other.
+The 12 marbles appear to be identical. In fact, 11 of them are identical, and
+one is of a diﬀerent weight. Your task is to identify the unusual marble and
+discard it. You are allowed to use the scales three times if you wish, but no
+more. Note that the unusual marble may be heavier than the others, or it
+may be lighter; you do not know which. You are asked to both identify it and
+determine whether it is heavy or light."
+Question 1.7,"/_387 Suppose I inscribe a circle within a square so that the circle just
+touches the four sides of the square. Suppose there is exactly enough room to
+ﬁt a rectangle of dimensions 5 ×10 into one corner of the square so that the
+rectangle just touches the circle. See Figure 1.1. What is the side length of
+the square?"
+Question 1.8,"/_387 Interviewer: “You are a bug sitting in one corner of a cubic room.
+You wish to walk (no ﬂying) to the extreme opposite corner (the one farthest
+from you). Describe the shortest path that you can walk. Be sure to mention
+direction, length, and so on.”"
+Question 1.9,"/_387 A mythical city contains 100,000 married couples but no children.
+Each family wishes to “continue the male line,” but they do not wish to over-
+populate. So, each family has one baby per annum until the arrival of the ﬁrst
+boy. For example, if (at some future date) a family has ﬁve children, then it
+must be either that they are all girls, and another child is planned, or that
+there are four girls and one boy, and no more children are planned. Assume
+that children are equally likely to be born male or female.
+Letp(t)b et h ep e r c e n t a g eo f children that are male at the end of year t.H o w
+is this percentage expected to evolve through time?
+Story: One candidate for a futures trading position in Chicago was asked:
+“Would you rather be beaten up, beat someone up, or run around the block
+naked?” The last response did not get him the job. My wife was horriﬁed to
+hear this story. Welcome to Chicago!
+2More generally, what is the sum of the integers from 1 to n?
+©2021 Timothy Falcon Crack 49 All Rights Reserved Worldwide"
+Question 1.10,"/_387 Picture a 10 ×10×10 “macro-cube” ﬂoating in mid-air. The
+macro-cube is composed of 1 ×1×1 “micro-cubes,” all glued together. Weather
+damage causes the outermost layer of micro-cubes to become loose. This
+outermost layer falls to the ground. How many micro-cubes are on the ground?"
+Question 1.11,"/_387 There are two cities, A and B, 1,000 miles apart. You have
+3,000 apples at City A, and you want to deliver as many as possible of them
+to City B. The only delivery method available is a truck. There are, however,
+two problems. The truck can hold at most only 1,000 apples, and if there are
+any apples at all in the truck, the hungry dishonest driver will steal and eat
+one apple for every mile he drives. What is the maximum number of apples
+you can deliver from City A to City B? Note that you are welcome to stop
+part way, dump oﬀ some apples, and then come back and pick them up later."
+Question 1.12,"/_387 How many degrees (if any) are there in the angle between the
+hour and minute hands of a clock when the time is a quarter past three?"
+Question 1.13,"/_387 What is the ﬁrst time after 3 pmwhen the hour and minute hands
+of a clock are exactly on top of each other?"
+Question 1.14,"/_387 There are 100 light bulbs lined up in a row in a long room. Each
+bulb has its own switch and is currently switched oﬀ. The room has an entry
+door and an exit door. There are 100 stockbrokers lined up outside the entry
+©2021 Timothy Falcon Crack 50 All Rights Reserved Worldwide"
+Question 1.15,"/_387 Exactly the same set-up as Question 1.14, with a diﬀerent ﬁnal
+question: How many of the light bulbs are illuminated after the 100th person
+has passed through the room, and which light bulbs are they?"
+Question 1.16,"/_387 Your bedroom sock drawer contains eight red socks and 11 blue
+socks that are otherwise identical. The light is broken in your bedroom, and
+you must select your socks in the dark. What is the minimum number of socks
+you need to take out of your drawer and carry into your (well-lit) living room
+to guarantee that you have with you at least a matching pair to choose from?"
+Question 1.17,"/_387 Following on from the previous question, can you generalize your
+answer to otherwise-identical socks of Ndiﬀerent colors? For example, suppose
+you have 50 socks of color 1, 50 socks of color 2, . . . , and 50 socks of color N,
+how many socks must you pull from your sock drawer in the dark to guarantee
+that you have a matching pair?"
+Question 1.18,"/_387 Following on from the previous two questions, your bedroom
+sock drawer contains 2 red, 4 yellow, 6 purple, 8 brown, 10 white, 12 green,
+14 black, 16 blue, 18 gray, and 20 orange socks. It is dark, so you cannot
+distinguish between the colors of the otherwise-identical socks. How many
+socks do you need to take out of the drawer to guarantee that you have at
+least three pairs of socks of the same color?
+Story: One of my students was asked to “Describe the best boss you have
+ever had. ” Watch out for the opposite question: “Describe the worst boss you
+have ever had. ” Your answer may indicate disloyalty to a (former) employer."
+Question 1.19,"/_387 You and I are to play a competitive game. We shall take it in
+turns to call out integers. The ﬁrst person to call out “50” wins. The rules
+are as follows:
+1. The player who starts must call out an integer between one and 10,
+inclusive;
+2. A new number called out must exceed the most recent number called by
+at least one and by no more than 10. For example, if the ﬁrst player calls
+out “nine,” then the range of valid numbers for the opponent is 10 to 19,
+inclusive.
+©2021 Timothy Falcon Crack 51 All Rights Reserved Worldwide"
+Question 1.20,"/_387 You are to open a safe without knowing the combination. Be-
+ginning with the dial set at zero, the dial must be turned counter-clockwise to
+the ﬁrst combination number, (then clockwise back to zero), and clockwise to
+the second combination number, (then counter-clockwise back to zero), and
+counter-clockwise again to the third and ﬁnal combination number, whereupon
+the door shall immediately spring open; there is no handle or key to turn. The
+dial has numbers from zero to 40, and the zero is not one of the combination
+numbers.
+Without knowing the combination numbers, what is the maximum number of
+trials required to open the safe? One trial equals one attempt to dial a full
+three-number combination, and you must start again from zero for each trial.
+Story: 1. During the interview, an alarm clock went oﬀ from the candidate’s
+briefcase. He took it out, shut it oﬀ, apologized, and said he had to leave
+for another interview. 2. An applicant came in wearing only one shoe. She
+explained that the other shoe was stolen oﬀ her foot in the bus.
+Interview Horror Stories from Recruiters
+Reprinted by kind permission of MBA Style Magazine
+©1996–2021 MBA Style Magazine, www.mbastyle.com"
+Question 1.21,"(**) You are given a set of scales and 90 coins (this question is
+similar to Question 1.6). The scales are of the old balance variety. That is, a
+small dish hangs from each end of a rod that is balanced in the middle. The
+device enables you to conclude either that the contents of the dishes weigh
+the same or that the dish that falls lower has heavier contents than the other.
+You must pay $100 every time you use the scales.
+The 90 coins appear to be identical. In fact, 89 of them are identical, and one
+is of a diﬀerent weight. Your task is to identify the unusual coin and to discard
+it while minimizing the maximum possible cost of weighing.3What is your
+algorithm to complete this task? What is the most it can cost to identify the
+unusual coin (assuming your strategy minimizes the maximum possible cost)?
+Note that the unusual coin may be heavier than the others, or it may be
+lighter. You are asked to both identify it and determine whether it is heavy
+or light.4"
+Question 1.22,"(***) Suppose that the function f(z) is complex valued in the
+complex plane. Suppose also that f(z) is both bounded and entire. Prove
+3As l i g h t l yd i ﬀ e r e n tt a s ki st om i n i m i z et h ee x p e c t e dc o s to fw e i g h i n g . M i n i m i z i n gt h ee x -
+pected cost of weighing does not necessarily minimize the maximum possible cost. This is a subtle
+distinction that you should not overlook.
+4Does the answer change if you must identify the coin without saying whether it is heavy or
+light?
+©2021 Timothy Falcon Crack 52 All Rights Reserved Worldwide"
+Question 1.23,"/_387 Ih a v ed r o p p e d1 0 , 0 0 0a n t sr a n d o m l yo n t oar u l e rt h a ti so n e
+meter (i.e., 100 centimeters) long and oriented to point north–south. The
+ants are of very small size and mass. Each ant walks at a steady pace of
+one centimeter per second in a straight line parallel to the long edge of the
+ruler. Their initial direction is randomly either north or south. The ants are
+all from the same colony and possess an inherited vision problem: they have
+peripheral vision only. This means that they can collide with each other if
+they meet head on (although very small, they are large enough to collide). If
+two ants do collide head on, however, then they each turn around instantly
+and head back the way they came at their steady pace. With so many ants in
+one small space, a single ant may experience multiple collisions before it walks
+oﬀ of the ruler. So, how long must you wait to be sure that all the ants have
+walked oﬀ of the ruler?"
+Question 1.24,"/_387 You start with a single lily pad sitting on an otherwise empty
+pond. You are told that the surface area of the lily pad doubles every day
+and that it will take 30 days for the single lily pad to cover the surface of the
+pond.6
+If instead of one lily pad you start with eight lily pads (each identical in
+characteristics to the original single lily pad), how many days will it take for
+the surface of the pond to become covered?"
+Question 1.25,"/_387 Another lily pad problem. There are 27 lily pads on a pond.
+Each of the lily pads is one square foot in area. The pond is 6,000 square feet
+in area. Each lily pad doubles its size every day. How long until the pond is
+covered in lily pads?"
+Question 1.26,"/_387 Interviewer: “Alright, you’re from MIT; you must be a quanti-
+tative type of person. ” Interviewee: (conﬁdently, after a slight pause) “Yes
+indeed. ” Interviewer: “Give me the decimal equivalent of13
+16and of9
+16.”"
+Question 1.27,"/_387 A snail is climbing up a 10-foot pole. It climbs up by three feet
+every day. Each night it sleeps. While sleeping, it slides down by one foot.
+When does it reach the top of the pole?
+5Recall that an “entire” function is a function that is analytic in the entire ﬁnite complex plane.
+Thus, f(z) may be represented by an everywhere-convergent power series: f(z)=/summ⎬tiontext∞
+n=0anzn
+(Holland [1973, p. 5]).
+6The student who was asked this question says that his interviewer used the number 30. However,
+he suggested that I use the number 3,000 to make it more complicated. What is wrong with saying
+that it takes 3,000 days for the lily pad to cover the pond?
+©2021 Timothy Falcon Crack 53 All Rights Reserved Worldwide"
+Question 1.28,"/_387 A windowless room contains three identical light ﬁxtures, each
+containing an identical light bulb. Each light ﬁxture is connected to one of
+three switches outside of the room. Each bulb is switched oﬀ at present. You
+are outside the room, and the door is closed. You may ﬂip any of the external
+switches in any manner you choose. After this, you must take your hands oﬀ
+the switches and then you may go into the room and do as you please (but
+you will not be allowed to damage anything or touch the switches again). How
+can you tell which switch goes to which light?"
+Question 1.29,"/_387 Inside of a dark closet are ﬁve hats: three blue and two red.
+Three smart men go into the closet, and each selects a hat in the dark and
+places it unseen upon his head. Each man knows both that the closet con-
+tains three blue hats and two red and that the other two men have the same
+knowledge.
+Once outside the closet, no man can see his own hat. The ﬁrst man looks
+at the other two, thinks, and says, “I cannot tell what color my hat is.” The
+second man hears this, looks at the other two, and says, “I cannot tell what
+color my hat is either. ” The third man is blind. The blind man says, “Well, I
+know what color my hat is.” What color is his hat, and how does he know?"
+Question 1.30,"(**) Find the smallest positive integer that leaves a remainder
+of 1 when divided by 2, a remainder of 2 when divided by 3, a remainder of 3
+when divided by 4, ... and a remainder of 9 when divided by 10."
+Question 1.31,"/_387 There are two motorcyclists on a single lane road. They are 25
+miles apart. At a signal, they start moving toward each other with constant
+speeds. The ﬁrst motorcyclist rides at 20 mph; the second rides at 30 mph.
+When the signal goes oﬀ, a ﬂy on the helmet of the ﬁrst motorcyclist is startled
+and starts ﬂying toward the second motorcyclist at 40 mph. When the ﬂy
+reaches the second motorcyclist (now moving toward the ﬁrst), he immediately
+reverses course and ﬂies back to the ﬁrst motorcyclist. When the ﬂy gets back
+to the ﬁrst motorcyclist, he reverses course again. The ﬂy continues to ﬂy
+backwards and forwards between the two motorcyclists until they all collide.
+How many miles will the ﬂy have traveled before his life is extinguished?"
+Question 1.32,"Prove that the area of a triangle is given by
+A=/r⎬dic⎬l⎜ig
+s(s−a)(s−b)(s−c),
+where a,b,a n d care the side lengths, and s≡a+b+c
+2is the semi-perimeter.7
+Story: Instead of being asked her greatest weakness, one of my students was
+asked: “Why shouldn’t we hire you?” It is pretty diﬃcult to maneuver your
+way out of that one!
+7Mark Rubinstein kindly pointed out to me that this is “Heron’s Formula. ” Strogatz (2009,
+pp. 143–152, 160) refers to it as “Hero’s Formula” and “Heron’s Formula. ”
+©2021 Timothy Falcon Crack 54 All Rights Reserved Worldwide"
+Question 1.33,"A,B,C,D,E,F,G,H,a n d I, are the nine integers from one
+to nine (not necessarily in order). They satisfy the following constraints:
+A+B+C+D=2 0 ,
+B+C+D+E+F=2 0 ,
+D+E+F+G+H=2 0 ,and
+F+G+H+I=2 0
+What values are taken by each of AtoI?"
+Question 1.34,"Av e r yl a r g en u m b e r , N,o fp e o p l ea r r i v ea tac o n v e n t i o n .T h e r e
+are exactly Nsingle rooms in the hotel where the convention takes place. Each
+guest is given a numbered key for a speciﬁc room. Before they even go upstairs,
+they are all invited to a large party in the banquet hall. To gain admittance
+to the hall, they have to give up their keys to a doorman. At the end of the
+evening, the guests are not sober enough to recall their room numbers, so the
+doorman simply hands out the keys randomly. Each guest ends up spending
+the night in a random room. What is the probability that at least one guest
+ends up in the room to which he or she was originally assigned?"
+Question 1.35,"/_387 At another party, everybody shakes hands with everybody else.
+If there are 66 handshakes, how many people are at the party?"
+Question 1.36,"There are 25 people at a party. What is the expected number of
+pairs of people with the same birthday? For example, if John, Jon, Stephen,
+and Mark all have the same birthday, say, January 15, but nobody else at the
+party has a matching birthday, the count of pairs is six. (See also the next
+two questions.)"
+Question 1.37,"There are 25 people at another party. One person asks every-
+body to announce their birthday, and for anyone who has the same birthday
+as someone else to raise a hand. How many hands do you expect to see raised?
+For example, if John, Jon, Stephen, and Mark all have the same birthday,
+January 15, but nobody else at the party has a matching birthday, the count
+of hands is four."
+Question 1.38,"Al i n ei sa b o u tt of o r mo u t s i d et h eb o xo ﬃ c eo fat h e a t e r . Y o u
+have inside information that the manager plans to announce that he will give
+a single free ticket to one person in line. To win the free ticket, it needs to be
+true that you are the ﬁrst person in line who has someone ahead of you in line
+with same birthday as you. When (or where) do you join the line to maximize
+the probability of winning the free ticket?"
+Question 1.39,"/_387 A small boat is ﬂoating in a swimming pool. The boat contains
+av e r ys m a l lb u tv e r yh e a v yr o c k .I ft h er o c ki st o s s e do u to ft h eb o a ti n t ot h e
+pool, what happens to the water level in the pool?
+©2021 Timothy Falcon Crack 55 All Rights Reserved Worldwide"
+Question 1.40,"(**) In a certain matriarchal town, the women all believe in an
+old prophecy that says there will come a time when a stranger will visit the
+town and announce whether any of the men folk are cheating on their wives.
+The stranger will simply say “yes” or “no,” without announcing the number
+of men implicated or their identities. If the stranger arrives and makes his
+announcement, the women know that they must follow a particular rule: If
+on any day following the stranger’s announcement a women deduces that her
+husband is not faithful to her, she must kick him out into the street at 10 am
+the next day. This action is immediately observable by every resident in the
+town. It is well known that each wife is already observant enough to know
+whether any man (except her own husband) is cheating on his wife. However,
+no woman can reveal that information to any other. A cheating husband is
+also assumed to remain silent about his inﬁdelity.
+The time comes, and a stranger arrives. He announces that there are cheating
+men in the town. On the morning of the tenth day following the stranger’s
+arrival, some unfaithful men are kicked out into the street for the ﬁrst time.
+How many of them are there?"
+Question 1.41,"/_387 In front of you are three poles. One pole is stacked with 64 rings
+ranging in weight from one ounce (at the top) to 64 ounces (at the bottom).
+Your task is to move all the rings to one of the other two poles so that they
+end up in the same order. The rules are that you can move only one ring at
+at i m e ,y o uc a nm o v ear i n go n l yf r o mo n ep o l et oa n o t h e r ,a n dy o uc a n n o t
+even temporarily place a ring on top of a lighter ring.
+What is the minimum number of moves you need to make to achieve the task?
+Story: Here are some Fermi problems from Section 5.5: “How many Mc-
+Donald’s fast food outlets are there in the U.S.? How many gas stations are
+there in the U.S.? How many elevators are there in the U.S.?”"
+Question 1.42,"Solve the following ordinary diﬀerential equation (ODE):
+u′′+u′+u=1"
+Question 1.43,"Assume that the random variables XandYare normally dis-
+tributed: X∼N(µX,σ2
+X), and Y∼N(µY,σ2
+Y). The correlation between X
+andYisρ.H o w c a n y o u c h o o s e c o n s t a n t s aandbsuch that you minimize
+the variance of the random variable sum S=aX+bYunder the constraints
+that a+b=1 ,0 ≤a≤1, and 0 ≤b≤1?8
+8Another version of this question asked in interviews is: “You are driving around with one wheel
+on the gravel and one wheel on the pavement. The variance of the gravel and pavement surfaces
+are described by σ2
+Gandσ2
+P. Whereabouts on the axle should you sit between x= 0 (right over
+the wheel on the gravel) and x= 1 (right over the wheel on the pavement) if you want the most
+comfortable ride?”
+©2021 Timothy Falcon Crack 56 All Rights Reserved Worldwide"
+Question 1.44,"Suppose there is a straight coastline and a lighthouse that is
+L= 3 miles away from the coast. The light revolves at one revolution per
+minute. How fast is the beam of light traveling along the coastline? When the
+beam is 3 Laway from the coastal point closest to the light, how fast is the
+light traveling along the coast?"
+Question 1.45,"/_387 Ih a v ea2 0 ×20 chessboard and a very large box of identical
+cubes. Each square on the chessboard is the same size as the face of any cube.
+I am going to arrange piles of cubes on the chessboard in a special pattern.
+Ia l i g no n ee d g eo ft h eb o a r ds oi ti sr u n n i n gn o r t h – s o u t h . Is t a r ta tt h e
+northwest corner by placing one cube on that square. Whenever I step to the
+south or the east, I place a pile of cubes containing one more cube than in the
+previous square. This produces the pattern in Figure 1.2. How many cubes
+in total are there on the chessboard?
+1234···1920
+2345···2021
+3456···2122
+4567···2223
+.....................
+19202122···3738
+20212223···3839
+Figure 1.2: Number of Cubes on Each Square of a 20 ×20 Chessboard (Q)"
+Question 1.46,"You are standing at the center of a circular ﬁeld of radius R.T h e
+ﬁeld has a low wire fence around it. Attached to the wire fence (and restricted
+to running around the perimeter) is a large, sharp-fanged, hungry dog who
+likes to eat any humans he can catch. You can run at speed v.U n f o r t u n a t e l y ,
+the dog can run four times as fast, at 4 v.T h e d o g w i l l d o h i s b e s t t o c a t c h
+you if you try to escape the ﬁeld. What is your running strategy to escape the
+ﬁeld without feeding yourself to the dog?"
+Question 1.47,"Please prove that the following relationship holds:
+/integr⎬ldispl⎬y+∞
+−∞e−x2dx=√π
+©2021 Timothy Falcon Crack 57 All Rights Reserved Worldwide"
+Question 1.48,What is/integr⎬ltextsecθdθequal to?9
+Question 1.49,"As a follow-up to the previous question, now please integrate
+secθfrom 0 to π/6."
+Question 1.50,"Does the inﬁnite sum/summ⎬tiontext∞
+n=1e−√nconverge?"
+Question 1.51,"/_387 One analyst (John) is talking to another (Mary) while working
+on a deal book at 2 am. Mary learns that John’s sister has three children.
+“How old are the children?” asks Mary. “Well,” replies John, “the product of
+their ages is 36.” Mary thinks for a while and says, “I need more information.”
+“Hmmm, the sum of their ages is the same as this ﬁgure right here,” says John
+pointing at the spreadsheet. “Still not enough information,” says Mary after
+thinking for a minute. “The eldest is dyslexic,” says John. How old are the
+children?"
+Question 1.52,"/_387 You are given eight balls. They appear identical, but one is
+heavier than the rest. As in the previous ball questions, you have a pair of
+scales. How do you ﬁnd the heavy ball?"
+Question 1.53,"What are/summ⎬tiontextn
+k=1k2,a n d/summ⎬tiontextn
+k=1k3?"
+Question 1.54,"/_387 We are to play a game on a table in the next room. We each
+have an inﬁnite bag of identical quarters (i.e., American 25-cent pieces). We
+will take it in turns to put one quarter on the table. Quarters may not overlap
+on the table. When there is no room left on the table to put another quarter,
+the winner is the last person to put a quarter on the table. Let me tell you that
+there does exist a strategy for winning and that this strategy is independent
+of the size of the table.
+1. What is the shape of the table?
+2. Do you start?
+3. What is your strategy for winning?
+4. Is there any case where this does not work?"
+Question 1.55,"/_387 You have a chessboard (8 ×8) plus a big box of dominoes (each
+2×1). I use a marker pen to put an “X” in the squares at coordinates (1,1)
+and (8,8)—a pair of diagonally opposing corners. Is it possible to cover the
+remaining 62 squares using the dominoes without any of them sticking out
+over the edge of the board and without any of them overlapping? You must
+not damage the board or the dominoes in the process or do anything weird
+like standing them on their ends—just answer the question.10
+9Similarly, you could see questions on integrals (or derivatives) of sin θ, cos θ, tan θ, cot θ, and
+cosec θ.
+10Naoki Sato has suggested a follow-up question. Place an “X” on two squares: one black, and
+one white. Can you cover the remaining squares with dominoes? See Answer 1.55 for the solution.
+©2021 Timothy Falcon Crack 58 All Rights Reserved Worldwide"
+Question 1.56,"(***) You have 52 playing cards (26 red, 26 black). You draw
+cards one by one. A red card pays you a dollar. A black one ﬁnes you a
+dollar. You can stop any time you want. Cards are not returned to the deck
+after being drawn. What is the optimal stopping rule in terms of maximizing
+expected payoﬀ? Also, what is the expected payoﬀ following this optimal
+rule?11"
+Question 1.57,"One of my students interviewed with some folks who “wanted to
+get an idea of his comfort with formulae and with explaining things to clients. ”
+They asked why it is that if pis a prime number greater than 3, then p2−1
+is always divisible by 24 with no remainder."
+Question 1.58,"You are bidding Bfor a ﬁrm whose unknown true value is uni-
+formly distributed between 0 and 1. Although you do not know the true value
+Sof the ﬁrm, you do know that as soon as people learn that you have made
+ab i dt h i sn e w sw i l lc a u s et h ev a l u et od o u b l et o2 S.Y o u r b i d , h o w e v e r , w i l l
+be accepted only if it is at least as large as the original value of the ﬁrm. How
+do you bid so as to maximize your expected payoﬀ?"
+Question 1.59,"/_387 You have a string-like fuse that burns in exactly one minute.
+The fuse is inhomogeneous, and it may burn slowly at ﬁrst, then quickly, then
+slowly, and so on. You have a match, and no watch. How do you measure
+exactly 30 seconds?"
+Question 1.60,"/_387 You have two string-like fuses. Each burns in exactly one minute.
+The fuses are inhomogeneous, and may burn slowly at ﬁrst, then quickly, then
+slowly, and so on. You have a match, and no watch. How do you measure
+exactly 45 seconds?"
+Question 1.61,"/_387 How many places are there on the Earth where you can walk
+one mile south, one mile east, one mile north, and end up exactly where you
+started? Assume the Earth is a perfect sphere, that your compass bearing is
+constant on each leg of the walk, that all parts of the Earth are able to be
+walked upon, and that your feet are arbitrarily small."
+Question 1.62,"/_387 This is an absolute classic. A king demands a tax of 1,000 gold
+sovereigns from each of 10 regions of his nation. The tax collectors for each
+region bring him the requested bag of gold coins at year end. An informant
+tells the king that one tax collector is cheating and giving coins that are
+consistently 10% lighter than they should be, but he does not know which
+collector is cheating. The king knows that each coin should weigh exactly one
+ounce. How can the king identify the cheat by using a weighing device exactly
+once? (I have seen the same question asked with 10 pill bottles, nine of which
+have pills weighing 10g, but one of which has pills weighing 9g, and your task
+is to identify the bottle of light pills by using a weighing device exactly once.)
+11Try the same question with four cards (two red, two black).
+©2021 Timothy Falcon Crack 59 All Rights Reserved Worldwide"
+Question 1.63,"How many consecutive zeroes are there at the end of 100! (100
+factorial). For example, 12!=479,001,600 has two consecutive zeroes at the
+end."
+Question 1.64,"/_387 Again, an absolute classic. You hire a man to work in your yard
+for seven days. You wish to pay him in gold. You have one gold bar with
+seven parts—like a chocolate bar. You wish to pay him one gold part per day,
+but you may snap the bar in only two places. Where do you snap the bar so
+that you may pay him at the end of each day, and so that on successive days
+he may use what you paid him previously to make change?"
+Question 1.65,"/_387You have an array that contains 99 distinct integers from the set
+{1,2,3,...,100}.H o ww o u l dy o uw r i t eap r o g r a mt oﬁ g u r eo u tw h i c hi n t e g e r
+is missing?"
+Question 1.66,"/_387 Why are images in a mirror ﬂipped horizontally and not verti-
+cally? For example, although I wear my wristwatch on my left wrist, and my
+reﬂection wears his on his right wrist, my reﬂection is not standing on his
+head."
+Question 1.67,"(**) I am told this is a genuine ﬁnance interview question. It
+had to be a trading interview, because no one but a trader would ask this
+in an interview. I considered transforming the question, but left it as is for
+authenticity. Avert your eyes if you are easily oﬀended!
+How can three men and one woman have mutually safe heterosexual inter-
+course with just two condoms? Assume that no condom can break or leak,
+and that you cannot wash a used one.12"
+Question 1.68,"Consider a grid. You start at coordinate (0 ,0) and move one
+step at a time, eventually arriving at coordinate (5 ,5). With each step you
+may move only one step east or one step north but never diagonally. How
+many paths are there from (0 ,0) to (5 ,5)?"
+Question 1.69,"/_387 Six friends go out to lunch. The bill is $132.67. They decide to
+add a 20% tip and split the total six ways evenly. What does each person pay?"
+Question 1.70,"/_387You walk into a pizza shop. They sell three sizes of pizza: small,
+medium, and large. All are perfectly circular, have the same thickness, and
+have the same density of toppings. The price of a large pizza is equal to the
+price of a medium pizza plus the price of a small pizza: PL=PM+PS. You
+see a group of your friends already sitting in the pizza store and they have just
+had one of each size pizza delivered to their table plus they have been given
+one empty box to take any leftovers home in. Each of their pizzas has been
+pre-cut into (perfect) sixths. Their box is a (perfect) square. You are looking
+12With one man and three women, the answer is of similar type, but diﬀerent. This question also
+appears in Derman (2004, p. 104), which is probably how it drifted to Wall Street.
+©2021 Timothy Falcon Crack 60 All Rights Reserved Worldwide"
+Question 1.71,"Find all of the roots to the equation x6=6 4( i n c l u d i n gt h e
+complex roots)."
+Question 1.72,"Ap e n n yi sd r o p p e df r o mt h et o po ft h eE m p i r eS t a t eB u i l d i n g .
+At what speed does it hit the ground, and how long does it take to get there?"
+Question 1.73,"Please express the integral f(x)=/integr⎬ltext∞
+t=xe−at2
+2+btdtin terms of
+N(x)( i . e . ,t h ec u m u l a t i v es t a n d a r dn o r m a l ) ."
+Question 1.74,"What is lim x→∞/p⎬renleft⎜ig√
+x2+x−x/p⎬renright⎜ig
+?"
+Question 1.75,How do you diﬀerentiate xxwith respect to x?
+Question 1.76,"Following on from the previous question, what is the minimum
+ofxx? Please restrict your attention to x>0."
+Question 1.77,"/_387 You are seated at a table that has 100 quarters on it. You are
+told that there are 10 heads and 90 tails turned up. Unfortunately, the room
+is pitch black (or you are blindfolded) and you cannot see the quarters. You
+also cannot tell by touch which way up they are. So, how can you divide them
+into two piles so that you have the same number of heads in each pile?"
+Question 1.78,How would you write a computer program to estimate π?
+Question 1.79,"There are 12 people sitting around a perfectly round table that
+is marked out to look like the dial of an analog clock. The host is sitting at
+12 o’clock, and 11 guests are sitting at each hour from 1 o’clock to 11 o’clock,
+respectively. (In fact, the original question did not mention a clock, but I
+think it makes for a clear mental image.) The host holds a prize. He will
+pass the prize to someone seated next to him. Then that person will pass it
+to someone seated next to him, and so on. The host, or any guest, is equally
+likely to pass the prize clockwise or counter-clockwise. The last guest to touch
+the prize wins it. (That is, the 11th guest to lay hands upon the prize gets to
+keep it.) Which hour of the clock should you sit at to have the highest chance
+of winning the prize?"
+Question 1.80,What is a positive deﬁnite matrix?
+Question 1.81,"Following on from the previous question, in practice, how do
+you test whether a matrix is positive deﬁnite, without using any pre-canned
+routines?
+13In the original question the pizza was not cut, there was no box, but you had a knife. I retained
+the spirit of the question but modiﬁed it because it was not, strictly speaking, able to be solved.
+©2021 Timothy Falcon Crack 61 All Rights Reserved Worldwide"
+Question 1.82,"Suppose that f(x, y)=x3+y3−2xy.D o e st h i sf u n c t i o nh a v ea
+local maximum or a local minimum?"
+Question 1.83,"Three random variables have equal pairwise correlation ρ. What
+is the possible range of ρ?"
+Question 1.84,What is an integral?
+Question 1.85,"How do you use a Monte-Carlo simulation to evaluate
+E[g(X)] =/integr⎬ldispl⎬yx=+∞
+x=−∞g(x)fX(x)dx,
+where g(x) is a real-valued polynomial and X∼N(µ, σ2)?"
+Question 1.86,/_387 What is 29 ×29?
+Question 1.87,/_387 What is 43 ×43?
+Question 1.88,/_387 What is 21 ×19?
+Question 1.89,"/_387 There are three wooden barrels in the market. One contains
+apples only, one contains oranges only, and one contains both apples and
+oranges. Labels to this eﬀect are pinned to the barrels, but the labels have
+been mixed up so that no label correctly identiﬁes the contents of the barrel
+to which it is pinned. You can see the labels, but you cannot see inside, or feel
+inside, or smell inside, any barrel. You may ask for as many pieces of fruit as
+you want from any of the labeled barrels. What is the minimum number of
+pieces of fruit you can request, and from which barrel(s) should you request
+them, if your task is to re-pin the labels so that each label correctly identiﬁes
+the contents of its barrel?14"
+Question 1.90,"/_387 Is 112.5larger or smaller than 400? You must do this in your
+head. You are not allowed to use a calculator or pencil and paper."
+Question 1.91,"/_387 You are given that the lengths of two sides of a triangle are 5
+and 6. What is the approximate length of the third side?"
+Question 1.92,"/_387 You have two large blank-faced cubic dice and a marker pen.
+You are going to write a single-digit number on each face of each die so that
+you can display the two dice together on your desk to represent days of the
+month. You must use both dice. For example, (0 ,3) is the third of the month,
+(1,0) is the tenth of the month, (1 ,9) is the nineteenth of the month, and
+(3,1) is the thirty-ﬁrst of the month. You can swap the order of the physical
+dice if you need to (e.g., maybe you only want a 0 on one die, so that you can
+use it ﬁrst during the ﬁrst nine days of the month, but use it second on the
+tenth day of the month). What numbers do you put on each die?
+14I have also heard that this question was asked as a hot drink machine with three (mis)labels
+for “tea,” “coﬀee,” or “randomly tea or coﬀee. ”
+©2021 Timothy Falcon Crack 62 All Rights Reserved Worldwide"
+Question 1.93,"/_387Id on o th a v eat o a s t e r ,b u tIh a v eaf r y i n gp a nt h a tc a nh o l d
+three slices of bread if I use it to make toast. It takes one minute to toast one
+side of the bread in my pan. Each side of the bread has to be toasted, so I can
+make at most three slices of toast in two minutes. (You may ignore any time
+required to ﬂip the bread over.) How long will it take me to make four slices
+of toast?15"
+Question 1.94,"Consider a wire-frame 1 ×1 cube. Label one vertex as Aand the
+opposing vertex as B, as in Figure 1.3. How many non-self-intersecting paths
+lead from AtoB?( N o n - s e l f - i n t e r s e c t i n gm e a n st h a tap a t hm a yn o tt o u c ha
+vertex more than once.)
+A1
+2
+36
+4
+5B
+Figure 1.3: Graph of a Cube
+Note: We are asked to count non-self-intersecting (i.e., touching
+any vertex no more than once) paths that lead from AtoB."
+Question 1.95,Prove that there are inﬁnitely many prime numbers.
+Question 1.96,"Show that when given any positive integer n, there exists a se-
+quence of nconsecutive positive integers none of which is prime."
+Question 1.97,"/_387 Finally, can the mean of two consecutive prime numbers (e.g., 7
+and 11) ever be prime?
+15It was not asked by the interviewer, but can you ﬁnd a general formula M(n) that describes
+the minutes, M,r e q u i r e dt om a k e nslices of toast using this pan? Assume n≥2.
+©2021 Timothy Falcon Crack 63 All Rights Reserved Worldwide"

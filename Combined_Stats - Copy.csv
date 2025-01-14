@@ -1,0 +1,1591 @@
+,Question Number,Question,Number,Answer Number,Answer
+0,Question 4.1,"A breakfast cereal company gives away a free toy in each box of
+cereal. There are four diﬀerent toys. How many boxes do you expect to have
+to buy in order to get all four toys?",4.1,Answer 4.1,"Before giving an algebraic answer, I think you should have a guess.
+This shows that you can guess, and it gives you a baseline number to compare
+your algebraic answer with, which could produce a warning red ﬂag if you
+make a mistake with the algebra.
+Obviously, when you buy your ﬁrst cereal box, you get one of the four toys
+with probability one on that draw. As you acquire diﬀerent toys, however, the
+likelihood that you get the next one in only one draw falls. For example, by
+the time you already have three of the four toys, you only have one chance in
+four that the next draw will give you the fourth. So, the absolute minimum
+number of purchases required is four, but you could buy 100 boxes, and not
+get all four toys—though this latter outcome seems very unlikely. Weighing
+these odds up, my gut instinct is that it should take something like 10 draws
+on average to get all four toys.
+Now let us solve the problem algebraically. Consider ﬁrst the more general
+problem of having Ttoys. (As an aside, note that the answer we seek must
+also be the same as if we roll a T-sided die and we ask how many rolls do we
+expect to have to make in order to have seen all Tsides appear.)
+Let us give a simple recursion argument. Suppose that Tis the number of
+diﬀerent toys we seek. Let us suppose that we are currently attempting to
+get our tthtoy, having already found ( t−1) diﬀerent toys. We can immedi-
+ately see that the probability, ptthat we get the tthtoy in only one draw is
+[T−(t−1)]/T. For example, when seeking the ﬁrst toy, p1=1 ,a n dw h e n
+seeking the second toy, p2=(T−1)/T,a n ds oo n .
+LetNtbe the number of draws required to obtain the tthtoy, having already
+found ( t−1) diﬀerent toys. Then there is probability ptthat we get the tth
+toy in one draw, and probability (1 −pt)t h a tw eh a v et od r a wa g a i n . G i v e n
+independence of outcomes on diﬀerent draws, it follows that we have a simple
+recursion for E(Nt)g i v e nb y
+E(Nt)=pt·1+( 1 −pt)·[1 +E(Nt)].
+©2021 Timothy Falcon Crack 287 All Rights Reserved Worldwide"
+1,Question 4.10,"/_387 (**) Two sealed envelopes are handed out. You get one and
+your competitor gets the other. You understand that one envelope contains
+mdollars, and the other contains 2 mdollars (where mis unstated).3
+1.Ifyou peek into your envelope, you see $X. However, you do not know
+whether your opponent has $2 Xor $1
+2X.Without peeking ,w h a ti sy o u r
+expected beneﬁt to switching envelopes? What is your opponent’s ex-
+pected beneﬁt to switching envelopes (assuming your opponent sees $Y)?
+Should you switch? If you do, do you do it again for the same reason
+(assuming neither of you peeked)?
+2. Suppose that you both peek into your envelopes initially. What is the
+payoﬀ to switching? Should you switch? If you do, do you do it again
+for the same reason?",4.1,Answer 4.10,"This has been a very popular question. Assume that neither of
+you peek into your envelopes. Assume that you have $ Xin your envelope,
+where $ Xhas a ﬁfty-ﬁfty chance of being either $ mor $2 m.T h i sm e a n st h a t
+your opponent’s envelope has a ﬁfty-ﬁfty chance of containing $2 Xor $1
+2X.
+The expected value of switching is
+/p⎬renleft⎭igg1
+2×$2X/p⎬renright⎭igg
++/p⎬renleft⎭igg1
+2×$1
+2X/p⎬renright⎭igg
+=$ 1.25X.
+The expected beneﬁt of switching is, therefore, $0 .25X. On this basis, it looks
+as though you should switch envelopes. Of course, if your opponent does not
+peek, and she has $ Yin her envelope, exactly the same argument shows that
+she has an expected beneﬁt to switching of $0 .25Y.S o ,i tl o o k sa st h o u g hs h e
+should switch also. This is the ﬁrst part of the “Exchange Paradox”: it seems
+that you both beneﬁt from switching.
+Now, suppose that neither of you peek and that you do switch envelopes once.
+If you still do not peek, then a repeat of exactly the same argument suggests
+an expected beneﬁt of 0 .25 of the contents of your envelope if you switch again.
+The same applies to your opponent. This is the second part of the “Exchange
+Paradox”: it seems that you could happily switch forever (like a dog chasing
+its own tail). The foregoing is the naive answer.
+The problem is twofold: First, you are assuming that value is expected payoﬀ
+(this is so only if you are genuinely risk-neutral);8second, your “prior” beliefs
+8An aside is in order. In corporate ﬁnance, the present value of a projected random payout
+is the discounted expected cash ﬂow. The discounting is done at a rate that incorporates risk
+(e.g., using the CAPM), and the expectation is a mathematical one using real world probabilities
+(Brealey and Myers [1991]). An alternative to the real world expected cash ﬂow coupled with
+the risk-adjusted discount rate is a risk-neutral world expected cash ﬂow coupled with a riskless
+discount rate. The former is popular in corporate ﬁnance; the latter is popular in option pricing
+(see Arnold and Crack [2004] and Arnold, Crack and Schwartz [2009, 2010]). With no discounting
+(e.g., the envelope question), value is expected payoﬀ only if you are risk-neutral.
+©2021 Timothy Falcon Crack 297 All Rights Reserved Worldwide"
+2,Question 4.11,"They call this the “World Series” problem in the U.S. Sports
+teams “A” and “B” are to play each other until one has four wins and is
+declared the series winner. You have $100 to bet on Team A to win the
+series. You are, however, only allowed to bet on individual games, not the
+ﬁnal outcome directly, and, you must bet a positive amount on each game.
+So, if Team A wins the series, you must walk away with $200, but if Team A
+loses the series, you must walk away with zero, and you must do so having
+placed a non-zero bet on every game. Your best assessment is that Team A
+2If you were running this game, how much would you charge players for repeated plays of the
+game? Suppose instead an amended game is played: I roll a single die three times without pause,
+and the payoﬀ to the player is the maximum of the three rolls. What is the expected payoﬀ to
+the player? Can you tell up front whether the original or amended game has the higher expected
+payoﬀ?
+3This problem is over 40 years old and is known as the “Exchange Paradox. ”
+©2021 Timothy Falcon Crack 79 All Rights Reserved Worldwide",4.11,Answer 4.11,"This is a very common question and has been in use since at least
+1990. Well, the ﬁrst thing to notice is that you are trying to replicate a $100
+bet on Team A to win the series and you are doing this via a series of small
+bets. At each step, there are two possible outcomes: Team A wins, or Team A
+loses. With replication, time steps, and binomial outcomes, the obvious thing
+to do is build a lattice for a replicating strategy (see Figure D.1). To deduce
+the betting strategy in Figure D.1, I ﬁrst drew the lattice and identiﬁed the
+boundary nodes at which the game must end (marked with large dots). You
+start with $100 in wealth. In the case where Team A has won four games,
+you must end up with an accumulated wealth of $200 through $100 in betting
+proﬁts; In the case where Team B has won four games, you must end up with
+an accumulated wealth of $0 through $100 in betting losses. It is simple to
+step back from each pair of ending nodes (starting with the right-most pair)
+to deduce how much you must bet in each case (working back to $31.25 on
+the ﬁrst game) in order to end up replicating the payoﬀs at the boundary. If
+you follow this betting strategy, you are guaranteed to replicate the payoﬀ to
+betting $100 on Team A to win the series. The given probabilities are “red
+herrings” because you do not need any probabilities, physical world or risk-
+neutral, to solve this problem. Note, ﬁnally, that I have assumed that you
+earn no interest on your wealth."
+3,Question 4.12,"You have three children, but only one apple. You want to toss
+a fair coin to determine which child gets the apple. You want each child to be
+equally likely to get the apple. What is your strategy?",4.12,Answer 4.12,"There are many different possible answers; I give only two. Toss
+the coin twice. If you get HT, give the apple to the first child. If you get TH,
+give the apple to the second child. If you get HH, give the apple to the third
+child. If you get T T, then start again. This effectively takes T T out of the sample space.
+
+A second solution is to toss the coin three times and assign the outcomes to the
+three children. Let T win. If one child beats the other two (i.e., the outcome
+is some permutation of {T, H, H}), then give the apple to the child who was
+allocated the T. Otherwise, toss three more times. This is isomorphic to a
+tournament where each child competes against each other child until one child
+beats both others."
+4,Question 4.13,"You have three children, but only one apple. You want to toss
+a fair coin to determine which child gets the apple. You want each child to be
+equally likely to get the apple. What is your strategy? What is the expected
+number of tosses needed to complete this strategy?",4.13,Answer 4.13,"If you toss the coin twice and
+getTT,t h e ny o uh a v et os t a r ta g a i n . T h e r ei st h u sac h a n c et h a ty o uw i l l
+take more than 2 tosses to complete the strategy. We can use a recursion to
+ﬁnd the expected number of tosses. Let Nbe the number of tosses required,
+then there is a three quarter chance that Nwill be 2, but a one-quarter chance
+that you have to start again (in the TToutcome). Thus E(N)=/⎭r⎬cketleft⎜ig
+3
+4·2/⎭r⎬cketright⎜ig
++/⎭r⎬cketleft⎜ig
+1
+4·(2 + E(N))/⎭r⎬cketright⎜ig
+=2+E(N)
+4. Simple algebra now yields E(N)=8
+3=22
+3.
+
+Alternatively,11 consider each double-toss as a Bernoulli trial with probability
+of success p = 3/4 (i.e., we have a success if anything but a T T occurs). Then
+the geometric distribution fX(x) = P(X = x) = p � qx?1 for x ? 1 counts the
+number of trials up to and including the first success (Spiegel, 1975; Evans et
+al., 1993). We have E(X) = 1/p = 4/3, and thus E(N)=2 � E(X) = 8
+3 , as
+before.
+From my second answer in Answer 4.12: We will need at least three tosses in
+this case, but there are five chances in eight that we will need more than three
+tosses. Using a recursive argument similar to that above, we figure that the
+expected number of tosses in this case is E(N) = 8.
+©2021 Timothy Falcon Crack 299 All Rights Reserved Worldwide"
+5,Question 4.14,"You have three children, but only one apple. You want to toss
+a fair coin to determine which child gets the apple. You want each child to be
+equally likely to get the apple. You have a fair
+coin and you want to simulate an event that has probability 1/3, and an
+event that has probability 2/3. How do you do it?",4.14,Answer 4.14,"To simulate an event with probability 1/3 using a fair coin, toss
+the coin twice. If you get HH, let that be your event with probability 1/3.
+If you get HT or TH, let that be your event with probability 2/3. If you get
+T T, then ignore it, and toss twice again. By removing T T from the sample
+space, the outcomes are restricted to three equally likely possibilities."
+6,Question 4.15,"What is the expected number of tosses of an unfair coin needed
+to get two heads ( HH) in a row (assume probability pof a head)? Same
+question with three heads ( HHH )i nar o w .",4.15,Answer 4.15,"Start with a simple case ﬁrst: What if you only need the expected
+number of tosses required to get onehead? Let Nbe the number of coin
+tosses, then we want to ﬁnd E(N|1H) (expected number of tosses given that
+you seek only one head). Toss the coin once. Either you get a head (with
+probability p)o ry o ug e tat a i l .I fy o ug e tat a i l ,t h e ny o ua r er e c u r s i v e l yb a c k
+where you started. That is, there is probability pthat N=1 ,a n dp r o b a b i l i t y
+1−pthat you still have E(N|1H)t o s s e st og oa f t e rt h eo n ey o ua l r e a d yt o s s e d .
+In other words,
+E(N|1H)=( p·1) + (1 −p)·[1 +E(N|1H)].
+Solving for E(N|1H)g i v e s E(N|1H)=1
+p.C h e c k :t h eh i g h e ri s p,t h el o w e ri s
+E(N|1H), and when p=0.50 (a fair coin), E(N|1H) = 2, all of which seems
+reasonable.
+Now consider the case of two heads in a row. Well, to get two heads in a
+row, you ﬁrst need one head “in a row,” which requires the expected1
+ptosses
+just calculated. If you have this one head already, then there is probability
+pthat your next toss will be a head, and probability (1 −p)t h a ty o ua r e
+back where you started having performed E(N|1H)p l u so n et o s s e sa l r e a d y .
+In other words,
+E(N|2H)= p·[E(N|1H)+1 ]+( 1 −p)·[E(N|1H)+1+ E(N|2H)]
+=E(N|1H)+1+( 1 −p)·E(N|2H).
+This last line implies that
+E(N|2H)=E(N|1H)+1
+p=1+p
+
+In the case of a fair coin, this gives E(N|2H) = 6. Exactly the same reasoning
+in the case of three heads in a row leads us to
+E(N|3H) = E(N|2H)+1
+p = 1 + p + p2
+p3 .
+In the case of a fair coin, this gives E(N|3H) = 14. It should be clear that
+there is a pattern: in the case of J heads in a row,
+E(N|JH) =
+%i=J?1
+i=0 pi
+pJ .
+This can be proved formally using numerical induction if you wish.
+p2.
+11It h a n kM a r kC a w s t o nf o rd i s c u s s i o n sr e g a r d i n gt h i sa n s w e r ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 301 All Rights Reserved Worldwide"
+7,Question 4.16,"You are tossing a fair coin and writing down the outcomes. What
+is the probability that you will see the sequence HTH before you see the
+sequence HHT ?",4.16,Answer 4.16,"When repeatedly tossing a fair coin, what is the probability that
+you will see the sequence HTH before you see the sequence HHT ?
+At ﬁrst blush, you might say that with a fair coin and equally likely outcomes,
+and independent tosses, any of the eight possible triplets is as likely as any
+other, and so the answer is 50%. Although any triplet is equally likely in three
+tosses, it does not necessarily follow that you are equally likely to see any one
+triplet before another in repeated tosses. This is because one outcome can
+prevent another outcome.
+For example, suppose we had been asked how likely it is that we will see
+triplet HHH before triplet THH .I nt h i sc a s e ,t h eo n l yw a yt h a ty o uw i l ls e e
+HHH before THH ,i si ft h eﬁ r s tt h r e et o s s e sa r eh e a d s ,w h i c hh a p p e n sw i t h
+probability one eighth. If you see anything other than three heads in the ﬁrst
+three tosses, then THH must occur before HHH .T h i si sb e c a u s ee a c ho ft h e
+other seven triplets includes a T, and once you have seen a T, you only need
+to see the ﬁrst two Hso fHHH to see THH . So, seeing a Tprevents you
+from seeing HHH before THH .
+For the case in hand, how likely are you to see HTH before HHT ? Well, both
+triplets need an Hto get started. So, we can completely ignore any outcome
+until we get an H. For this reason, my tree in Figure D.2 starts with an H.
+Now the argument is quite simple. If there is a second H(i.e., the upper
+branch of the ﬁrst fork), then HHT must “win” (i.e., occur ﬁrst) eventually.
+The only way that HHT would not win is if there were an inﬁnite sequence
+ofHs—which happens with probability zero.
+If the ﬁrst His followed by a T(i.e., the lower branch of the ﬁrst fork in
+Figure D.2), then either the next toss is an H,a n d HTH wins, or the next
+toss is a T,a n dw er e s t a r tt h eg a m e .
+Given that the lower branch of the second fork restarts the game, we can
+treat this outcome as if it is not in the sample space at all. This is perfectly
+analogous to Answer 4.12, where we tossed a coin twice to give an apple to
+one of three children with equal probability, but we restarted the game if TT
+occurred.
+
+So, removing the lower branch of the second fork from the sample space leaves
+us only with HHT being twice as likely to win as HTH. Grossing up the probabilities gives HHT a 2/3 probability of winning and HTH a 1/3 probability
+of winning.
+©2021 Timothy Falcon Crack 302 All Rights Reserved Worldwide"
+8,Question 4.17,"You are tossing a fair coin and writing down the outcomes. What
+is the expected number of tosses needed to obtain the outcome HTH ?",4.17,Answer 4.17,"When tossing a fair coin, the number of tosses, N, needed to
+obtain the outcome HTH is a random variable. What is E(N)? This question
+diﬀers from the previous question in two ways. First, we are counting tosses
+here, rather than focusing solely on probability of outcomes. So, we need to
+count the tosses needed to get that ﬁrst Hin this case. Second, there is no
+competition between triplets vying for their ﬁrst appearance. So, no outcome
+prevents us from eventually getting HTH .
+In Figure D.3 I have repeated the tree from Figure D.2, but I have added the
+earlier fork needed to get the ﬁrst H. We now look at Figure D.3 and use
+ar e c u r s i v ea r g u m e n tt w i c e . W i t h Nas the number of tosses needed to get
+HTH ,w el o o ka tp r o b a b i l i s t i co u t c o m e so nt h eﬁ r s tf o r ko ft h et r e e . I fw e
+toss a Tﬁrst, then we have burned one toss, and we restart again with E(N)
+additional tosses expected. So, an initial Toutcome gives a half a chance that
+we take [1 + E(N)] tosses. If, instead, we toss an initial H,t h e nw eh a v e
+burned one toss, and we now need to ask what is E(X|H), where X|His the
+count of ex tra tosses required conditional upon having obtained the initial H.
+12More formally, we are rescaling the probabilities in the tree by dividing them through by
+P(¬HTT )=3 / 4 . S o ,f o re x a m p l e , P(HHT |¬HTT )=P(HHT ∩¬HTT )
+P(¬HTT )=1/2
+3/4=2
+3,w h e r e ¬is the
+logical not symbol.
+©2021 Timothy Falcon Crack 303 All Rights Reserved Worldwide"
+9,Question 4.18,"/_387 You and I are to play a game. You roll a die until a number
+other than a one appears. When such a number appears for the ﬁrst time, I
+pay you the same number of dollars as there are dots on the upturned face of
+the die, and the game ends. What is the expected payoﬀ to this game?",4.18,Answer 4.18,"This is elementary statistics, and one of the easiest questions in
+this book. The rules of the game have eﬀectively removed the 1 from the
+sample space (i.e., the collection of possible outcomes). It follows that there
+are ﬁve possible outcomes (2 to 6), and each is equally likely. The expected
+outcome is simply/summ⎬tiontexti=6
+i=2i
+5=$ 4.
+To do the sum in your head, remember that the dots on the opposing faces of
+the die add to seven. The sum must be three times seven, less one to give 20.
+Now divide by ﬁve to get the expected payoﬀ of $4."
+10,Question 4.19,"You are dealt exactly two playing cards from a well-shuﬄed stan-
+dard 52-card deck. The standard deck contains exactly four Kings. What is
+the probability that both of your cards are Kings?
+Story: It is many years ago now, but I know of a well-qualiﬁed MIT student
+who got a job oﬀer of $X from a well-known ﬁrm (a good oﬀer at that time).
+He declined, telling them that they had misjudged him. They called him
+back a couple of days later and oﬀered him $ X×1.67 instead! Amazing! He
+took the job.",4.19,Answer 4.19,"The naive answer is that the probability is just2
+52≈4%. This
+is incorrect. There are four chances that the ﬁrst card dealt to you (out of a
+deck of 52) is a King. Conditional on the ﬁrst card being a King, there are
+three chances that the second card dealt to you (out of the remaining deck of
+51) is a King. Conditional probability says that
+P(Both are Kings) =
+P(Second is a King |First is a King) ×P(First is a King)
+where “ |”i sr e a da s“ c o n d i t i o n a lu p o n , ”o r“ g i v e n . ”T h i si sas p e c i a lc a s eo f
+the more general conditional probability result:
+P(A∩B)=P(A|B)×P(B)
+Thus, P(Both are Kings) =3
+51×4
+52=1
+17×1
+13=1
+221≈0.5%. Therefore, you
+have roughly one chance in 200 of getting exactly two Kings dealt to you.13
+Iw i s hy o ut oa v o i dac o m m o nf o r mo fc o n f u s i o n . P l e a s en o t et h a ta l t h o u g h
+you multiply probabilities to get the answer, and such multiplication is often
+done when dealing with independent events, the events here (King on ﬁrst
+13I thank Arta Babaee for pointing out that this answer is identical to/p⎬renleft⎭ig4
+2/p⎬renright⎭ig/sl⎬sh⎭ig/p⎬renleft⎭ig52
+2/p⎬renright⎭ig
+=4!/(2!2!)
+52!/(2!50!)=
+4
+52×3
+51.T h a ti s ,o fa l lp o s s i b l ep a i r so fc a r d sy o um i g h tb ed e a l t ,h o wm a n yw a y sa r et h e r et og e t
+a pair of kings.
+©2021 Timothy Falcon Crack 305 All Rights Reserved Worldwide"
+11,Question 4.2,"Suppose we draw two random numbers XandYeach distributed
+uniform on the interval [0 ,1]. If XandYare independent, what is the prob-
+ability that their product is greater than 1/2?",4.2,Answer 4.2,"Imagine the surface f(x, y)=x·yplotted above the unit square.
+We need to ﬁnd the area of that part of the domain where f(x, y)=x·y>1/2.
+If we project this down onto the x–yspace, we need only ﬁnd the area within
+the unit square above the isovalue curve x·y=1 / 2 . T h a ti s ,w en e e dt h e
+area within the unit square that is above y=1 / ( 2 x).
+Aq u i c ks k e t c hs h o w st h a tt h i sa r e ai so n l yi nt h et o p - r i g h tq u a r t e ro ft h e
+unit square. Given the function’s concavity, the area must be slightly greater
+than one-half of one-quarter of one. So, my initial ballpark guess is a number
+slightly greater than 0.125.
+©2021 Timothy Falcon Crack 288 All Rights Reserved Worldwide"
+12,Question 4.20,"/_387 (**) This is one version of the famous “Let’s Make a Deal” or
+“Monty Hall” game show question. It is your turn to be on a weekly game
+show. There are three doors. You know that there is a prize behind one of
+them, and nothing behind the other two. The game show host tells you that
+you shall receive whatever is behind the door of your choice. However, before
+4In similar vein, suppose you had two children, one apple, and a biased coin. How do you use
+the biased coin to fairly pick which child gets the apple?
+©2021 Timothy Falcon Crack 80 All Rights Reserved Worldwide",4.2,Answer 4.20,"The “Let’s Make a Deal” or “Monty Hall” problem is very fre-
+quently asked. Many people ﬁnd it very diﬃcult.
+Assume that you choose Door 3. The host opens Door 2 and oﬀers you the
+chance to switch to Door 1. Should you do it? If you have decided that it
+does not matter whether you switch doors or not (indiﬀerence), or that you
+should deﬁnitely not switch (aversion), then you should go back and think
+again before reading any further. Stop here and try again.
+Let me begin with very simple intuition. My experience, however, is that
+many readers cannot accept the simple intuition, and for them I provide a
+formal proof using Bayes’ Theorem.
+SIMPLE INT UIT ION
+Assume for a moment that you have already decided that you will switch
+doors. What then is the probability that you will ﬁnd the prize behind the
+door you switch to? Well, you win the prize if you originally chose one of the
+two doors that has nothing behind it. In that case, the host shows you the
+other empty door, and switching yields the prize. So, the problem reduces to
+ﬁguring the probability that you originally chose one of the two doors that
+has nothing behind it. That unconditional probability is just two thirds by
+construction. You thus have probability two thirds that you win by switching
+and one third that you lose by switching. So, you should switch!14
+FORMAL BAYES′TH EO R EM P R O O F
+If you are to play this game repeatedly, two-thirds of the time you proﬁt by
+switching, and one-third of the time you lose by switching. Let Bkdenote the
+14I thank Jun Chung for this simple argument; any errors are mine.
+©2021 Timothy Falcon Crack 306 All Rights Reserved Worldwide"
+13,Question 4.21,"(**) Now we will ask you the same question as the previous
+one, except that when it comes time for the host to reveal an empty door,
+he instead selects someone from the audience who chooses randomly and by
+chance chooses a door that is revealed to be empty. Should you switch?
+Note: There are two ways to interpret this question. You could assume that
+the game can be played repeatedly with an audience member always revealing
+ad o o rt ob ee m p t y ,o ry o uc o u l da s s u m eao n e - o ﬀg a m ew h e r et h ea u d i e n c e
+member (ignorant of the prize’s location) just happens to have chosen an
+empty door. Try answering both.
+Story: A student interviewing with a top bulge bracket ﬁrm was asked how
+he would move Mount Fuji. One of my colleagues suggested the answer “Call
+Mohammed. ”",4.21,Answer 4.21,"There are two interpretations. If we assume that the game can
+be played repeatedly with an audience member always revealing a door to
+be empty, then we must also assume that the audience member knows the
+location of the prize. Otherwise, how can he or she always reveal an empty
+door in repeated play? In this case, if we make the same uniformly random
+assumptions about prize placement and empty doors revealed as in the previ-
+ous question, then the audience member is, in eﬀect, wearing the host’s hat,
+and the argument is the same as in the previous question: You should always
+switch.
+Suppose instead that the host of this week’s show has, just for a one-oﬀ special
+occasion (his 60th birthday, say), decided to let an audience member (who is
+ignorant of the prize’s location) reveal another door. Suppose it just happens
+to turn out to be empty. We cannot now talk about a frequentist approach and
+repeated plays of the game because in repeated plays, the audience member
+would reveal the prize one third of the time, and that is not the situation
+we ﬁnd ourselves in. The ignorant audience member has, on this occasion,
+just happened to show us an empty door. The audience member has blindly
+removed one door from the sample space, and we have a 50/50 chance of
+winning (and also of losing) if we switch. We are therefore indiﬀerent.
+©2021 Timothy Falcon Crack 308 All Rights Reserved Worldwide"
+14,Question 4.22,"You are presented with two empty jars and 100 marbles on a
+table. There are 50 white marbles and 50 black marbles. You are to put all
+100 of the marbles into the two jars in any way you choose. I will then blindfold
+you. I will shake the jars up to ensure good mixing, and I will rearrange the
+placing of the jars on the table so that you do not know which one is which.
+You may then request either the “left-hand” or the “right-hand” jar. You get
+to choose exactly one jar, you are allowed to withdraw at most one marble
+from the jar, and you do not get a second chance if you are unhappy with your
+choice.
+5You can imagine variations of the problem where the host is not required to open another door
+if doing so helps you, or where he does not open doors with equal likelihood. The solution may
+diﬀer in those cases.
+©2021 Timothy Falcon Crack 81 All Rights Reserved Worldwide",4.22,Answer 4.22,"This question is solved most eﬃciently by trying a few possible
+combinations, not by some time-consuming feat of constrained linear opti-
+mization. You should begin with extreme distributions, or with symmetrical
+distributions. It is in the extremes or in symmetry that solutions to such
+problems usually lie.
+The probability of selecting a white marble is maximized (at almost3
+4)b y
+placing one white marble in one jar and the remaining 99 marbles in the
+other. The probability of selecting a white marble is minimized (at1
+4)b y
+placing all 100 marbles in one jar (assuming you do not get a second chance
+if the jar you choose is empty). If zero marbles in one jar is not an acceptable
+answer to you, then you minimize the probability of a white marble (at just
+over1
+4)b ym a x i m i z i n gt h ep r o b a b i l i t yo fab l a c ko n e .T h a ti s ,p u to n eb l a c k
+marble in one jar and the remaining 99 marbles in the other."
+15,Question 4.23,"(***) Your name is Mr. 10. You are standing in a ﬁeld with
+two opponents: Mr. 30 and Mr. 60. Each of you has a gun and plenty of
+ammunition. Each of you is in clear sight of the others and well within ﬁring
+range. The goal is to maximize the probability of survival. Unfortunately, you
+are not a very good shot. If you take a shot at one of your opponents, you
+have only a 10% chance of killing him. Mr. 30 is a better shot; he has a 30%
+chance of killing whomever he shoots at. Mr. 60 is even better; he has a 60%
+chance of killing his target. You take turns shooting in a pre-arranged order:
+ﬁrst you, then Mr. 30, then Mr. 60, and then through this cycle again and
+again until only one person remains.
+You get to shoot ﬁrst. At whom, if anyone, do you shoot?7",4.23,Answer 4.23,"This is a tough “game theory” problem. Early editions of my
+book included a full and formal solution to this problem. It was more than
+ﬁve pages long and far too detailed. I have now cut my answer down to bare
+bones key issues only.15
+Mr. 30 and Mr. 60 are going to shoot at each other because they do not see
+you as an immediate threat; you do not die ﬁrst because Mr. 60 and Mr. 30
+are shooting it out; you do not want to be put into a shoot-out where your
+opponent is a very good shot and gets to shoot ﬁrst; if Mr. 30 gets to shoot
+before Mr. 60, it is less likely that you end up facing Mr. 60 than if Mr. 60
+gets to shoot ﬁrst, so you shoot in the air; if the direction of play is reversed,
+and Mr. 60 gets to shoot before Mr. 30, then you should help out Mr. 30 (and
+yourself) by shooting at Mr. 60 also, otherwise, leave it to Mr. 30; the cost
+of stepping in and shooting at Mr. 60 is that if you hit Mr. 60, you lose your
+chance to shoot ﬁrst in the ﬁnal shootout with Mr. 30; the beneﬁt of stepping
+in and shooting at Mr. 60 is that you increase the likelihood of your facing
+Mr. 30 rather than Mr. 60 in the ﬁnal shoot-out; there is a delicate balance
+between leaving it to Mr. 30 and stepping in to help him out, and it changes
+with the direction of play. Finally, there is a slim chance that everyone shoots
+at the sky, but this requires some sort of cooperation."
+16,Question 4.24,"Basketball! Your team is down two points, you are the best
+player, and you have the ball. There are only a few seconds left before the
+buzzer. You can take a shot from three-point land or move up and take one
+from two-point land. Historically, you have a 40% probability of getting the
+shot in from three-point land and a 70% probability of getting the shot in from
+two-point land.
+Should you try for the three-point shot (a certain win if you make it), or
+should you try for the two-point shot? Note that a two-pointer produces a tie
+and puts you into overtime. We assume your team has a ﬁfty-ﬁfty chance of
+winning in overtime.",4.24,Answer 4.24,"If you take the three-point shot, you have a 40% chance of winning.
+If you take the two-point shot, you have a 70% chance of a tie, and conditional
+on a tie you have a 50% chance of winning in overtime. Informally, the proba-
+bility of winning if you take the two-point shot is thus 70% multiplied by 50%,
+which is 35%. This is lower than for the 40% for the three-point shot, so you
+should take the three-pointer.
+More formally, let “ W”d e n o t ew inning, let “2” denote taking the two-point
+shot, let “ T”d e n o t es i n k i n gt h et w o - p o i n t e ra n dg e t t i n gat ie, and let “ TC”
+15It h a n kO l i v i e rL e d o i tf o rt h i ss o l u t i o nt e c h n i q u e ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 309 All Rights Reserved Worldwide"
+17,Question 4.25,"Iw i l ls p i naf a i rr o u l e t t ew h e e lw i t ho n l yﬁ v es e c t i o n s . F o u ro f
+the ﬁve sections pay $1; the ﬁfth pays $5.
+1. If the cost is $1.50 per spin, and you may play as often as you want,
+should you play the game?
+2. If the cost is $1.50 per spin, and you may play exactly once, should you
+play the game?",4.25,Answer 4.25,"This is one of the easier problems. If the cost is $1.50 per spin, and
+you may play as often as you want, then yes, you should play. The expected
+payoﬀ is $1.80 per spin (/summ⎬tiontexti=5
+i=1Payoﬀi×1
+5=$ 1.80). If you can play as often as
+you want, you are risk-neutral (in the long run, your average payoﬀ will equal
+the expected payoﬀ), and you expect to make $0.30 per spin on average.
+If you get only one spin, then whether you play or not depends upon whether
+the expected $0.30 gain is suﬃcient to compensate you for the risk of losing
+$0.50 (the $1.50 cost less the $1.00 worst possible payoﬀ). With amounts
+this small, you would probably take the bet. It is like spending $1.50 on a
+lottery ticket—it is too small to care about. If the numbers were larger, say
+everything multiplied by one billion, and if your job is lost if you lose, then
+you are signiﬁcantly more risk-averse, and your boss would not want you to
+take the bet."
+18,Question 4.26,"If you like gambling and you like betting on the outcome of sports
+matches, then you may like the “parlay card. ” A parlay card lets you bet on
+the outcomes of more than one match. In order to win a parlay bet, you must
+be correct on each of the matches you bet upon. Parlay cards oﬀer big payoﬀs
+if you are right on every match (some even oﬀer a payoﬀ for “almost wins”).
+6Can you answer the same question except that you are to minimize the probability of a white
+marble? Does minimizing the probability of a white marble maximize the probability of a black
+one?
+7Does the answer change if the order is ﬁrst you, then Mr. 60, then Mr. 30, then you, and so
+on?
+©2021 Timothy Falcon Crack 82 All Rights Reserved Worldwide",4.26,Answer 4.26,"Assuming no special information on your part, each sports match
+presents a ﬁfty-ﬁfty chance of winning. Assuming each match is independent
+of each other, then winning is analogous to tossing a fair coin four times in
+ar o wa n dt r y i n gt og e tf o u rh e a d s . T h i sp r o b a b i l i t yi so n l y/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig4=1
+16.T h e
+odds of winning are thus much worse than the odds oﬀered by the bookie, and
+you should not play unless you are a risk-seeker. If the odds were raised to
+25-to-1, this would be an attractive bet."
+19,Question 4.27,"What is the standard deviation of (1 ,2,3,4,5)?",4.27,Answer 4.27,"This is a simple question, but, strictly speaking, it is not well
+posed. You cannot ask for “the standard deviation of (1 ,2,3,4,5)” without
+supplying further information. You should ask the interviewer which of the
+following cases he or she means. The ﬁrst solution assumes we have drawn a
+sample and we are estimating the population parameter. The second solution
+assumes we are dealing with the full sample space and we are calculating the
+true population parameter.
+FIRST SOLUT ION
+Perhaps the interviewer wants the standard deviation of these numbers assum-
+ing they are a sample drawn from some data generating process. In that case,
+we need to know whether they are sampled independently of each other and
+whether the process is stable. If not, the answer can be quite diﬃcult. So, let
+us assume that the observations are independent and identically distributed.
+We can ﬁnd the sample standard deviation with and without a small sample
+adjustment. The sample standard deviation without adjustment is just the square root of
+the average of the sum of squared deviations from the mean. The mean is 3.
+So, we get �? =
+?1
+5
+%i=5
+i=1(i ? 3)2 =
+?10
+5 = ?2 ? 1.4142. I expect you to know
+?2 to four decimal places.
+If we use the small sample adjustment,16 where we divide by N ?1, we instead
+get �? =
+?10
+4 = ?2.5.
+SECON D SOLUT ION
+Perhaps the interviewer wants us to assume that (1, 2, 3, 4, 5) is the full sample
+space of possible outcomes for a random variable, and that each is equally
+likely. That is, a uniform discrete distribution from 1 to 5. In that case, the
+standard deviation is just the square root of the expected squared deviation
+from the mean, with the outcomes weighted by true probabilities.
+The mean of (1, 2, 3, 4, 5) is 3. The squared deviations are 4, 1, 0, 1, 4,
+each with probability 1
+5 . The expected squared deviation is 2. The standard
+deviation is thus ?2 ? 1.4142.
+"
+20,Question 4.28,"/_387 Welcome to your interview. Sit in this chair. Excuse me while
+It i ey o u ra r m sa n dl e g st ot h ec h a i r . T h a n ky o u . N o ww ea r eg o i n gt op l a y
+“Russian roulette. ” I have a revolver with six empty chambers. Watch me as
+Il o a dt h ew e a p o nw i t ht w oc o n t i g u o u sr o u n d s( i . e . ,t w ob u l l e t ss i d e - b y - s i d ei n
+the cylindrical barrel). Watch me as I spin the barrel. I am putting the gun
+against your head. Close your eyes while I pull the trigger. Click! This is your
+lucky day: you are still alive! Our game diﬀers from regular Russian roulette
+because I am not going to add any bullets to the barrel before we continue,
+and I am not going to give you the gun.
+My question for you: I am going to shoot at you once more before we talk
+about your resume. Do you want me to spin the barrel once more, or should
+Ij u s ts h o o t ?9",4.28,Answer 4.28,"Given that no shot was ﬁred on the ﬁrst pull of the trigger, there
+are four possible states of the world corresponding to where the ﬁring pin
+struck most recently (as indicted in Figure D.4). If I do not spin the cylin-
+2
+3
+41
+Figure D.4: Russian Roulette: Revolver Cylinder
+Note: The revolver cylinder is shown with two contiguous rounds
+and four empty chambers. A direction of spin is indicated; it diﬀers
+for diﬀerent revolver models, but does not change the conclusion.
+der, only the ﬁrst possible state of the world has fatal implications for you
+(i.e., there is only one chance in four of not having to discuss your CV). If I
+spin the cylinder before I pull the trigger again, however, then both live rounds
+16Note that Bessel’s correction (i.e., to divide by N−1 instead of N) gives us an unbiased variance
+estimator, E(ˆσ2)=σ2,w h e nt h es a m p l ei si n d e p e n d e n ta n di d e n t i c a l l yd i s t r i b u t e d .N o t e ,h o w e v e r ,
+that the standard deviation estimator is still biased (see further discussion in Crack [2020b]).
+©2021 Timothy Falcon Crack 311 All Rights Reserved Worldwide"
+21,Question 4.29,"You have a large jar containing 999 fair pennies and one two-
+headed penny. Suppose you pick one coin out of the jar and ﬂip it 10 times
+and get all heads. What is the probability that the coin you chose is the
+two-headed one?",4.29,Answer 4.29,"Before we look at the formal math, let’s use some informal intu-
+ition. There is one chance in a thousand (unconditionally) that you plucked
+the two-headed coin (which would certainly explain 10 heads in a row). There
+is also about one chance in a thousand that a fair coin would give 10 heads
+in a row (because/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig10=1
+1024≈1
+1000). Looking at the event (10 heads), I’d
+have to say that the coin is roughly equally likely to be two-headed or fair.
+Now turn to the formal math – a direct application of Bayes’ Theorem. Let
+“TH”d e n o t et h ee v e n tt h a ty o u rc o i ni st h et w o - h e a d e do n e . L e t“ 1 0 H”
+denote the event that you toss one of the pennies and get 10 heads. Let Xc
+denote the complement of an event X.T h e n
+P(TH|10H)=P(TH∩10H)
+P(10H)
+=P(10H|TH)P(TH)
+P(10H|TH)P(TH)+P(10H|THc)P(THc)
+=1×1
+1000/⎭r⎬cketleft⎜ig
+1×1
+1000/⎭r⎬cketright⎜ig
++/⎭r⎬cketleft⎭igg/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig10×999
+1000/⎭r⎬cketright⎭igg≈1
+2,
+where I used the facts that 210=1 0 2 4 ≈1000, and999
+1000≈1. So, given the 10
+heads, you have about a half a chance that you have the two-headed coin—as
+per our intuition."
+22,Question 4.3,"Suppose that X∼N(µ, σ2)( i . e . , Xis normally distributed with
+mean µand variance σ2). Please write down the pdf fX(x)o fX. Where does
+the constant factor in the pdf come from?",4.3,Answer 4.3,"IfX∼N(µ, σ2),then fX(x)=1√
+2πσe−1
+2(x−µ
+σ)2
+.I n m y e x p e r i e n c e ,
+the most common error is to leave the σout of the denominator of the initial
+term. The constant factor ensures that the pdf integrates to 1."
+23,Question 4.30,"/_387 Four cards are shuﬄed and placed face down in front of you.
+Their faces (hidden) display the four elements: water, earth, wind, and ﬁre.
+You are to turn the cards over one at a time until you either win or lose. You
+win if you turn over water and earth. You lose if you turn over ﬁre. What is
+the probability that you win?
+Story: “In his ﬁrst meeting with me, a candidate made himself a little
+toocomfortable. Not only did he liberally pepper his conversation with
+profanities, he also pulled his chair right up to the edge of my desk and
+started examining papers and knickknacks. ”
+Nina Proct
+Martin H. Bauman Associates, New York
+“Doomed Days: The Worst Mistakes Recruiters Have Ever Seen,”
+The Wall Street Journal ,F e b r u a r y2 5 ,1 9 9 5 ,p R 4 .
+Reprinted by permission of The Wall Street Journal
+©1995 Dow Jones and Company, Inc.
+All Rights Reserved Worldwide.
+8Should you take the bet if the odds are 25-to-1?
+9Edward O. Thorp, when discussing gambling roulette, mentions as an aside that when playing
+Russian roulette, the eﬀect of gravity on the bullet(s) will inﬂuence the position of the revolver’s
+cylinder (Thorp, 2017, p. 126–127). Please ignore this eﬀect here.
+©2021 Timothy Falcon Crack 83 All Rights Reserved Worldwide",4.3,Answer 4.30,"You win with probability 1 /3. Wind is eﬀectively absent from the
+sample space—it does not aﬀect your chances of winning or losing. You lose
+with probability 1 /3a tt h eﬁ r s tt u r n . Y o ut h u sh a v eo n l ya2 /3 possibility
+of even getting to turn a second card. If you do get to turn the second card,
+there is 50% chance that it will be Fire and you lose, and a 50% chance it will
+not be, and you win. Thus the probability of winning is 50% of 2 /3.
+Alternatively,17of the three cards that matter, you win if Fire is the last card
+selected. The probability that one card out of nis the last selected in a random
+sequence is 1/ n, which is 1/3 in this case."
+24,Question 4.31,"Two players AandBplay a marble game. Each player has both
+a red and a blue marble. They present one marble to each other. If both
+present red, Awins $3. If both present blue, Awins $1. If the colors do not
+match, Bwins $2. The winnings come from an external source, not from the
+other player. Is it better to be A,o rB,o rd o e si tn o tm a t t e r ?",4.31,Answer 4.31,"Assuming that the players have ﬁfty-ﬁfty probabilities of playing
+17It h a n kM a r kC a w s t o nf o rd i s c u s s i o n sr e g a r d i n gt h i sa n s w e r ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 312 All Rights Reserved Worldwide"
+25,Question 4.32,"Ac o i n - m a k i n gm a c h i n ep r o d u c e sp e n n i e s . E a c hp e n n yi sm a n -
+ufactured to have a probability Pof turning up heads. However, the machine
+draws Prandomly from the uniform distribution on [0 ,1] so Pcan diﬀer for
+each coin produced. A coin pops out of the machine. You ﬂip it once, and it
+comes up heads. Given this information, what is the (conditional) distribu-
+tion function FP|H(p)f o rt h ep r o b a b i l i t yo fah e a df o rt h a tc o i n( w h e r e“ H”
+denotes conditioning on the head)?
+What is the (conditional) distribution function for the probability of a head if
+you ﬂip the coin 1,000 times and get 750 heads?",4.32,Answer 4.32,"We seek FP|H(p)=P(˜P≤p|H)=P(A|H), where “ A” denotes
+the event that ˜P≤p,a n d“ H”d e n o t e st h ee v e n tt h a ty o ug e tah e a d .19I
+put a tilde over the Pto emphasize that we are talking about the probability
+of a probability. That is, the probability, ˜P, that we get a head is itself a
+random variable; we are unsure of its value. So, there is a distribution of
+possible values of p, and each corresponds to a particular possible degree of
+bias in a coin. The probability of a probability is a “second-order probability”
+(Peijnenburg and Atkinson, 2013).
+We may apply Bayes’ Theorem, but we need to be mindful that when we
+write “ P(H)” for example, this is not just the unconditional probability that
+we get a head, which is the random variable ˜P,b u tr a t h e ri no u rc a s ei ti st o
+be understood as the (unconditional) probability-weighted average probability
+over all possible values of p.T h a t i s , w e a r e u n w i n d i n g ( o r “ r e g r e s s i n g ” ) o n e
+level of probability, by exploiting the unconditional distribution and Bayes’
+Theorem.
+LetfP(p)≡1, 0≤p≤1d e n o t et h eu n c o n d i t i o n a lp d fo f ˜P.W ea p p l yB a y e s ’
+Theorem directly for p∈[0,1] to get
+FP|H(p)= P(A|H)
+=P(A∩H)
+P(H)
+=/integr⎬ltextp′=p
+p′=0p′fP(p′)dp′
+/integr⎬ltextp′=1
+p′=0p′fP(p′)dp′
+=/p⎬renleft⎭igp2/sl⎬sh⎭ig2/p⎬renright⎭ig
+(1/2)=p2.
+18Recall that for a solution to be a Nash equilibrium, it has to be the case that no unilateral
+change in strategy for any single player is proﬁtable to that player. A mixed strategy (Nash)
+equilibrium exists where Bplays Red with probability1
+4andAplays Red with probability1
+2.I n
+this case, the expected payoﬀ to playing Red equals the expected payoﬀ to playing Blue for each
+player. A’s expected payoﬀ is3
+4,w h e r e a s B’s is 1. Thus, Bis favored. I thank Alex Butler for this
+argument; any errors are mine. If instead the winnings come out of the other player’s pocket, can
+you show that a Nash equilibrium exists where each player plays Red with probability 3/8?
+19It h a n kA v i s h a l o mS h a l i ta n dA l e xV i g o d n e rf o rd i s c u s s i o n sr e g a r d i n gt h i sa n s w e r ;a n ye r r o r s
+are mine.
+©2021 Timothy Falcon Crack 313 All Rights Reserved Worldwide"
+26,Question 4.33,"Suppose that Xis distributed normal with mean 0 and variance
+σ2.W h a ti s E(eX)?",4.33,Answer 4.33,"This is well known. More generally, if X∼N(µ, σ2), then E(eX)=
+eµ+1
+2σ2.IfXis normal, then eXis lognormal. So, this is the sort of knowl-
+edge that arises in analytical Black-Scholes derivatives work, or in setting up
+a Monte-Carlo simulation of price paths in a Black-Scholes world. See Crack
+(2021, Section 2.2) for detailed discussion and examples. It is straightforward
+to prove this from ﬁrst principles because the normal pdf has an e(·)kernel in
+it, and you just have to add the exponents, complete the square, and integrate
+out to see what is left over."
+27,Question 4.34,"/_387 Two games are oﬀered to you. In Game One, you roll a die once
+and you are paid $1 million times the number of dots on the upturned face of
+the die. In Game Two, you roll a die one million times. For each roll you are
+paid $1 times the number of dots on the upturned face of the die. You are
+risk averse. Which game do you prefer?
+Story: 1. Took a brush out of my purse, brushed his hair and left. 2. Pulled
+out a Polaroid camera and snapped a ﬂash picture of me. Said he collected
+photos of everyone who interviewed him.
+Interview Horror Stories from Recruiters
+Reprinted by kind permission of MBA Style Magazine
+©1996–2021 MBA Style Magazine, www.mbastyle.com",4.34,Answer 4.34,"Both games have the same expected payoﬀ: $3.5 million. However,
+the second game has much less volatility than the ﬁrst. The Weak Law of Large
+Numbers says that your actual payoﬀ will be much closer to the expected payoﬀ
+in Game Two. As a risk-averse individual, you choose Game Two."
+28,Question 4.35,"In a survey of 1,000 people, 60% said they would vote for Can-
+didate A for president (and 40% said they would vote for someone else). How
+can you calculate a margin of error on the 60% estimate?",4.35,Answer 4.35,"The short answer is that it will be roughly ±1√1,000which is
+roughly ±1√
+900which is ±1
+30which is roughly ±3%.
+The long answer is still quite simple. Suppose you sample Npeople and record
+a1i ft h e ys a yt h e yw i l lv o t ef o rC a n d i d a t eAa n da0o t h e r w i s e .Y o uh a v e N
+binomial trials. Let Xidenote the outcome of the ithtrial, then
+Xi=/⎭r⎬celeft⎜igg
+1,with probability p,
+0,with probability (1 −p).
+LetY=/summ⎬tiontexti=N
+i=1Xi,t h e n Y/ N is the estimator of p.I tf o l l o w st h a t
+E(Y/ N)=E(Y)/N=i=N/summ⎬tiondispl⎬y
+i=1E(Xi)/N=N·p/N=p,
+and letting “ V(·)” denote variance, we have
+V(Y/ N)=V(Y)/(N2)∗=i=N/summ⎬tiondispl⎬y
+i=1V(Xi)/(N2)∗∗=N·p(1−p)/N2=p(1−p)
+N,
+21Numerical evaluation of Equation D.10 shows that F(P|750H/1000)(0.715) ≈0.0075 and that
+F(P|750H/1000)(0.785) ≈0.9967. For N= 100 ,000 (and x= 75 ,000), the same values are achieved
+atp=0.7466 and p=0.7536. These results are consistent with the Weak Law of Large Numbers
+intuition that for very large N,t h es a m p l em e a nc o n v e r g e st ot h ep o p u l a t i o nm e a n .
+©2021 Timothy Falcon Crack 315 All Rights Reserved Worldwide"
+29,Question 4.36,"Ad i s e a s eo c c u r sw i t hp r o b a b i l i t y0 . 5 %i nt h ep o p u l a t i o n . T h e r e
+is a test for the disease. If you have the disease, the test returns a positive for
+sure. If you do not have the disease, the test returns a false positive 7% of the
+time. A random stranger is given the test and it returns a positive. What is
+the probability that the stranger has the disease?",4.36,Answer 4.36,"This is an old/common interview question. It is a direct applica-
+tion of Bayes’ Theorem. Question 4.29 was also a Bayes’ Theorem question.
+In that case we tried some informal intuition before doing the math; let us try
+that here too.
+Most people do not have the disease. If we were to randomly select from the
+disease-free population (which is 99.5% of the sample here, so that is not too
+©2021 Timothy Falcon Crack 316 All Rights Reserved Worldwide"
+30,Question 4.37,"How many diﬀerent ways can you invest $20,000 into ﬁve funds
+in increments of $1,000? For example, one way to do it is
+($0; $4 ,000; $1 ,000; $2 ,000; $13 ,000).
+©2021 Timothy Falcon Crack 84 All Rights Reserved Worldwide",4.37,Answer 4.37,"A“ s t a r sa n db a r s ”a p p r o a c hi st h ee a s i e s t .22Let each star denote
+at h o u s a n d - d o l l a ri n v e s t m e n ta n de a c hb a rd e n o t eal i n eo fd e m a r c a t i o nb e -
+tween funds. Then *****|********||*******| has 20 stars and four bars to
+indicate an allocation of ($5,000;$8,000;$0;$7,000;$0).
+There are/p⎬renleft⎭ig24
+4/p⎬renright⎭ig=24!
+4!(24 −4)!=24·23·22·21
+4·3·2·1=1 0,626 ways to allocate the four bars
+to the 24 possible locations for the 24 symbols I used. The general answer is/p⎬renleft⎭igN+k−1
+k−1/p⎬renright⎭igforN-thousand dollars invested into kfunds. Please conﬁrm that in
+the case N=2 0,k= 2 this formula gives the simple answer N+1=2 1 .
+A less elegant approach is to consider 20 independent generalized Bernoulli
+trials where we roll a ﬁve-sided die and record each result as a ﬁve-tuple with
+a 1 in the position corresponding to the die’s outcome and zeroes otherwise.
+The ﬁve-tuple containing the cumulative total count of outcomes is distributed
+multinomial (DeGroot [1989, p. 297]). The number of possible fungible (i.e., ﬁ-
+nancially indistinguishable) allocations of bills to buckets must be the same as
+22I thank Chun Han for suggesting this approach to me; any errors are mine.
+©2021 Timothy Falcon Crack 317 All Rights Reserved Worldwide"
+31,Question 4.38,"(**) You are making chocolate chip cookies. You add Nchips
+randomly to the cookie dough, and you randomly split the dough into 100
+equal cookies. How many chips should go into the dough to give a probability
+of at least 90% that every cookie has at least one chip?",4.38,Answer 4.38,"The nature of the problem allows us to practice many diﬀerent
+skills: statistical inference, probability, combinatorics, recursion, induction,
+algebraic approximations, etc.
+This question is a particular case of a more general question: How many chips,
+N, should go randomly into some cookie dough to give a probability of at least
+pthat each of kcookies randomly cut from the batch contains at least mchips?
+The interviewer’s particular case uses the high probability p=0.90 and the
+low hurdle m=1c h i p sp e rc o o k i e .
+Well, if you have fewer than 100 chips, then at least one cookie does not have
+ac h i p ,s o1 0 0i st h el o w e rb o u n do na n yf e a s i b l ea n s w e r .Y o us h o u l dt a k ea n
+initial gut instinct guess before any formal analysis. My gut instinct is that
+something like N= 500 chips is enough because I would then be fairly sure
+that each cookie in the batch gets a chip. Is 500 enough? We will look at two
+exact solutions and several approximations to ﬁnd out.
+EXACT SOLUT IONS
+#1: Inclusion-Exclusion.24Ifpis the probability that every cookie has at
+least m=1c h i p s ,t h e n1 −pis the probability of the event that some cookie
+has no chips. This event in turn is a union of events involving individual
+cookies having no chips. Let A0
+ibe the event that cookie ihas no chips, then
+the inclusion-exclusion formula (see discussion on p. 132) yields
+1−p=P/p⎬renleft⎜ig
+A0
+1∪A0
+2∪···∪ A0
+k/p⎬renright⎜ig
+=P/p⎬renleft⎜iggk/uniondispl⎬y
+i=1A0
+i/p⎬renright⎜igg
+=k/summ⎬tiondispl⎬y
+i=1P/p⎬renleft⎜ig
+A0
+i/p⎬renright⎜ig
+−/summ⎬tiondispl⎬y
+1≤i<j≤kP/p⎬renleft⎜ig
+A0
+i∩A0
+j/p⎬renright⎜ig
++
+/summ⎬tiondispl⎬y
+1≤i<j<l ≤kP/p⎬renleft⎜ig
+A0
+i∩A0
+j∩A0
+l/p⎬renright⎜ig
+−···+(−1)k+1P/p⎬renleft⎜ig
+A0
+1∩A0
+2∩···∩ A0
+k/p⎬renright⎜ig
+=k/summ⎬tiondispl⎬y
+i=1(−1)i+1/summ⎬tiondispl⎬y
+{j1,j2,...,ji}⊆{1,2,...,k}
+j1<j2<···<jiP⎛
+⎝/intersectiondispl⎬y
+j∈{j1,j2,...,j i}A0
+j⎞
+⎠.
+23Lyons and Hutcheson (1996).
+24I thank Nate Coehlo for suggesting this approach; any errors are mine.
+©2021 Timothy Falcon Crack 318 All Rights Reserved Worldwide"
+32,Question 4.39,"You will roll a fair die until the game stops. The game stops
+when you get a 4, 5, or 6. For every number 1, 2, or 3 you have thrown
+your score increases by +1. If the game stops with a 4 or 5, you get paid the
+accumulated score. If the game stops with a 6 you get nothing. What is the
+expected payoﬀ of this game?",4.39,Answer 4.39,"Ip r e s e n tt w os o l u t i o n s : t h eﬁ r s ti saf u l l“ h a m m e r - a n d - t o n g s ”
+solution; the second uses a recursive argument similar to Answer 4.15. Ques-
+tions requiring recursive proofs have become popular in interviews; look up
+“recursive argument” in the index to ﬁnd other examples in this book.
+FIRST SOLUT ION
+When the game stops (i.e., you rolled a 4, 5, or 6), you have a2
+3chance of
+seeing the accumulated score (i.e., you got a 4 or 5 out of a possible 4, 5, or
+6 to stop the game). The accumulated score is 0 with probability1
+2,1w i t h
+probability/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig2,2w i t hp r o b a b i l i t y/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig3,a n ds oo n .S o ,t h ee x p e c t e dp a y o ﬀ
+is given by
+2
+3·∞/summ⎬tiondispl⎬y
+i=0j·/p⎬renleft⎭igg1
+2/p⎬renright⎭iggj+1
+=1
+3·∞/summ⎬tiondispl⎬y
+i=0j
+2j=2
+3,
+27LetNibe the number of chips in the ithcookie. Then, for N= 683 and k= 100 the events
+A=(Ni≥m) and B=(Nj≥m) for i̸=jare eﬀectively numerically indistinguishable from
+independent for small m. I simulatedP(A)·P(B)
+P(A∩B )for various mand found the ratio was 1 ±0.000001
+form= 1, 1 ±0.0001 for m= 2, 1 ±0.0002 for m= 3, 1 ±0.0003 for m= 4, 1 ±0.001 for m= 5,
+1±0.02 for m= 6–10, 1 ±0.10 for m=1 1 – 1 6 ,a n dt o or a r et os i m u l a t ef o r m≥17.
+©2021 Timothy Falcon Crack 322 All Rights Reserved Worldwide"
+33,Question 4.4,"Suppose that X∼N(µ, σ2), as in the previous question. What is
+E/p⎬renleft⎭igX2/p⎬renright⎭ig?1",4.4,Answer 4.4,"Suppose that X∼N(µ, σ2), as in the previous question, then
+E/p⎬renleft⎭igX2/p⎬renright⎭ig=µ2+σ2. I ﬁnd this particularly easy to remember because of the
+symmetry in the answer. Note, of course, that this result can be deduced
+directly from the widely used result
+var(X)=E/p⎬renleft⎜ig
+X2/p⎬renright⎜ig
+−[E(X)]2,
+just by solving for E/p⎬renleft⎭igX2/p⎬renright⎭ig.
+The raw, or “non-central,” moments E(Xn),n∈Z,n≥0 are quite messy.
+So, let me calculate the easier central moment E[(X−µ)n]r e s u l tﬁ r s t ,a n d
+then derive a formula for the non-central moments (which depends upon the
+central moments in the standard normal case), and then I will give a table of
+both the central and non-central moments up to order 10.
+IfX∼N(µ, σ2), then ( X−µ)∼N(0,σ2), and we deduce from the derivation
+in Answer 2.31 that the central moments are given by
+E[(X−µ)n]=/⎭r⎬celeft⎜igg
+0, ifn>0o d d
+σn(n−1)!!,ifn>0e v e n ,(D.1)
+where the double exclamation denotes the double factorial, as deﬁned in Foot-
+note 44 on p. 233. Of course, the zero result when nis odd follows immediately
+by symmetry.
+Now note that if X∼N(µ, σ2), then X=σZ+µ,w h e r e Z∼N(0,1). It
+©2021 Timothy Falcon Crack 289 All Rights Reserved Worldwide"
+34,Question 4.40,"Take a stick and break it randomly into three pieces (i.e., two
+randomly placed breaks on the stick). What is the probability you can form
+a triangle from the pieces?",4.4,Answer 4.40,"I ﬁrst heard about the “broken stick problem” appearing in MBA
+interviews back in the early 1990’s. It is still used today. This classic question
+deserves justice here.
+Let me present two solutions for obtaining the probability that a triangle can
+be formed from three bits. The ﬁrst solution is based on a general proof using
+polygons and polytopes due to Bull (1948) and I shall draw upon that solution
+to answer the next question. The second solution is much shorter and is an
+expansion of an equivalent argument using just a circle (Rushton, 1949).
+FIRST SOLUT ION
+Bull (1948) considers the case where a stick is broken randomly into npieces.
+He says that a necessary and suﬃcient condition for a polygon of nor fewer
+angles to be made out of the npieces is that no one piece can be of a length
+that exceeds the sum of the lengths of the others. Equivalently, each piece
+must be not greater in length than half the length of the stick.30
+Following Bull... ...let x,y,a n d1 −x−ydenote the lengths of the three
+separate pieces formed from a stick of unit length. If xandyare taken as axes
+of coordinates in two dimensions, then all ways of breaking the stick (regardless
+of whether a triangle can be formed or not) are represented by points inside
+and on the triangle formed by the coordinate axes and the line x+y=1
+(i.e., the boundary and interior of the triangle O–A1–A2in Figure D.5). If
+this statement is not immediately obvious, then think of it as follows. There
+28It h a n kS i m o nW e s tf o rs u g g e s t i n gt h i st e c h n i q u e ;a n ye r r o r sa r em i n e .
+29Alternatively, we may use the geometric distribution, as we did in Answers 4.1 and 4.13, with
+p=1 / 2 ,t oﬁ n d E(N+1) = 1/ p= 2. I thank Mark Cawston for discussions regarding this answer;
+any errors are mine.
+30Bull implicitly allows for two degenerate cases: triangles with zero area when one piece has
+length1
+2; and, one or two pieces having zero length. For randomly placed breaks, these cases
+happen with probability zero; my allowing them does not change the ﬁnal answer.
+©2021 Timothy Falcon Crack 323 All Rights Reserved Worldwide"
+35,Question 4.41,"(**)Av a r i a t i o no nt h ep r e v i o u sq u e s t i o n : W h a ti st h ee x p e c t e d
+length of the longest piece?10",4.41,Answer 4.41,"FIRST SOLUT ION
+Unlike Answer 4.40, a triangle need not be formed here. To derive the pdf for
+the longest piece we will derive the cdf ﬁrst and then diﬀerentiate it. We shall
+work with the properties of Figure D.5.
+LetLdenote the random longest piece, and ldenote a particular value of L.
+We want to ﬁnd the cdf FL(l)=P(L≤l).We know that L≡max( x, y,1−
+x−y), so the event L≤lhappens if and only if x≤l,y≤land 1 −x−y≤l.
+The latter may be rearranged as x+y≥1−l.F o l l o w i n g t h e a r g u m e n t s i n
+Answer 1.40, we need only ﬁnd the relative area contained within the region
+bounded by the lines x=l,y=landx+y=1−l(but also within the
+original triangle O–A1–A2) in Figure D.5. There are two cases: 0 .5≤l≤1
+(see Figure D.7), and1
+3≤l≤0.5( s e eF i g u r eD . 8 ) . T h e s ec o r r e s p o n dt ot h e
+cases where you cannot, and can, respectively, form a triangle from the pieces.
+The ﬁgure captions contain the algebra. The cdf of the longest piece is
+FL(l)=/⎭r⎬celeft⎜igg
+[1−3(1−l)2],0.5≤l≤1
+(3l−1)2,1
+3≤l≤0.5,
+and the pdf of the length of the longest piece is33
+fL(l)=/⎭r⎬celeft⎜igg
+6(1−l),0.5≤l≤1
+6(3l−1),1
+3≤l≤0.5.
+So, the expected length of the longest piece of broken stick is
+E(L)=/integr⎬ldispl⎬y1
+1
+3l·fL(l)dl=/integr⎬ldispl⎬y0.5
+1
+3l·6(3l−1)dl+/integr⎬ldispl⎬y1
+0.5l·6(1−l)dl
+=/p⎬renleft⎜ig
+6l3−3l2/p⎬renright⎜ig/vextendsingle/vextendsingle/vextendsingle/vextendsingle0.5
+1
+3+/p⎬renleft⎜ig
+3l2−2l3/p⎬renright⎜ig/vextendsingle/vextendsingle/vextendsingle/vextendsingle1
+0.5
+=/⎭r⎬cketleft⎭igg/p⎬renleft⎭igg6
+8−3
+4/p⎬renright⎭igg
+−/p⎬renleft⎭igg6
+27−3
+9/p⎬renright⎭igg/⎭r⎬cketright⎭igg
++/⎭r⎬cketleft⎭igg
+(3−2)−/p⎬renleft⎭igg3
+4−2
+8/p⎬renright⎭igg/⎭r⎬cketright⎭igg
+=11
+18.
+Il e a v ey o ut ou s et h es a m et e c h n i q u et oc o n ﬁ r mt h a tt h ee x p e c t e dl e n g t h S
+of the shortest piece34isE(S)=2
+18=1
+9.
+SECOND SOLUT ION35
+For an alternative derivation of the pdf for the length of the longest piece,
+assume, without loss of generality, that xis the longest piece. If so, then ( x, y)
+falls within the diagonal-hatched kite-shaped region of Figure D.9 bounded
+by the inequalities x≥y,2x+y≥1( i . e . , x≥1−x−y),x+y≤1, and
+y≥0. The vertices of this kite are at (0 .5,0), (1 ,0), (0 .5,0.5), and (1
+3,1
+3). The
+33Can you sketch the pdf to conﬁrm that it is right-skewed and triangular?
+34There is only one case. I get FS(s)=[ 1 −(1−3s)2], and fS(s)=6 ( 1 −3s), for 0 ≤s≤1
+3.I
+deduce that E(M)=5
+18for the middle-length piece because E(S+M+L) = 1.
+35It h a n kM r .L e ef o rs u g g e s t i n gt h i st e c h n i q u e ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 327 All Rights Reserved Worldwide"
+36,Question 4.42,"Consider four boxes in a row numbered 1, 2, 3, and 4. You start
+with a pebble in Box 1. We toss a fair coin. If it is heads you move the pebble
+forward one step to Box 2, but if it is tails you move the pebble forward two
+steps to Box 3. Then we toss the coin again. If it is heads, you move the
+pebble back to Box 1, but if it is tails you advance it to Box 4. If you reach
+Box 4 the game is over. If you are back in Box 1, however, then we toss again
+following the same rules. What is the expected number of coin tosses it will
+take to reach Box 4?",4.42,Answer 4.42,"Like Question 4.39, this question can be solved using inﬁnite series,
+or using a simple recursion proof.
+FIRST SOLUT ION
+There is a1
+2chance that the game ends with two tosses, a/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig2chance that it
+ends with four tosses, a/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ig3chance that it ends with six tosses, ... ..., a/p⎬renleft⎜ig
+1
+2/p⎬renright⎜ign
+chance that it ends with 2 ntosses, and so on. Thus the expected number N
+of tosses is
+E(N)=∞/summ⎬tiondispl⎬y
+i=12n·/p⎬renleft⎭igg1
+2/p⎬renright⎭iggn
+=∞/summ⎬tiondispl⎬y
+i=12n
+2n=4,
+using the result that/summ⎬tiontext∞
+i=0n
+2n=2( s e eF o o t n o t e1 1o np .1 1 1 ) .
+SECOND SOLUT ION LetNbe the number of coin tosses required to
+reach Box 4. After two coin tosses, there is a half a chance that you are in
+Box 4 and the game is over after two tosses, and a half a chance that you are
+recursively back at the beginning again still expecting E(N) more tosses:
+E(N)=/p⎬renleft⎭igg
+2·1
+2/p⎬renright⎭igg
++/⎭r⎬cketleft⎭igg
+(2 + E(N))·1
+2/⎭r⎬cketright⎭igg
+.
+We can solve this directly to get E(N)=4 ."
+37,Question 4.43,"/_387 It e l ly o ut h a tIh a v et w oc h i l d r e na n dt h a ta tl e a s to n eo ft h e m
+is a girl. What is the probability that I have two girls? Assume that boys
+and girls are equally likely to be born and that the gender of one child is
+independent of gender of another.",4.43,Answer 4.43,"You know only that I have two children and that one is a girl. My
+family has (implicitly) conducted two Bernoulli trials. Without the informa-
+tion that one child is a girl, there are four possible equally likely outcomes: GG,
+GB, BG, BB. With the information that one child is a girl, the last outcome is
+excluded, and the sample space describing the randomness you are confronted
+with is three equally likely outcomes: GG, GB, BG. The probability of GG is
+thus1
+3. See Answer 4.44 for more details.
+Story: “During his interview with me, a candidate bit his ﬁngernails and
+proceeded to bleed onto his tie. When I asked him if he wanted a Band-
+Aid, he said that he chewed his nails all the time and that he’d be ﬁne. He
+continued to chew away. ”
+Audrey W. Hellinger
+Chicago Oﬃce of Martin H. Bauman
+Associates, New York
+“Doomed Days: The Worst Mistakes Recruiters Have Ever Seen,”
+The Wall Street Journal ,F e b r u a r y2 5 ,1 9 9 5 ,p R 4 .
+Reprinted by permission of The Wall Street Journal
+©1995 Dow Jones and Company, Inc.
+All Rights Reserved Worldwide."
+38,Question 4.44,"It e l ly o ut h a tIh a v et w oc h i l d r e na n dt h a to n eo ft h e mi sa
+girl (I say nothing about the other). You knock on my front door and you
+are greeted by a girl who you correctly deduce to be my daughter. What is
+the probability that I have two girls? Compare and contrast your answer to
+the answer to the previous question. Assume that boys and girls are equally
+likely to be born and that the gender of one child is independent of gender of
+another.",4.44,Answer 4.44,"You know only that I have two children and that one is a girl you
+are facing at my front door. Now the argument changes from the previous
+question. The only randomness is the gender of the child you cannot see. The
+©2021 Timothy Falcon Crack 331 All Rights Reserved Worldwide"
+39,Question 4.45,"You and I are to meet tomorrow under the big clock at the train
+station. We have agreed to meet somewhere between 1 pmand 2 pm.W eh a v e
+agreed that each of us will wait no more than 15 minutes for the other, and
+that neither of us will arrive before 1 pmor remain after 2 pm.W h a t i s t h e
+probability that we will actually meet?
+10...and what about the expected length of the shortest piece? ...or the medium piece?
+©2021 Timothy Falcon Crack 85 All Rights Reserved Worldwide",4.45,Answer 4.45,"To ﬁgure out the probability that we will meet under the big
+clock, I have assumed that we arrive randomly in the interval 1 pm–2pm.F o r
+each moment of that hour, I have asked myself the following question. If
+I arrive at that moment, when would you have to arrive in order for us to
+meet? The answer is shaded in Figure D.10, where for each of my arrival
+times x(on the horizontal), I have shaded on the vertical the time range from
+ymin(x)=m a x ( 1 pm,x−15 minutes) to ymax(x)=m i n ( 2 pm,x+1 5m i n u t e s ) .
+If I arrive at time xand you arrive at time y(x)∈[ymin(x),ymax(x)], then we
+shall meet.
+From Figure D.10 we see that the probability we meet is the ratio of the area
+of the shaded region (mutual arrival times when we meet) divided by the area
+of the square (all possible mutual arrival times):7
+16."
+40,Question 4.46,"A single fair coin is tossed until either three heads are seen or un-
+til three tails are seen. The three heads or three tails need not be consecutive.
+What is the expected number of tosses in the game?",4.46,Answer 4.46,"To obtain three heads or three tails, the coin must be tossed a
+minimum of three times. At most ﬁve tosses are required, because it is impos-
+sible to toss the coin ﬁve times without obtaining three matching outcomes.
+So, the game will stop after either three, four, or ﬁve tosses.
+©2021 Timothy Falcon Crack 332 All Rights Reserved Worldwide"
+41,Question 4.47,"If the coin in Question 4.46 is biased, is the expected number of
+tosses to get “three of the same” going to be greater or less than it was with
+the unbiased coin?",4.47,Answer 4.47,"A bias towards either heads or tails in the coin in Question 4.46
+is a bias in favor of “more of the same.” Given that the stopping rule is “three
+of the same,” the expected number of tosses required to end the game must
+decrease in this case.
+So, if the probability of a head is one-half, and Tis the number of tosses
+required to end the game, E(T)=41
+8, and it cannot be higher. If, however, the
+probability of a head is two-thirds (or, given symmetry, if it is one-third), the
+expected number of tosses to end the game drops to E(T)=1 0 7 / 2 7 ≈3.96. If
+the probability of a head is 3/4 (or, given symmetry, if it is 1/4), the expected
+number of tosses to end the game drops to E(T)=4 8 3 / 1 2 8 ≈3.77. If the
+probability of a head is one (or, given symmetry, if it is zero), the expected
+number of tosses to end the game drops to E(T)=3 ,a n di tc a n n o tb el o w e r ."
+42,Question 4.48,"LetL(N)b et h el e n g t ho ft h el o n g e s tr u no fc o n s e c u t i v eh e a d s
+or tails in Ntosses of a fair coin. So, for example, if N=7 ,a n dt h eo u t c o m e s
+are HHTHHHT, then L= 3 in this case. What is E[L(5)]−E[L(4)]? Please
+give your answer to four decimal places, and you may not use a calculator.",4.48,Answer 4.48,"The mathematics for the length of longest runs in the general case
+ofNtosses is quite complex (Binswanger and Embrechts, 1994). The case of
+four or ﬁve tosses is, however, quite manageable.
+In the case N=4 ,t h el o n g e s tr u n sm u s tb eo fl e n g t ho n e ,t w o ,t h r e e ,o r
+four. A quick sketch of the tree, with 16 possible outcomes, reveals two runs
+of length one (HTHT, and the same with H and T transposed), eight runs
+of length two (HHTH, HHTT, HTHH, HTTH, and the same with H and T
+transposed), four runs of length three (HHHT, HTTT, and the same with H
+and T transposed), and two runs of length four (HHHH, and the same with
+©2021 Timothy Falcon Crack 334 All Rights Reserved Worldwide"
+43,Question 4.49,"You are going to roll three fair dice. What is the probability that
+the diﬀerence between the highest and lowest numbers showing is exactly four?
+Please give the answer to three decimal places, without using a calculator.",4.49,Answer 4.49,"There are 63= 216 distinct outcomes from rolling three dice. For
+the diﬀerence between the maximum and minimum outcomes of three dice
+(i.e., the range) to be exactly four, you must either have a maximum of a 6
+and a minimum or a 2, or a maximum or a 5 and a minimum of a 1.
+Let us consider the ﬁrst case (max=6, min=2). What is the third number? It
+must be a 2, 3, 4, 5, or 6. So, the unordered outcomes are 226, 236, 246, 256,
+and 266. Paying attention to order, the ﬁrst can occur three ways (i.e., the
+6 is ﬁrst, second, or third), the next three can be permuted in six ways each,
+and the last can occur in three ways (i.e., the 2 is ﬁrst, second, or third). So,
+there are 3+18+3=24 ways to obtain a range of exactly four, with a maximum
+of a 6 and a minimum of a 2.
+Similarly, there are 24 diﬀerent ways to obtain a range of exactly four when
+the maximum is a 5 and the minimum is a 1. So, there are 48 p ossible ways,
+out of 216, to obtain a range of exactly four. After some simpliﬁcations, we
+see that48
+216=2 / 9 .
+©2021 Timothy Falcon Crack 335 All Rights Reserved Worldwide"
+44,Question 4.5,"Suppose that XandYare independent random variables each
+distributed standard normal: X∼N(0,1), and Y∼N(0,1). What are the
+variance and the standard deviation of X−Y.",4.5,Answer 4.5,"Suppose that XandYare independent random variables each dis-
+tributed standard normal: X∼N(0,1), and Y∼N(0,1). What are the
+variance and the standard deviation of X−Y?
+Is u s p e c tt h a tt h em i n u ss i g nc o n f u s e ss o m ep e o p l e . J u s tr e m e m b e rt h a tw h e n
+random variables are independent, the variance of the sum is the sum of the
+variances. Also, recall that var( aY)=a2var(Y)f o rc o n s t a n t aand random
+©2021 Timothy Falcon Crack 290 All Rights Reserved Worldwide"
+45,Question 4.50,"LetP(N)b et h ep o p u l a t i o no fs o m ee n d a n g e r e ds p e c i e s . S u p -
+pose that P(0) = 100, but that with each generation, either the population
+doubles, or the population is destroyed:
+P(N+1 )=/⎭r⎬celeft⎜igg
+2×P(N) with probability 0 .5
+0×P(N) with probability 0 .5.
+What is the expected number of generations until extinction?",4.5,Answer 4.50,"The initial value P(0) = 100 is irrelevant, except that it is non-
+zero. With these odds, the population will not last long at all.
+LetGbe the number of generations until extinction. Then there is half a
+chance that the population will be extinct in one generation, and half a chance
+that it will survive for one more generation (and we then we are faced with
+the same question again). So, a simple recursion says that
+E(G)=/p⎬renleft⎭igg1
+2·1/p⎬renright⎭igg
++/⎭r⎬cketleft⎭igg1
+2·(1 + E(G))/⎭r⎬cketright⎭igg
+.
+Solving for E(G)y i e l d s E(G)=2 .
+Note that this question is analogous to Question 4.39. So, we can use the
+geometric distribution argument to ﬁnd E(G)=1 / p=1/sl⎬sh⎜ig
+1
+2=2,as done
+there."
+46,Question 4.51,"There are seven coins arranged in a circle. Every coin is heads-
+up. Your goal is to ﬂip every coin so that it is heads-down. You may, however,
+only ﬂip groups of three adjacent coins. You may ﬂip any such group of three
+coins, and you may ﬂip as many such groups as you choose, one group at a
+time. What is the minimum number of groups of three coins you can ﬂip in
+order to ﬂip every coin so that it is heads-down?11",4.51,Answer 4.51,"Given Ccoins, and the requirement that you ﬂip them in groups
+ofgadjacent coins, let us assume that C≥3 (ignoring the very simple cases
+C=1a n d C=2 ) . L e tu sa l s oa s s u m et h a t1 ≤g≤C.( I f g>C ,w ec a n
+think of gin modulo- Cterms, looking at the coins that do get ﬂipped.)
+Letgcd(C, g)d e n o t et h eg r e a t e s tc o m m o nd i v i s o ro f Candg. For example,
+gcd(7,3) = 1, but gcd(12,9) = 3. Let me begin with the speciﬁc case where
+gcd(C, g)=1a n d gis odd. Our particular case ( C=7,g=3 )s a t i s ﬁ e st h e s e
+assumptions.
+Let us number the coins from 1 to C,l i k et h en u m b e r so ft h eh o u r so na n
+analog clock face with Chours. Let the coin in the middle of any group of
+gcoins to be ﬂipped be our reference point (recall that we are assuming gis
+odd, so a middle coin exists). There are Csuch possible reference points.
+Let us pick a coin ﬂipping strategy. For any reference coin c,s a y ,w eh a v et o
+choose whether to ﬂip the group centered on cor not. Note that the order
+of our ﬂipping decisions is irrelevant because either two groups of coins to be
+ﬂipped do not overlap, and so order is unimportant, or two groups of coins to
+be ﬂipped do overlap, in which case, any coin in the overlap is ﬂipped twice,
+and is left unchanged regardless of the order of the ﬂips. Note also that we
+would never ﬂip any group more than once, because all that does is consume
+©2021 Timothy Falcon Crack 336 All Rights Reserved Worldwide"
+47,Question 4.52,"You are going to roll three dice. What is the probability that
+the highest of the three numbers will be exactly a 4? Please give your answer
+to three decimals without using a calculator.",4.52,Answer 4.52,"In order for the maximum of three dice outcomes to be a four, the
+maximum must be less than or equal to 4, but not less than or equal to 3. So,
+P(max = 4) = P(max ≤4)−P(max ≤3)
+=/p⎬renleft⎭igg4
+6·4
+6·4
+6/p⎬renright⎭igg
+−/p⎬renleft⎭igg3
+6·3
+6·3
+6/p⎬renright⎭igg
+=43−33
+63=64−27
+216=37
+216,
+using the independence of the dice rolls, and the fact that if the maximum is
+©2021 Timothy Falcon Crack 338 All Rights Reserved Worldwide"
+48,Question 4.53,"You are on vacation in a foreign country. You are sitting in a
+restaurant looking out the window. Your waiter tells you that the bus service
+stopping outside your restaurant window arrives as a Poisson process. As you
+eat your ﬁshcakes, you pull out your stopwatch and you time two minutes
+between the arrival of the ﬁrst and second bus that you see, and then 12
+minutes between the second and third bus. Seven minutes passes after the
+arrival of the third bus, and the fourth bus is not yet in sight. Stop now and
+estimate the arrival rate λof the Poisson process.
+11I have also heard of this question asked with reference to a rotating circular chandelier, with
+seven illuminated light bulbs that you are trying to extinguish, and a switch that ﬂips the state of
+the three nearest adjacent light bulbs. In practice, it is much easier to play with the problem at
+home using coins than using light bulbs.
+©2021 Timothy Falcon Crack 86 All Rights Reserved Worldwide",4.53,Answer 4.53,"A Poisson process exhibits a random arrival (or departure, or other
+event) pattern as follows: First, the number of arrivals in any two disjoint
+intervals of time must be independent of each other; second, for a very short
+time interval δt, the probability of at least one arrival during that interval is
+roughly proportional to the length of the time interval: λδt+o(δt), where
+λis the intensity, or arrival rate, of the process and o(δt)i saf u n c t i o nt h a t
+approaches zero as δt→0; and third, the probability that there are more than
+one arrivals during time interval δtis also o(δt)( D e G r o o t ,1 9 8 9 ,p p .2 5 4 – 2 5 5 ) .
+Under these assumptions, the inter-arrival times Xiof a Poisson process are
+distributed exponential, fX(x)=λe−λxforx≥0, where λis the arrival rate,
+and the mean of Xiis 1/ λ(DeGroot, 1989, p. 290).
+The count of occurrences in any ﬁxed interval of time of length δtwill be
+distributed Poisson with mean λδt(DeGroot, 1989, p. 255).36
+36Yhas a Poisson distribution with mean θ>0i ffY(y)=e−θθy
+y!fory=0,1,2,...and zero
+otherwise (DeGroot, 1989, p. 252).
+©2021 Timothy Falcon Crack 339 All Rights Reserved Worldwide"
+49,Question 4.54,"Your car has broken down in the desert. You call a friend who
+laughs and tells you that the probability of seeing a car (i.e., N≥1 cars)
+passing by during any hour is 36%. What is the probability that you will see
+ac a rd r i v eb yi nt h en e x th a l f - h o u r ?",4.54,Answer 4.54,"Letpbe the probability of seeing any car drive by in 30 minutes.
+I want to relate pto the stated probability of seeing any car drive by during
+one hour. Let us assume that cars arrive as a Poisson process, with a ﬁxed
+rate of arrivals per unit time and independent arrivals in any non-overlapping
+periods. Then the probability of no cars in one hour is the product of the
+probability of no cars in each half-hour. We are using the result that P(A∩
+B)=P(A)P(B)i fAandBare independent events—and in this case each
+event is the complement of the event that a car arrives in the non-overlapping
+half hours. So, we deduce that 1 −0.36 = (1 −p)(1−p). It follows that
+p=0.20.
+Note that the naive answer here is to simply conclude that p(probability of
+a car in 30 minutes) equals half the 36% number (i.e., half the probability of
+ac a ri n6 0m i n u t e s ) . T h i si sn o ts e n s i b l e ,f o rt h es a m er e a s o nt h a t p=0.20
+in the next 30 minutes does not yield p=1.00 in the next 2.5 hours, or
+p=1.20 (impossible) in the next three hours: the probability of independent
+events is not additive. Note that the probability of mutually exclusive events
+is additive, but mutually exclusive events cannot be independent (unless at
+least one occurs with probability zero)."
+50,Question 4.55,"Italy is playing the U.S.A. in a football World Cup match. A
+successful pass is when a player on one team kicks the ball to a player on their
+team and it is not intercepted by the opposition. Is it possible for Italy to
+have a higher proportion of its passes be successful than the U.S. in both the
+ﬁrst and second halves, and yet for the U.S. to have a higher proportion of its
+passes be successful over the game as a whole?",4.55,Answer 4.55,"Yes, this is an example of something called Simpson’s Paradox
+(DeGroot, 1989, p. 548). There are several slightly diﬀerent ﬂavors of Simp-
+son’s Paradox. They are each special cases of “statistical mix eﬀects” (Arm-
+strong and Wattenberg, 2014). Mix eﬀects mean that aggregate numbers can
+be aﬀected by changes in the relative size of subpopulations as well as the rel-
+ative values within those subpopulations (Armstrong and Wattenberg, 2014).
+In the case at hand, suppose Italy made 120 passes in the ﬁrst half, with 60
+being successful (50%), and the U.S. made 50 passes, with only 10 being suc-
+cessful (20%). In the second half, suppose Italy improved, making 60 passes,
+with all 60 being successful (100%), and the U.S. also improved, making 200
+passes with 190 being successful (95%). Italy looked better in each half, but
+over the match as a whole, Italy had only a 66 .6˙6% success rate (120/180),
+whereas the U.S. had an 80% success rate (200/250).
+Armstrong and Wattenberg (2014) give the famous example of UC Berkeley
+graduate admissions. It was found that 44% of male applicants were accepted,
+whereas only 35% of female applicants were accepted. Rather than being
+discrimination by Berkeley, however, departments with higher acceptance rates
+had proportionally more male applicants. In fact, by disaggregating the data,
+©2021 Timothy Falcon Crack 340 All Rights Reserved Worldwide"
+51,Question 4.56,"We are going to play a game. You have a fair coin, and your
+opponent has a fair coin. You are going to toss your coins together. If the
+outcome is HH, you pay $6. If the outcome is HT or TH, you receive $5. If
+the outcome is TT, you pay $4. If you play this game many times, will you
+win or lose money?",4.56,Answer 4.56,"With fair coins, the symmetry in payoﬀs must give an expected
+payoﬀ of zero. You get payoﬀ -6 (HH) with probability 1/4, +5 (HT or TH)
+with probability 1/2, and -4 (TT) with probability 1/4, so the expected payoﬀ
+is /p⎬renleft⎭igg
+−6·1
+4/p⎬renright⎭igg
++/p⎬renleft⎭igg
+5·1
+2/p⎬renright⎭igg
++/p⎬renleft⎭igg
+−4·1
+4/p⎬renright⎭igg
+=0.
+The variance of payoﬀs is
+/p⎬renleft⎭igg
+(−6)2·1
+4/p⎬renright⎭igg
++/p⎬renleft⎭igg
+52·1
+2/p⎬renright⎭igg
++/p⎬renleft⎭igg
+(−4)2·1
+4/p⎬renright⎭igg
+=36 + 50 + 16
+4=51
+2=2 5.5.
+Suppose you play the game Ntimes, where Nis a large number. Then, sure
+enough, the expected payoﬀ is zero for every game, and therefore zero overall,
+but you have a problem.
+LetXnbe the dollar payoﬀ to the nthgame. Let D(N)≡/summ⎬tiontextN
+n=1Xnbe the
+total dollar payoﬀ to playing Ngames. Then we have that
+E[D(N)] = E/p⎬renleft⎜iggN/summ⎬tiondispl⎬y
+n=1Xn/p⎬renright⎜igg
+=N/summ⎬tiondispl⎬y
+n=1E(Xn)=0 ,and
+V[D(N)] = V/p⎬renleft⎜iggN/summ⎬tiondispl⎬y
+n=1Xn/p⎬renright⎜igg
+=N/summ⎬tiondispl⎬y
+n=1V(Xn)=N·51
+2,
+where V(·) denotes variance. For large N, a standard central limit theorem
+result will yield that D(N) is roughly normally distributed, centered on zero,
+but with standard deviation/r⎬dic⎬l⎭ig
+N·51/2. Thus, as Ngrows, so too does the
+standard deviation of the accumulated payoﬀs.
+If you play 20,000 games, then, sure enough, E[D(N)] = 0, but V[D(N)] =
+510,000, which means the standard deviation of your payoﬀs is $714.14, round-
+ing to pennies. If you play one million games, then V[D(N)] = 25 ,500,000,
+yielding a standard deviation of payoﬀs of $5,049.75, rounding to pennies. For
+two million games, the standard deviation of the payoﬀ is $7,141.43, rounding
+to pennies. In the last case, there is a roughly 5% chance that your gain or
+©2021 Timothy Falcon Crack 341 All Rights Reserved Worldwide"
+52,Question 4.57,"Suppose that you can choose any probability pof a head for your
+coin in Question 4.56. However, your opponent will see your choice of p,a n d
+can choose his or her own probability of a head as p′in response. What pwill
+you choose, and what will be the outcome of repeated play of the game?",4.57,Answer 4.57,"Reconsider the game from Question 4.56, but allow that your coin
+has probability p(of your choice) of getting a head, and your opponent’s coin
+has probability p′(of his or her choice, after knowing p)o fg e t t i n gah e a d .
+So, you get payoﬀ -6 (HH) with probability p·p′,+ 5( H To rT H )w i t hp r o b a -
+bility [ p·(1−p′)+( 1 −p)·p′], and -4 (TT) with probability (1 −p)·(1−p′).
+LetXndenote your payoﬀ to the nthgame, then
+E(Xn)=/p⎬renleft⎭ig−6·p·p′/p⎬renright⎭ig+/p⎬renleft⎭ig5·[p·(1−p′)+( 1 −p)·p′]/p⎬renright⎭ig
++/p⎬renleft⎭ig−4·(1−p)·(1−p′)/p⎬renright⎭ig
+=−20pp′+9p+9p′−4
+=( 9 −20p)·p′+9p−4
+=b·p′+a, (D.14)
+al i n e a rf u n c t i o no f p′, where the coeﬃcient is b=( 9 −20p)a n dt h ei n t e r c e p t
+isa=9p−4( s e eF i g u r eD . 1 1 ) .
+Ifp′(p)i sc h o s e nb yy o u ro p p o n e n ta saf u n c t i o no f pin order to minimize your
+expected payoﬀ, then optimal p′(p) will be found by minimizing this expected
+payoﬀ, Equation D.14, with respect to p. There are three cases, depending
+upon the sign of the slope b.
+Ifb>0, your opponent wants to minimize b·p′+aand chooses the lowest
+possible p′value (i.e., p′= 0). In this case, the expected payoﬀ is a=9p−4.
+Note, however, that b>0i m p l i e s9 −20p>0i m p l i e s p< 9/20. So, the
+expected payoﬀ is a=9p−4<81/20−4=$1 / 2 0 ( i . e . ,y o ug e ta ne x p e c t e d
+payoﬀ strictly less than $ 1/20).
+Ifb<0, your opponent wants to minimize b·p′+aand chooses the highest
+possible p′value (i.e., p′= 1). In this case, the expected payoﬀ is 5 −11p. Note,
+however, that b<0i m p l i e s9 −20p<0i m p l i e s p>9/20. So, your expected
+payoﬀ is 5 −11p<5−99/20 = $ 1/20 (i.e., again, you get an expected payoﬀ
+strictly less than $ 1/20).
+If, however, b=0( i . e . , p=9 / 2 0 ) ,t h e n y o u r e x p e c t e d p a y o ﬀi s 9 p−4=$1 / 2 0
+for every p′value, which is superior to all of the above. So, you want to choose
+p= 9/20 to maximize your expected payoﬀ at E(Xn)=$1 / 2 0 .
+Your expected payoﬀ is the same regardless of which p′your opponent chooses,
+but the variance of payoﬀs is still a function of p′.E q u a t i o n D . 1 5 s h o w s t h e
+conditional variance of the payoﬀ to the nthgame for general p′.
+©2021 Timothy Falcon Crack 342 All Rights Reserved Worldwide"
+53,Question 4.58,Write down the central limit theorem.,4.58,Answer 4.58,"You were asked to “write down the central limit theorem. ” In fact,
+this question is not well posed because many diﬀerent central limit theorems
+(CLTs) exist. They diﬀer in their assumptions (e.g., dependent data versus
+independent data or ﬁnite variances versus inﬁnite variances, etc.) and in their
+dimensions (i.e, univariate versus multivariate).37
+Is u s p e c tt h a tt h eu n i v a r i a t eL i n d b e r g - L e v yC L T( F e l l e r ,1 9 7 1 ,p .2 5 9 )i st h e
+single answer most likely to please. Let X1,X2,...be mutual independent
+random variables with a common distribution. Assume that E(Xi)=0a n d
+that var( Xi)=1f o re a c h i,t h e nt h ed i s t r i b u t i o no ft h en o r m a l i z e ds u m s Sn=
+(X1+···+Xn)/√ntends to the standard normal distribution as ntends to
+inﬁnity. If we instead assume that var( Xi)=σfor each i, then the normalized
+sums are given by Sn=(X1+···+Xn)/(σ/√n), and their distribution also
+tends to the standard normal distribution as ntends to inﬁnity."
+54,Question 4.59,"Given two uncorrelated Gaussian random variables Z1andZ2,
+how can you obtain two correlated Gaussian random variables X1andX2,
+with correlation coeﬃcient ρ?",4.59,Answer 4.59,"This is a practical question; I often need to simulate correlated
+stock returns when simulating panel data for portfolio theory applications.
+A certain amount of caution is required. The interviewer said that Z1and
+Z2are “uncorrelated” and “Gaussian.” There are two possible interpretations,
+with slightly diﬀerent answers. Let us take the simpler case ﬁrst, with the
+strongest assumptions.
+Case 1: It h i n kt h a tt h ei n t e r v i e w e rm e a n tt h a t Z1and Z2are together
+bivariate normally distributed. In this case, Z1andZ2being uncorrelated
+implies that Z1andZ2are independent (Crack, 2020a). If we then deﬁne X1
+andX2as in Equations D.16 and D.17,
+X1=σ1·Z1+µ1 (D.16)
+X2=σ2·/⎭r⎬cketleft⎭igg
+ρ·Z1+/r⎬dic⎬l⎜ig
+(1−ρ2)·Z2/⎭r⎬cketright⎭igg
++µ2, (D.17)
+then X1∼N(µ1,σ2
+1),X2∼N(µ2,σ2
+2), and corr( X1,X2)=ρ(DeGroot, 1989,
+p. 301), as requested. In this case, X1andX2are, like Z1andZ2, bivariate
+normally distributed (Crack, 2020a), and their joint density function is given
+as follows for −∞<x1,x2<∞(DeGroot, 1989, p. 301):
+fX1,X2(x1,x2)=
+1
+2π/r⎬dic⎬l⎭ig
+(1−ρ2)σ1σ2e−1
+2(1−ρ2)/⎭r⎬cketleft⎭igg/p⎬renleft⎜ig
+x1−µ1
+σ1/p⎬renright⎜ig2
+−2ρ/p⎬renleft⎜ig
+x1−µ1
+σ1/p⎬renright⎜ig/p⎬renleft⎜ig
+x2−µ2
+σ2/p⎬renright⎜ig
++/p⎬renleft⎜ig
+x2−µ2
+σ2/p⎬renright⎜ig2/⎭r⎬cketright⎭igg
+.
+In the case where σ1=σ2=1a n d µ1=µ2=0 , X1andX2are, like Z1andZ2,
+bivariate standard normally distributed. Note, however, that corr( X1,X2)=ρ
+(so that fX1,X2(x1,x2) looks like a pinched bell in three dimensions), whereas
+37See, for example, Feller (1971, pp. 258–265), Rao (1973, p. 128), White (2001), Crack and
+Ledoit (2010), and Crack (2018).
+©2021 Timothy Falcon Crack 345 All Rights Reserved Worldwide"
+55,Question 4.6,"/_387 Consider the following game. The player tosses a die once only.
+The payoﬀ is $1 for each “dot” on the upturned face. Assuming a fair die, at
+what level should you set the ticket price for this game?",4.6,Answer 4.6,"This sort of question is common. Begin by calculating the expected
+payoﬀ to the game. This is given by the summation over the product of
+potential outcomes times their probability of occurrence:
+/p⎬renleft⎜ig
+1
+6×$1/p⎬renright⎜ig
++/p⎬renleft⎜ig
+1
+6×$2/p⎬renright⎜ig
++/p⎬renleft⎜ig
+1
+6×$3/p⎬renright⎜ig
++/p⎬renleft⎜ig
+1
+6×$4/p⎬renright⎜ig
++/p⎬renleft⎜ig
+1
+6×$5/p⎬renright⎜ig
++/p⎬renleft⎜ig
+1
+6×$6/p⎬renright⎜ig
+=$ 3.50
+If you are selling tickets to repeated plays of this game, you are eﬀectively
+risk-neutral.1This means you should charge the expected payoﬀ ($3.50) plus
+am a r g i nf o rp r o ﬁ t .Y o uc h o o s eh o ww i d et om a k et h em a r g i n — i td e p e n d so n
+your overhead, monopoly power, greed, and so on. You cannot charge $6.00
+or above, since no one will play. If the game is to be played only once, then
+you are risk-averse. You should charge the expected value, plus your proﬁt
+margin, plus a risk premium. The risk premium depends upon how risk-averse
+you are."
+56,Question 4.60,"What is a p-value?
+©2021 Timothy Falcon Crack 87 All Rights Reserved Worldwide",4.6,Answer 4.60,"Before deﬁning the p-value, let us discuss statistical size. The
+statistical size (i.e., signiﬁcance level) of a test is a pre-determined number. It
+is often a small number, like, say, 5%. This statistical size is the probability
+that you make a Type I error (i.e., the error you make when you reject the
+null hypothesis even though it is true).
+Thep-value associated with a particular realization of a statistical test is the
+post-determined statistical size at which the value of the realized test statistic
+exactly equals the critical value (or one of the critical values) for rejection of
+the null hypothesis given your estimated parameter value(s). Equivalently, at
+least in a univariate case, the estimated parameter value (that feeds into the
+test statistic) sits at one end of a 100- p%c o n ﬁ d e n c ei n t e r v a lf o rt h ep o p u l a t i o n
+parameter value. It follows that for a pre-determined statistical size, any
+realized p-value at or less than that statistical size leads to a rejection of the
+null hypothesis.
+Before you conduct your statistical test, the p-value, like the test statistic
+itself, is a random variable. If we have a continuous random variable test
+statistic, then, under the null hypothesis, the p-value is distributed uniformly
+on the interval [0 1].
+©2021 Timothy Falcon Crack 346 All Rights Reserved Worldwide"
+57,Question 4.7,"Ia mg o i n gt ot o s sf o u rc o i n s . Y o ua r eg o i n gt ot o s sﬁ v ec o i n s .
+You win if you get strictly more heads than I do. What is the probability that
+you win?",4.7,Answer 4.7,"Ig i v ea ne l e g a n ta n s w e rﬁ r s t ,a n dt h e nah a m m e r - a n d - t o n g ss o l u -
+tion that could be useful for variations of the game.
+FIRST SOLUT ION
+The original game is stated as “You toss ﬁve coins and I toss four coins. You
+win if you get strictly more heads. ” This game is isomorphic to an analytically
+simpler game.2“You toss four coins and I toss four coins. Whomever gets the
+most heads wins immediately. If we are tied, however, then you toss one more
+coin to decide the outcome.” By observation, both stages of this second game
+are completely symmetric. So, we each have a probability one-half of winning.
+SECOND SOLUT ION
+As i m p l es k e t c ho ft h ej o i n tp r o b a b i l i t ym a s sf u n c t i o no fo u ro u t c o m e s ,a n d
+an appeal to symmetry, gives the answer as 1/2 without any calculation. I
+derive the answer graphically, with more details than you need.
+The key to this more complex solution is to recognize that when p=1 / 2 ,t h e
+binomial probability mass function B(N,p) of either player is symmetric, and
+1This is an application of the “Weak Law of Large Numbers. ” The law says, essentially, that if
+you independently draw repeated observations from the same random distribution, then for very
+many drawings, the sample mean is very close to the population mean (DeGroot [1989, p. 229–231]).
+In other words, after many repeated plays of the game, the ticket seller can be sure that his average
+payout per game is very close to the expected payout per game. Because all that matters is the
+expected payout, not the variance of payouts, the ticket seller is eﬀectively risk-neutral. Similarly,
+casinos are eﬀectively risk-neutral. With repeated plays, and odds slightly in the favor of “the
+house,” the casino expects to be the winner for sure in the long run.
+2I thank Tommaso Sechi for suggesting this elegant approach.
+©2021 Timothy Falcon Crack 292 All Rights Reserved Worldwide"
+58,Question 4.8,"I will roll a single die no more than three times. You can stop me
+immediately after the ﬁrst roll, or immediately after the second, or you can
+wait for the third. I will pay you the same number of dollars as there are dots
+1More generally, if X∼N(µ, σ2), can you give E[(X−µ)n] and E(Xn) for any n?
+©2021 Timothy Falcon Crack 78 All Rights Reserved Worldwide",4.8,Answer 4.8,"Another die-rolling question; they are very popular. You want to
+get as many dollars as possible. You let me roll once and look at which
+number comes up. You must compare this number to the possible payoﬀs
+on the remaining two rolls. If it seems likely that you can do better by not
+stopping the game, then you proceed, otherwise you stop me.4
+You must work backwards to deduce the best strategy. This is analogous
+to pricing an American-style option using a tree method. So, suppose that
+you have seen the second roll and are trying to decide whether to ask for a
+third. You must compare the outcome of the second roll to the distribution of
+possible outcomes on the third roll:
+Table D.4: Distribution of Payoﬀ to Third Roll of a Die
+Maximum Payoﬀ $1 $2 $3 $4 $5 $6
+Probability1
+61
+61
+61
+61
+61
+6
+The expected value of the distribution in Table D.4 is $3.50; the variance is
+$2.92; the standard deviation is $1.71. If you see a 4 or higher on the second
+roll, you might stop the game because you probably will not do better. If you
+get a 3 or lower, you might continue because you expect to do better.
+Now, stepping backwards again, suppose that you have just seen the ﬁrst roll.
+You must decide whether to ask for a second roll (which may lead to a third).
+You must compare the outcome of the ﬁrst roll to the distribution of possible
+outcomes if you proceed to a second (and possibly third) roll.
+If you ask for the second roll, there is one-half a chance that it yields a 1, 2,
+or 3, and one-half a chance that it yields a 4, 5, or 6. Using the argument
+above, in the ﬁrst case (1, 2, or 3 on roll two) you proceed to a third roll;
+in the second case (4, 5, or 6 on roll 2) you do not proceed. There is thus
+one-half a chance that you proceed to a third roll (expected value $3.50 from
+4It h a n kB i n g j i a nN if o rs u g g e s t i n gt h es o l u t i o nt e c h n i q u e ;a n ye r r o r sa r em i n e .
+©2021 Timothy Falcon Crack 295 All Rights Reserved Worldwide"
+59,Question 4.9,"The correlation between XandYisρ.W h a t i s t h e c o r r e l a t i o n
+between X+5a n d Y? What is the correlation between 5 XandY?
+Story: One interviewee told me that the interviewers aim to put you under
+as much pressure as possible, and that “you never know when they are going
+to bring out the guy in the chicken suit. ”",4.9,Answer 4.9,"The correlation is still ρ.A d d i n g a c o n s t a n t o r m u l t i p l y i n g b y a
+constant has no impact on the correlation. Go back to ﬁrst principals and
+write out correlation as the ratio of covariance to the product of standard
+deviations. Adding a constant to Xhas no eﬀect on either the numerator
+or denominator. Multiplying Xby ﬁve multiplies both the numerator and
+denominator by ﬁve."

@@ -1,0 +1,344 @@
+Question Number,Content
+Question 4.1,"A breakfast cereal company gives away a free toy in each box of
+cereal. There are four diﬀerent toys. How many boxes do you expect to have
+to buy in order to get all four toys?"
+Question 4.2,"Suppose we draw two random numbers XandYeach distributed
+uniform on the interval [0 ,1]. If XandYare independent, what is the prob-
+ability that their product is greater than 1/2?"
+Question 4.3,"Suppose that X∼N(µ, σ2)( i . e . , Xis normally distributed with
+mean µand variance σ2). Please write down the pdf fX(x)o fX. Where does
+the constant factor in the pdf come from?"
+Question 4.4,"Suppose that X∼N(µ, σ2), as in the previous question. What is
+E/p⎬renleft⎭igX2/p⎬renright⎭ig?1"
+Question 4.5,"Suppose that XandYare independent random variables each
+distributed standard normal: X∼N(0,1), and Y∼N(0,1). What are the
+variance and the standard deviation of X−Y."
+Question 4.6,"/_387 Consider the following game. The player tosses a die once only.
+The payoﬀ is $1 for each “dot” on the upturned face. Assuming a fair die, at
+what level should you set the ticket price for this game?"
+Question 4.7,"Ia mg o i n gt ot o s sf o u rc o i n s . Y o ua r eg o i n gt ot o s sﬁ v ec o i n s .
+You win if you get strictly more heads than I do. What is the probability that
+you win?"
+Question 4.8,"I will roll a single die no more than three times. You can stop me
+immediately after the ﬁrst roll, or immediately after the second, or you can
+wait for the third. I will pay you the same number of dollars as there are dots
+1More generally, if X∼N(µ, σ2), can you give E[(X−µ)n] and E(Xn) for any n?
+©2021 Timothy Falcon Crack 78 All Rights Reserved Worldwide"
+Question 4.9,"The correlation between XandYisρ.W h a t i s t h e c o r r e l a t i o n
+between X+5a n d Y? What is the correlation between 5 XandY?
+Story: One interviewee told me that the interviewers aim to put you under
+as much pressure as possible, and that “you never know when they are going
+to bring out the guy in the chicken suit. ”"
+Question 4.10,"/_387 (**) Two sealed envelopes are handed out. You get one and
+your competitor gets the other. You understand that one envelope contains
+mdollars, and the other contains 2 mdollars (where mis unstated).3
+1.Ifyou peek into your envelope, you see $X. However, you do not know
+whether your opponent has $2 Xor $1
+2X.Without peeking ,w h a ti sy o u r
+expected beneﬁt to switching envelopes? What is your opponent’s ex-
+pected beneﬁt to switching envelopes (assuming your opponent sees $Y)?
+Should you switch? If you do, do you do it again for the same reason
+(assuming neither of you peeked)?
+2. Suppose that you both peek into your envelopes initially. What is the
+payoﬀ to switching? Should you switch? If you do, do you do it again
+for the same reason?"
+Question 4.11,"They call this the “World Series” problem in the U.S. Sports
+teams “A” and “B” are to play each other until one has four wins and is
+declared the series winner. You have $100 to bet on Team A to win the
+series. You are, however, only allowed to bet on individual games, not the
+ﬁnal outcome directly, and, you must bet a positive amount on each game.
+So, if Team A wins the series, you must walk away with $200, but if Team A
+loses the series, you must walk away with zero, and you must do so having
+placed a non-zero bet on every game. Your best assessment is that Team A
+2If you were running this game, how much would you charge players for repeated plays of the
+game? Suppose instead an amended game is played: I roll a single die three times without pause,
+and the payoﬀ to the player is the maximum of the three rolls. What is the expected payoﬀ to
+the player? Can you tell up front whether the original or amended game has the higher expected
+payoﬀ?
+3This problem is over 40 years old and is known as the “Exchange Paradox. ”
+©2021 Timothy Falcon Crack 79 All Rights Reserved Worldwide"
+Question 4.12,"/_387 You have three children, but only one apple. You want to toss
+a fair coin to determine which child gets the apple. You want each child to be
+equally likely to get the apple. What is your strategy?4"
+Question 4.13,A follow-up question to
+Question 4.12,"What is the expected
+number of tosses needed to complete this strategy?"
+Question 4.14,/_387 Another follow-up question to
+Question 4.12,"You have a fair
+coin and you want to simulate an event that has probability 1/3, and an
+event that has probability 2/3. How do you do it?"
+Question 4.15,"What is the expected number of tosses of an unfair coin needed
+to get two heads ( HH) in a row (assume probability pof a head)? Same
+question with three heads ( HHH )i nar o w ."
+Question 4.16,"You are tossing a fair coin and writing down the outcomes. What
+is the probability that you will see the sequence HTH before you see the
+sequence HHT ?"
+Question 4.17,"You are tossing a fair coin and writing down the outcomes. What
+is the expected number of tosses needed to obtain the outcome HTH ?"
+Question 4.18,"/_387 You and I are to play a game. You roll a die until a number
+other than a one appears. When such a number appears for the ﬁrst time, I
+pay you the same number of dollars as there are dots on the upturned face of
+the die, and the game ends. What is the expected payoﬀ to this game?"
+Question 4.19,"You are dealt exactly two playing cards from a well-shuﬄed stan-
+dard 52-card deck. The standard deck contains exactly four Kings. What is
+the probability that both of your cards are Kings?
+Story: It is many years ago now, but I know of a well-qualiﬁed MIT student
+who got a job oﬀer of $X from a well-known ﬁrm (a good oﬀer at that time).
+He declined, telling them that they had misjudged him. They called him
+back a couple of days later and oﬀered him $ X×1.67 instead! Amazing! He
+took the job."
+Question 4.20,"/_387 (**) This is one version of the famous “Let’s Make a Deal” or
+“Monty Hall” game show question. It is your turn to be on a weekly game
+show. There are three doors. You know that there is a prize behind one of
+them, and nothing behind the other two. The game show host tells you that
+you shall receive whatever is behind the door of your choice. However, before
+4In similar vein, suppose you had two children, one apple, and a biased coin. How do you use
+the biased coin to fairly pick which child gets the apple?
+©2021 Timothy Falcon Crack 80 All Rights Reserved Worldwide"
+Question 4.21,"(**) Now we will ask you the same question as the previous
+one, except that when it comes time for the host to reveal an empty door,
+he instead selects someone from the audience who chooses randomly and by
+chance chooses a door that is revealed to be empty. Should you switch?
+Note: There are two ways to interpret this question. You could assume that
+the game can be played repeatedly with an audience member always revealing
+ad o o rt ob ee m p t y ,o ry o uc o u l da s s u m eao n e - o ﬀg a m ew h e r et h ea u d i e n c e
+member (ignorant of the prize’s location) just happens to have chosen an
+empty door. Try answering both.
+Story: A student interviewing with a top bulge bracket ﬁrm was asked how
+he would move Mount Fuji. One of my colleagues suggested the answer “Call
+Mohammed. ”"
+Question 4.22,"You are presented with two empty jars and 100 marbles on a
+table. There are 50 white marbles and 50 black marbles. You are to put all
+100 of the marbles into the two jars in any way you choose. I will then blindfold
+you. I will shake the jars up to ensure good mixing, and I will rearrange the
+placing of the jars on the table so that you do not know which one is which.
+You may then request either the “left-hand” or the “right-hand” jar. You get
+to choose exactly one jar, you are allowed to withdraw at most one marble
+from the jar, and you do not get a second chance if you are unhappy with your
+choice.
+5You can imagine variations of the problem where the host is not required to open another door
+if doing so helps you, or where he does not open doors with equal likelihood. The solution may
+diﬀer in those cases.
+©2021 Timothy Falcon Crack 81 All Rights Reserved Worldwide"
+Question 4.23,"(***) Your name is Mr. 10. You are standing in a ﬁeld with
+two opponents: Mr. 30 and Mr. 60. Each of you has a gun and plenty of
+ammunition. Each of you is in clear sight of the others and well within ﬁring
+range. The goal is to maximize the probability of survival. Unfortunately, you
+are not a very good shot. If you take a shot at one of your opponents, you
+have only a 10% chance of killing him. Mr. 30 is a better shot; he has a 30%
+chance of killing whomever he shoots at. Mr. 60 is even better; he has a 60%
+chance of killing his target. You take turns shooting in a pre-arranged order:
+ﬁrst you, then Mr. 30, then Mr. 60, and then through this cycle again and
+again until only one person remains.
+You get to shoot ﬁrst. At whom, if anyone, do you shoot?7"
+Question 4.24,"Basketball! Your team is down two points, you are the best
+player, and you have the ball. There are only a few seconds left before the
+buzzer. You can take a shot from three-point land or move up and take one
+from two-point land. Historically, you have a 40% probability of getting the
+shot in from three-point land and a 70% probability of getting the shot in from
+two-point land.
+Should you try for the three-point shot (a certain win if you make it), or
+should you try for the two-point shot? Note that a two-pointer produces a tie
+and puts you into overtime. We assume your team has a ﬁfty-ﬁfty chance of
+winning in overtime."
+Question 4.25,"Iw i l ls p i naf a i rr o u l e t t ew h e e lw i t ho n l yﬁ v es e c t i o n s . F o u ro f
+the ﬁve sections pay $1; the ﬁfth pays $5.
+1. If the cost is $1.50 per spin, and you may play as often as you want,
+should you play the game?
+2. If the cost is $1.50 per spin, and you may play exactly once, should you
+play the game?"
+Question 4.26,"If you like gambling and you like betting on the outcome of sports
+matches, then you may like the “parlay card. ” A parlay card lets you bet on
+the outcomes of more than one match. In order to win a parlay bet, you must
+be correct on each of the matches you bet upon. Parlay cards oﬀer big payoﬀs
+if you are right on every match (some even oﬀer a payoﬀ for “almost wins”).
+6Can you answer the same question except that you are to minimize the probability of a white
+marble? Does minimizing the probability of a white marble maximize the probability of a black
+one?
+7Does the answer change if the order is ﬁrst you, then Mr. 60, then Mr. 30, then you, and so
+on?
+©2021 Timothy Falcon Crack 82 All Rights Reserved Worldwide"
+Question 4.27,"What is the standard deviation of (1 ,2,3,4,5)?"
+Question 4.28,"/_387 Welcome to your interview. Sit in this chair. Excuse me while
+It i ey o u ra r m sa n dl e g st ot h ec h a i r . T h a n ky o u . N o ww ea r eg o i n gt op l a y
+“Russian roulette. ” I have a revolver with six empty chambers. Watch me as
+Il o a dt h ew e a p o nw i t ht w oc o n t i g u o u sr o u n d s( i . e . ,t w ob u l l e t ss i d e - b y - s i d ei n
+the cylindrical barrel). Watch me as I spin the barrel. I am putting the gun
+against your head. Close your eyes while I pull the trigger. Click! This is your
+lucky day: you are still alive! Our game diﬀers from regular Russian roulette
+because I am not going to add any bullets to the barrel before we continue,
+and I am not going to give you the gun.
+My question for you: I am going to shoot at you once more before we talk
+about your resume. Do you want me to spin the barrel once more, or should
+Ij u s ts h o o t ?9"
+Question 4.29,"You have a large jar containing 999 fair pennies and one two-
+headed penny. Suppose you pick one coin out of the jar and ﬂip it 10 times
+and get all heads. What is the probability that the coin you chose is the
+two-headed one?"
+Question 4.30,"/_387 Four cards are shuﬄed and placed face down in front of you.
+Their faces (hidden) display the four elements: water, earth, wind, and ﬁre.
+You are to turn the cards over one at a time until you either win or lose. You
+win if you turn over water and earth. You lose if you turn over ﬁre. What is
+the probability that you win?
+Story: “In his ﬁrst meeting with me, a candidate made himself a little
+toocomfortable. Not only did he liberally pepper his conversation with
+profanities, he also pulled his chair right up to the edge of my desk and
+started examining papers and knickknacks. ”
+Nina Proct
+Martin H. Bauman Associates, New York
+“Doomed Days: The Worst Mistakes Recruiters Have Ever Seen,”
+The Wall Street Journal ,F e b r u a r y2 5 ,1 9 9 5 ,p R 4 .
+Reprinted by permission of The Wall Street Journal
+©1995 Dow Jones and Company, Inc.
+All Rights Reserved Worldwide.
+8Should you take the bet if the odds are 25-to-1?
+9Edward O. Thorp, when discussing gambling roulette, mentions as an aside that when playing
+Russian roulette, the eﬀect of gravity on the bullet(s) will inﬂuence the position of the revolver’s
+cylinder (Thorp, 2017, p. 126–127). Please ignore this eﬀect here.
+©2021 Timothy Falcon Crack 83 All Rights Reserved Worldwide"
+Question 4.31,"Two players AandBplay a marble game. Each player has both
+a red and a blue marble. They present one marble to each other. If both
+present red, Awins $3. If both present blue, Awins $1. If the colors do not
+match, Bwins $2. The winnings come from an external source, not from the
+other player. Is it better to be A,o rB,o rd o e si tn o tm a t t e r ?"
+Question 4.32,"Ac o i n - m a k i n gm a c h i n ep r o d u c e sp e n n i e s . E a c hp e n n yi sm a n -
+ufactured to have a probability Pof turning up heads. However, the machine
+draws Prandomly from the uniform distribution on [0 ,1] so Pcan diﬀer for
+each coin produced. A coin pops out of the machine. You ﬂip it once, and it
+comes up heads. Given this information, what is the (conditional) distribu-
+tion function FP|H(p)f o rt h ep r o b a b i l i t yo fah e a df o rt h a tc o i n( w h e r e“ H”
+denotes conditioning on the head)?
+What is the (conditional) distribution function for the probability of a head if
+you ﬂip the coin 1,000 times and get 750 heads?"
+Question 4.33,"Suppose that Xis distributed normal with mean 0 and variance
+σ2.W h a ti s E(eX)?"
+Question 4.34,"/_387 Two games are oﬀered to you. In Game One, you roll a die once
+and you are paid $1 million times the number of dots on the upturned face of
+the die. In Game Two, you roll a die one million times. For each roll you are
+paid $1 times the number of dots on the upturned face of the die. You are
+risk averse. Which game do you prefer?
+Story: 1. Took a brush out of my purse, brushed his hair and left. 2. Pulled
+out a Polaroid camera and snapped a ﬂash picture of me. Said he collected
+photos of everyone who interviewed him.
+Interview Horror Stories from Recruiters
+Reprinted by kind permission of MBA Style Magazine
+©1996–2021 MBA Style Magazine, www.mbastyle.com"
+Question 4.35,"In a survey of 1,000 people, 60% said they would vote for Can-
+didate A for president (and 40% said they would vote for someone else). How
+can you calculate a margin of error on the 60% estimate?"
+Question 4.36,"Ad i s e a s eo c c u r sw i t hp r o b a b i l i t y0 . 5 %i nt h ep o p u l a t i o n . T h e r e
+is a test for the disease. If you have the disease, the test returns a positive for
+sure. If you do not have the disease, the test returns a false positive 7% of the
+time. A random stranger is given the test and it returns a positive. What is
+the probability that the stranger has the disease?"
+Question 4.37,"How many diﬀerent ways can you invest $20,000 into ﬁve funds
+in increments of $1,000? For example, one way to do it is
+($0; $4 ,000; $1 ,000; $2 ,000; $13 ,000).
+©2021 Timothy Falcon Crack 84 All Rights Reserved Worldwide"
+Question 4.38,"(**) You are making chocolate chip cookies. You add Nchips
+randomly to the cookie dough, and you randomly split the dough into 100
+equal cookies. How many chips should go into the dough to give a probability
+of at least 90% that every cookie has at least one chip?"
+Question 4.39,"You will roll a fair die until the game stops. The game stops
+when you get a 4, 5, or 6. For every number 1, 2, or 3 you have thrown
+your score increases by +1. If the game stops with a 4 or 5, you get paid the
+accumulated score. If the game stops with a 6 you get nothing. What is the
+expected payoﬀ of this game?"
+Question 4.40,"Take a stick and break it randomly into three pieces (i.e., two
+randomly placed breaks on the stick). What is the probability you can form
+a triangle from the pieces?"
+Question 4.41,"(**)Av a r i a t i o no nt h ep r e v i o u sq u e s t i o n : W h a ti st h ee x p e c t e d
+length of the longest piece?10"
+Question 4.42,"Consider four boxes in a row numbered 1, 2, 3, and 4. You start
+with a pebble in Box 1. We toss a fair coin. If it is heads you move the pebble
+forward one step to Box 2, but if it is tails you move the pebble forward two
+steps to Box 3. Then we toss the coin again. If it is heads, you move the
+pebble back to Box 1, but if it is tails you advance it to Box 4. If you reach
+Box 4 the game is over. If you are back in Box 1, however, then we toss again
+following the same rules. What is the expected number of coin tosses it will
+take to reach Box 4?"
+Question 4.43,"/_387 It e l ly o ut h a tIh a v et w oc h i l d r e na n dt h a ta tl e a s to n eo ft h e m
+is a girl. What is the probability that I have two girls? Assume that boys
+and girls are equally likely to be born and that the gender of one child is
+independent of gender of another."
+Question 4.44,"It e l ly o ut h a tIh a v et w oc h i l d r e na n dt h a to n eo ft h e mi sa
+girl (I say nothing about the other). You knock on my front door and you
+are greeted by a girl who you correctly deduce to be my daughter. What is
+the probability that I have two girls? Compare and contrast your answer to
+the answer to the previous question. Assume that boys and girls are equally
+likely to be born and that the gender of one child is independent of gender of
+another."
+Question 4.45,"You and I are to meet tomorrow under the big clock at the train
+station. We have agreed to meet somewhere between 1 pmand 2 pm.W eh a v e
+agreed that each of us will wait no more than 15 minutes for the other, and
+that neither of us will arrive before 1 pmor remain after 2 pm.W h a t i s t h e
+probability that we will actually meet?
+10...and what about the expected length of the shortest piece? ...or the medium piece?
+©2021 Timothy Falcon Crack 85 All Rights Reserved Worldwide"
+Question 4.46,"A single fair coin is tossed until either three heads are seen or un-
+til three tails are seen. The three heads or three tails need not be consecutive.
+What is the expected number of tosses in the game?"
+Question 4.47,"If the coin in Question 4.46 is biased, is the expected number of
+tosses to get “three of the same” going to be greater or less than it was with
+the unbiased coin?"
+Question 4.48,"LetL(N)b et h el e n g t ho ft h el o n g e s tr u no fc o n s e c u t i v eh e a d s
+or tails in Ntosses of a fair coin. So, for example, if N=7 ,a n dt h eo u t c o m e s
+are HHTHHHT, then L= 3 in this case. What is E[L(5)]−E[L(4)]? Please
+give your answer to four decimal places, and you may not use a calculator."
+Question 4.49,"You are going to roll three fair dice. What is the probability that
+the diﬀerence between the highest and lowest numbers showing is exactly four?
+Please give the answer to three decimal places, without using a calculator."
+Question 4.50,"LetP(N)b et h ep o p u l a t i o no fs o m ee n d a n g e r e ds p e c i e s . S u p -
+pose that P(0) = 100, but that with each generation, either the population
+doubles, or the population is destroyed:
+P(N+1 )=/⎭r⎬celeft⎜igg
+2×P(N) with probability 0 .5
+0×P(N) with probability 0 .5.
+What is the expected number of generations until extinction?"
+Question 4.51,"There are seven coins arranged in a circle. Every coin is heads-
+up. Your goal is to ﬂip every coin so that it is heads-down. You may, however,
+only ﬂip groups of three adjacent coins. You may ﬂip any such group of three
+coins, and you may ﬂip as many such groups as you choose, one group at a
+time. What is the minimum number of groups of three coins you can ﬂip in
+order to ﬂip every coin so that it is heads-down?11"
+Question 4.52,"You are going to roll three dice. What is the probability that
+the highest of the three numbers will be exactly a 4? Please give your answer
+to three decimals without using a calculator."
+Question 4.53,"You are on vacation in a foreign country. You are sitting in a
+restaurant looking out the window. Your waiter tells you that the bus service
+stopping outside your restaurant window arrives as a Poisson process. As you
+eat your ﬁshcakes, you pull out your stopwatch and you time two minutes
+between the arrival of the ﬁrst and second bus that you see, and then 12
+minutes between the second and third bus. Seven minutes passes after the
+arrival of the third bus, and the fourth bus is not yet in sight. Stop now and
+estimate the arrival rate λof the Poisson process.
+11I have also heard of this question asked with reference to a rotating circular chandelier, with
+seven illuminated light bulbs that you are trying to extinguish, and a switch that ﬂips the state of
+the three nearest adjacent light bulbs. In practice, it is much easier to play with the problem at
+home using coins than using light bulbs.
+©2021 Timothy Falcon Crack 86 All Rights Reserved Worldwide"
+Question 4.54,"Your car has broken down in the desert. You call a friend who
+laughs and tells you that the probability of seeing a car (i.e., N≥1 cars)
+passing by during any hour is 36%. What is the probability that you will see
+ac a rd r i v eb yi nt h en e x th a l f - h o u r ?"
+Question 4.55,"Italy is playing the U.S.A. in a football World Cup match. A
+successful pass is when a player on one team kicks the ball to a player on their
+team and it is not intercepted by the opposition. Is it possible for Italy to
+have a higher proportion of its passes be successful than the U.S. in both the
+ﬁrst and second halves, and yet for the U.S. to have a higher proportion of its
+passes be successful over the game as a whole?"
+Question 4.56,"We are going to play a game. You have a fair coin, and your
+opponent has a fair coin. You are going to toss your coins together. If the
+outcome is HH, you pay $6. If the outcome is HT or TH, you receive $5. If
+the outcome is TT, you pay $4. If you play this game many times, will you
+win or lose money?"
+Question 4.57,"Suppose that you can choose any probability pof a head for your
+coin in Question 4.56. However, your opponent will see your choice of p,a n d
+can choose his or her own probability of a head as p′in response. What pwill
+you choose, and what will be the outcome of repeated play of the game?"
+Question 4.58,Write down the central limit theorem.
+Question 4.59,"Given two uncorrelated Gaussian random variables Z1andZ2,
+how can you obtain two correlated Gaussian random variables X1andX2,
+with correlation coeﬃcient ρ?"
+Question 4.60,"What is a p-value?
+©2021 Timothy Falcon Crack 87 All Rights Reserved Worldwide"
