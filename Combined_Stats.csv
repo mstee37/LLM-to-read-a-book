@@ -249,27 +249,76 @@ of winning.
 8,Question 4.17,"You are tossing a fair coin and writing down the outcomes. What
 is the expected number of tosses needed to obtain the outcome HTH ?",4.17,Answer 4.17,"When tossing a fair coin, the number of tosses, N, needed to
 obtain the outcome HTH is a random variable. What is E(N)? This question
-diﬀers from the previous question in two ways. First, we are counting tosses
+differs from the previous question in two ways. First, we are counting tosses
 here, rather than focusing solely on probability of outcomes. So, we need to
-count the tosses needed to get that ﬁrst Hin this case. Second, there is no
-competition between triplets vying for their ﬁrst appearance. So, no outcome
-prevents us from eventually getting HTH .
+count the tosses needed to get that first H in this case. Second, there is no
+competition between triplets vying for their first appearance. So, no outcome
+prevents us from eventually getting HTH.
 In Figure D.3 I have repeated the tree from Figure D.2, but I have added the
-earlier fork needed to get the ﬁrst H. We now look at Figure D.3 and use
-ar e c u r s i v ea r g u m e n tt w i c e . W i t h Nas the number of tosses needed to get
-HTH ,w el o o ka tp r o b a b i l i s t i co u t c o m e so nt h eﬁ r s tf o r ko ft h et r e e . I fw e
-toss a Tﬁrst, then we have burned one toss, and we restart again with E(N)
-additional tosses expected. So, an initial Toutcome gives a half a chance that
-we take [1 + E(N)] tosses. If, instead, we toss an initial H,t h e nw eh a v e
-burned one toss, and we now need to ask what is E(X|H), where X|His the
-count of ex tra tosses required conditional upon having obtained the initial H.
-12More formally, we are rescaling the probabilities in the tree by dividing them through by
-P(¬HTT )=3 / 4 . S o ,f o re x a m p l e , P(HHT |¬HTT )=P(HHT ∩¬HTT )
-P(¬HTT )=1/2
-3/4=2
-3,w h e r e ¬is the
-logical not symbol.
-©2021 Timothy Falcon Crack 303 All Rights Reserved Worldwide"
+earlier fork needed to get the first H. We now look at Figure D.3 and use
+a recursive argument twice. With N as the number of tosses needed to get
+HTH, we look at probabilistic outcomes on the first fork of the tree. If we
+toss a T first, then we have burned one toss, and we restart again with E(N)
+additional tosses expected. So, an initial T outcome gives a half a chance that
+we take [1 + E(N)] tosses. If, instead, we toss an initial H, then we have
+burned one toss, and we now need to ask what is E(X|H), where X|H is the
+count of extra tosses required conditional upon having obtained the initial H So, an initial H outcome gives a half a chance that we take [1 + E(X|H)]
+tosses. Thus, we have Equation D.6
+E(N) = 1
+2 � [1 + E(N)] + 1
+2 � [1 + E(X|H)]
+= 1+
+1
+2 � E(N) + 1
+2 � E(X|H) (D.6)
+Now we must solve for E(X|H). Looking at Figure D.3, we see there is a
+half a chance that we get a second H, and then we have burned another toss,
+and are back to where we were with an additional E(X|H) tosses required.
+Multiplying probabilities down the lower branch of the second fork with the
+branches of the third fork, we see there is one quarter of a chance that we use
+two extra tosses and the game is over, and one quarter of a chance that we
+burn two extra tosses and are back to the start with E(N) tosses left. Putting
+these together, we get Equation D.7.
+E(X|H) = 1
+2 � [1 + E(X|H)] + 51
+4 � 2
+6
++
+1
+4 � [2 + E(N)]
+= 1
+1
+2 +
+1
+2 � E(X|H) + 1
+4 � E(N)
+?
+1
+2 � E(X|H)=11
+2 +
+1
+4 � E(N)
+? E(X|H) = 3+ 1
+2 � E(N) (D.7)  Plugging Equation D.7 into Equation D.6, yields Equation D.8.
+E(N) = 1+ 1
+2 � E(N) + 1
+2 �
+G
+3 +
+1
+2 � E(N)
+H
+= 2
+1
+2 +
+3
+4 � E(N)
+?
+1
+4 � E(N)=21
+2
+? E(N) = 10 (D.8)
+So, on average, there are 10 tosses until we see HTH."
 9,Question 4.18,"/_387 You and I are to play a game. You roll a die until a number
 other than a one appears. When such a number appears for the ﬁrst time, I
 pay you the same number of dollars as there are dots on the upturned face of
@@ -401,14 +450,11 @@ table. There are 50 white marbles and 50 black marbles. You are to put all
 100 of the marbles into the two jars in any way you choose. I will then blindfold
 you. I will shake the jars up to ensure good mixing, and I will rearrange the
 placing of the jars on the table so that you do not know which one is which.
-You may then request either the “left-hand” or the “right-hand” jar. You get
+You may then request either the �left-hand� or the �right-hand� jar. You get
 to choose exactly one jar, you are allowed to withdraw at most one marble
 from the jar, and you do not get a second chance if you are unhappy with your
-choice.
-5You can imagine variations of the problem where the host is not required to open another door
-if doing so helps you, or where he does not open doors with equal likelihood. The solution may
-diﬀer in those cases.
-©2021 Timothy Falcon Crack 81 All Rights Reserved Worldwide",4.22,Answer 4.22,"This question is solved most eﬃciently by trying a few possible
+choice. How many of each color marble should you place in each jar to maximize the
+probability that your blindfolded random draw obtains a white marble?",4.22,Answer 4.22,"This question is solved most eﬃciently by trying a few possible
 combinations, not by some time-consuming feat of constrained linear opti-
 mization. You should begin with extreme distributions, or with symmetrical
 distributions. It is in the extremes or in symmetry that solutions to such
@@ -790,67 +836,82 @@ nancially indistinguishable) allocations of bills to buckets must be the same as
 31,Question 4.38,"(**) You are making chocolate chip cookies. You add Nchips
 randomly to the cookie dough, and you randomly split the dough into 100
 equal cookies. How many chips should go into the dough to give a probability
-of at least 90% that every cookie has at least one chip?",4.38,Answer 4.38,"The nature of the problem allows us to practice many diﬀerent
-skills: statistical inference, probability, combinatorics, recursion, induction,
-algebraic approximations, etc.
-This question is a particular case of a more general question: How many chips,
-N, should go randomly into some cookie dough to give a probability of at least
-pthat each of kcookies randomly cut from the batch contains at least mchips?
-The interviewer’s particular case uses the high probability p=0.90 and the
-low hurdle m=1c h i p sp e rc o o k i e .
-Well, if you have fewer than 100 chips, then at least one cookie does not have
-ac h i p ,s o1 0 0i st h el o w e rb o u n do na n yf e a s i b l ea n s w e r .Y o us h o u l dt a k ea n
-initial gut instinct guess before any formal analysis. My gut instinct is that
-something like N= 500 chips is enough because I would then be fairly sure
-that each cookie in the batch gets a chip. Is 500 enough? We will look at two
-exact solutions and several approximations to ﬁnd out.
-EXACT SOLUT IONS
-#1: Inclusion-Exclusion.24Ifpis the probability that every cookie has at
-least m=1c h i p s ,t h e n1 −pis the probability of the event that some cookie
-has no chips. This event in turn is a union of events involving individual
-cookies having no chips. Let A0
-ibe the event that cookie ihas no chips, then
-the inclusion-exclusion formula (see discussion on p. 132) yields
-1−p=P/p⎬renleft⎜ig
-A0
-1∪A0
-2∪···∪ A0
-k/p⎬renright⎜ig
-=P/p⎬renleft⎜iggk/uniondispl⎬y
-i=1A0
-i/p⎬renright⎜igg
-=k/summ⎬tiondispl⎬y
-i=1P/p⎬renleft⎜ig
-A0
-i/p⎬renright⎜ig
-−/summ⎬tiondispl⎬y
-1≤i<j≤kP/p⎬renleft⎜ig
-A0
-i∩A0
-j/p⎬renright⎜ig
-+
-/summ⎬tiondispl⎬y
-1≤i<j<l ≤kP/p⎬renleft⎜ig
-A0
-i∩A0
-j∩A0
-l/p⎬renright⎜ig
-−···+(−1)k+1P/p⎬renleft⎜ig
-A0
-1∩A0
-2∩···∩ A0
-k/p⎬renright⎜ig
-=k/summ⎬tiondispl⎬y
-i=1(−1)i+1/summ⎬tiondispl⎬y
-{j1,j2,...,ji}⊆{1,2,...,k}
-j1<j2<···<jiP⎛
-⎝/intersectiondispl⎬y
-j∈{j1,j2,...,j i}A0
-j⎞
-⎠.
-23Lyons and Hutcheson (1996).
-24I thank Nate Coehlo for suggesting this approach; any errors are mine.
-©2021 Timothy Falcon Crack 318 All Rights Reserved Worldwide"
+of at least 90% that every cookie has at least one chip?",4.38,Answer 4.38,"The nature of this problem allows us to practice various skills, such as statistical inference, probability, combinatorics, recursion, induction, and algebraic approximations. This question is a specific case of a more general problem: How many chips (N) should be randomly added to cookie dough to ensure that each of the k cookies cut from the batch has at least m chips with a probability of at least p?
+
+In this specific case:
+
+Probability (p) = 0.90
+Minimum chips per cookie (m) = 1
+Number of cookies (k) = 100
+If there are fewer than 100 chips, at least one cookie will inevitably not have a chip. Therefore, 100 is the minimum possible value for N. Before starting any formal analysis, it�s good to make an initial guess. For instance, you might instinctively estimate that N = 500 chips would be enough to ensure each cookie gets a chip. However, is 500 enough? This question can be solved with two exact methods and several approximations.
+
+Assumed Independence
+When the number of chips (N) is much larger than the number of cookies (k), and when the minimum number of chips required in each cookie (m) is small, the events of one cookie having at least m chips and another cookie having at least m chips are nearly independent. This assumption enables an excellent approximation to the exact solution.
+
+In this case, where k = 100 cookies and m = 1 chip per cookie:
+
+The probability that a specific cookie has no chips is approximately 
+(
+??
+?
+1
+)
+/
+??
+(k?1)/k raised to the power of N.
+Therefore, the probability that a specific cookie has at least one chip is approximately 
+1
+?
+(
+(
+??
+?
+1
+)
+/
+??
+)
+??
+1?((k?1)/k) 
+N
+ .
+Since all cookies are statistically identical, the probability that every cookie has at least one chip is approximately 
+(
+1
+?
+(
+(
+??
+?
+1
+)
+/
+??
+)
+??
+)
+??
+(1?((k?1)/k) 
+N
+ ) 
+k
+ .
+Solving for N
+We want the probability of every cookie having at least one chip to be 90% (p = 0.90). To solve for N:
+
+Take the natural logarithm of the equation and simplify it.
+Using approximations, the formula for N becomes:
+N ? ln(1 - p^(1/k)) / ln((k-1)/k).
+Substituting the given values:
+
+k = 100
+p = 0.90
+ln(1 - p^(1/k)) ? ln(1 - 0.90^(1/100)) ? -0.00105
+ln((k-1)/k) = ln(99/100) ? -0.01005
+Finally:
+
+N ? -0.00105 / -0.01005 ? 682.17
+Rounding up, we find that 683 chips are sufficient to ensure a 90% probability that each cookie has at least one chip. This solution relies on the assumption of near independence between the events of having at least one chip in different cookies. Alternative methods, such as those using the Poisson distribution, produce results very close to this approximation."
 32,Question 4.39,"You will roll a fair die until the game stops. The game stops
 when you get a 4, 5, or 6. For every number 1, 2, or 3 you have thrown
 your score increases by +1. If the game stops with a 4 or 5, you get paid the
@@ -1106,16 +1167,51 @@ The Wall Street Journal ,F e b r u a r y2 5 ,1 9 9 5 ,p R 4 .
 Reprinted by permission of The Wall Street Journal
 ©1995 Dow Jones and Company, Inc.
 All Rights Reserved Worldwide."
-38,Question 4.44,"It e l ly o ut h a tIh a v et w oc h i l d r e na n dt h a to n eo ft h e mi sa
-girl (I say nothing about the other). You knock on my front door and you
-are greeted by a girl who you correctly deduce to be my daughter. What is
-the probability that I have two girls? Compare and contrast your answer to
-the answer to the previous question. Assume that boys and girls are equally
-likely to be born and that the gender of one child is independent of gender of
-another.",4.44,Answer 4.44,"You know only that I have two children and that one is a girl you
+38,Question 4.44,"I tell you that I have two children, and at least one of them is a girl (but I do not specify which one). You come to my house and are greeted by a girl, who you correctly deduce to be my daughter. What is the probability that I have two girls? Assume that boys and girls are equally likely to be born and that the gender of one child is independent of the other.",4.44,Answer 4.44,"You know only that I have two children and that one is a girl you
 are facing at my front door. Now the argument changes from the previous
-question. The only randomness is the gender of the child you cannot see. The
-©2021 Timothy Falcon Crack 331 All Rights Reserved Worldwide"
+question. The only randomness is the gender of the child you cannot see. The sample space describing this randomness is just G and B. The probability that
+I have two girls is thus 1
+2 .
+Like in Answer 4.43, without seeing my child, there are four possible equally
+likely outcomes: GG, GB, BG, BB. Having pinpointed the gender of Child #1
+(we might as well call her that), however, the latter two outcomes are excluded,
+and the sample space describing the randomness you are confronted with is
+two equally likely outcomes: GG, GB. The probability of GG is thus 1
+2 .
+If they press you for the formal derivation so you can point your finger at the
+difference between the Answers 4.43 and 4.44, you can use Bayes� Theorem.
+In Answer 4.43 you are seeking P(G ? G|told G):
+P(G ? G|told G) = P(G ? G ? told G)
+P(told G) = P(told G ? (G ? G))
+P(told G)
+= P(told G|G ? G) � P(G ? G)
+P(told G|G ? G) � P(G ? G) + P(told G|B ? G) � P(B ? G) + P(told G|B ? B) � P(B ? B)
+= 1 � 1
+4
+1 � 1
+4 + 1 � 1
+2 + 0 � 1
+4
+= 1
+3
+In Answer 4.44 you are seeking P(G ? G|see G):
+P(G ? G|see G) = P(G ? G ? see G)
+P(see G) = P(see G ? (G ? G))
+P(see G)
+= P(see G|G ? G) � P(G ? G)
+P(see G|G ? G) � P(G ? G) + P(see G|B ? G) � P(B ? G) + P(see G|B ? B) � P(B ? B)
+= 1 � 1
+4
+1 � 1
+4 + 1
+2 � 1
+2 + 0 � 1
+4
+= 1
+2
+I used bold font to show where the two derivations differ: P(told G|B?G) = 1,
+but P(see G|B ? G) = 1
+2 . Otherwise everything is the same."
 39,Question 4.45,"You and I are to meet tomorrow under the big clock at the train
 station. We have agreed to meet somewhere between 1 pmand 2 pm.W eh a v e
 agreed that each of us will wait no more than 15 minutes for the other, and
@@ -1396,7 +1492,13 @@ yielding a standard deviation of payoﬀs of $5,049.75, rounding to pennies. For
 two million games, the standard deviation of the payoﬀ is $7,141.43, rounding
 to pennies. In the last case, there is a roughly 5% chance that your gain or
 ©2021 Timothy Falcon Crack 341 All Rights Reserved Worldwide"
-52,Question 4.57,"Suppose that you can choose any probability pof a head for your
+52,Question 4.57,"We are going to play a game. You have a fair coin, and your
+opponent has a fair coin. You are going to toss your coins together. If the
+outcome is HH, you pay $6. If the outcome is HT or TH, you receive $5. If
+the outcome is TT, you pay $4. If you play this game many times, will you
+win or lose money?
+
+Suppose that you can choose any probability pof a head for your
 coin in Question 4.56. However, your opponent will see your choice of p,a n d
 can choose his or her own probability of a head as p′in response. What pwill
 you choose, and what will be the outcome of repeated play of the game?",4.57,Answer 4.57,"Reconsider the game from Question 4.56, but allow that your coin

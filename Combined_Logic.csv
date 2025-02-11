@@ -926,7 +926,23 @@ that V(n)=2n−1, for all positive integers n(I will justify this shortly). The
 proof uses mathematical induction.
 Case n=1 : With one ring, it certainly takes exactly one move. My assertion
 is thus true for the case n=1 .
-©2021 Timothy Falcon Crack 140 All Rights Reserved Worldwide"
+Case n = N: Suppose that my assertion is true for n = N, and consider the
+case n = N + 1. By assumption, it takes V (N)=2N ?1 moves to get the first
+N rings to pole #2. Use one additional move to get ring #(N + 1) to pole #3.
+Now use V (N)=2N ? 1 moves to move the N rings on pole #2 to pole #3.
+The total number of moves used is 2V (N) + 1 = 2(2N ? 1) + 1 = 2(N+1) ? 1.
+However, this is just V (N + 1). That is, if my assertion is true for n = N, it
+is also true for n = (N + 1).
+The result follows, because I showed my assertion is true for n = 1, and I
+showed that if my assertion is true for n = N, then it is also true for n = N +1.
+In particular, because I showed the assertion to be true for n = 1, it follows
+that it must be true for n = 2. It then follows that because the assertion is
+true for n = 2, it is also true for n = 3, ... and so on, up to ?.
+41
+With n = 64 rings, it takes V (64) = 264 ? 1 = 18, 446, 744, 073, 709, 551, 615
+moves. At one move per second, it would take you 584.5 billion (i.e., 584.5
+thousand million) years to complete this task. The Earth will fall into the Sun
+in less than one-hundredth of this time period."
 36,Question 1.42,"Solve the following ordinary diﬀerential equation (ODE):
 u′′+u′+u=1",1.42,Answer 1.42,"The ODE u′′+u′+u=1h a sas i m p l es o l u t i o n . T h i si sas e c o n d -
 order linear ODE with constant coeﬃcients, so we need only search for solu-
@@ -1540,13 +1556,7 @@ or down is still left, right, up, or down, respectively, in your reﬂected imag
 There is thus noﬂipping of left for right or up for down. What hasﬂipped
 61It h a n kM a r kC a w s t o nf o rd i s c u s s i o n sr e g a r d i n gt h i sa n s w e r ;a n ye r r o r sa r em i n e .
 ©2021 Timothy Falcon Crack 167 All Rights Reserved Worldwide"
-63,Question 1.67,"(**) I am told this is a genuine ﬁnance interview question. It
-had to be a trading interview, because no one but a trader would ask this
-in an interview. I considered transforming the question, but left it as is for
-authenticity. Avert your eyes if you are easily oﬀended!
-How can three men and one woman have mutually safe heterosexual inter-
-course with just two condoms? Assume that no condom can break or leak,
-and that you cannot wash a used one.12",1.67,Answer 1.67,"Yes, it can be done, in theory if not in practice. If you are stuck
+63,Question 1.67,"Three men and one woman wish to have safe, mutually non-infectious, heterosexual intercourse. They have only two condoms. The condoms cannot be washed, and we assume they do not break or leak. Is there a way for each of the three men to have intercourse with the woman without transmitting any infection among them? If so, how?",1.67,Answer 1.67,"Yes, it can be done, in theory if not in practice. If you are stuck
 and looking for a hint, think about inverting a condom and covering it with
 another.
 Let us label the condoms C1, and C2, and the men M1,M2, and M3.M1
@@ -1566,42 +1576,17 @@ There are/p⎬renleft⎭ig10
 65,Question 1.69,"/_387 Six friends go out to lunch. The bill is $132.67. They decide to
 add a 20% tip and split the total six ways evenly. What does each person pay?",1.69,Answer 1.69,"Easier than it looks! If the bill is X, then with the tip it is 1.2 X
 ©2021 Timothy Falcon Crack 168 All Rights Reserved Worldwide"
-66,Question 1.7,"/_387 Suppose I inscribe a circle within a square so that the circle just
-touches the four sides of the square. Suppose there is exactly enough room to
-ﬁt a rectangle of dimensions 5 ×10 into one corner of the square so that the
-rectangle just touches the circle. See Figure 1.1. What is the side length of
-the square?",1.7,Answer 1.7,"I have drawn a right-angle triangle on Figure A.1 using R,t h e
-radius of the circle. Once we solve for R,t h es i d el e n g t hi s S=2R.
-From Figure A.1 we deduce that R2=(R−10)2+(R−5)2(via Pythagoras’
-Theorem).8Collecting terms, we quickly ﬁnd that R2−30R+1 2 5 = 0 .It
-follows (using the quadratic formula) that this polynomial has two roots R1
-andR2given by
-R1,R2=−B±√
-B2−4AC
-2A=30±√900−500
-2=1 5 ±10 = 5 ,25.
-Only one of those, R= 25, has a sensible physical interpretation in our case.9
-It follows that S=2R=5 0 .
-7This solution combines independent contributions of Juan Tenorio, Bingjian Ni, Yi Shen, and
-Jinpeng Chang; any errors are mine.
-8Recall Pythagoras’ Theorem. Consider a triangle with side lengths X,Y, and Z. If the angle
-between the sides of length XandYis 90◦, then it is a right-angle triangle. The side of length Z
-(the “hypotenuse”) must be the longest side, and it must be that X2+Y2=Z2.
-9Note that the case R= 5 corresponds to S=1 0 ,i nw h i c hc a s et h ec o r n e ro ft h eb o xt o u c h e s
-the far side of the circle, not the near side. This is inconsistent with the diagram drawn by the
-interviewer.
-©2021 Timothy Falcon Crack 109 All Rights Reserved Worldwide"
-67,Question 1.70,"/_387You walk into a pizza shop. They sell three sizes of pizza: small,
+66,Question 1.70,"You walk into a pizza shop. They sell three sizes of pizza: small,
 medium, and large. All are perfectly circular, have the same thickness, and
 have the same density of toppings. The price of a large pizza is equal to the
-price of a medium pizza plus the price of a small pizza: PL=PM+PS. You
+price of a medium pizza plus the price of a small pizza: PL = PM + PS. You
 see a group of your friends already sitting in the pizza store and they have just
 had one of each size pizza delivered to their table plus they have been given
 one empty box to take any leftovers home in. Each of their pizzas has been
-pre-cut into (perfect) sixths. Their box is a (perfect) square. You are looking
-12With one man and three women, the answer is of similar type, but diﬀerent. This question also
-appears in Derman (2004, p. 104), which is probably how it drifted to Wall Street.
-©2021 Timothy Falcon Crack 60 All Rights Reserved Worldwide",1.7,Answer 1.70,"We need to ﬁgure out whether the area of the large pizza is greater
+pre-cut into (perfect) sixths. Their box is a (perfect) square. You are looking at your friends� uneaten pizzas and are trying to choose between ordering one
+large pizza for yourself or ordering one medium plus one small for yourself.
+The cost is the same, but how can you determine which choice gives better
+value?",1.7,Answer 1.70,"We need to ﬁgure out whether the area of the large pizza is greater
 or smaller than the sum of the areas of the medium and small pizzas. The
 area of a circle is proportional to the square of the diameter. So, let L,M,a n d
 Sbe the diameters of the three pizzas, respectively. We need only take half
@@ -1615,14 +1600,14 @@ than a right angle, then L2<M2+S2and the small pizza plus medium pizza
 is the better deal. We could alternatively use a single slice from each pizza
 (with side length equal to the radius of the circle) and form a triangle of side
 lengths."
-68,Question 1.71,"Find all of the roots to the equation x6=6 4( i n c l u d i n gt h e
+67,Question 1.71,"Find all of the roots to the equation x6=6 4( i n c l u d i n gt h e
 complex roots).",1.71,Answer 1.71,"A sixth order polynomial has six roots. From complex analysis
 you may recall that the roots to this sort of equation are distributed evenly on
 ac i r c l ei nt h ec o m p l e xp l a n eo fr a d i u se q u a lt ot h ep o s i t i v er e a lr o o t .S o ,t h e
 roots are zk=2ek2πi
 6fork=0,1,2,3,4,5.Note that eπi=−1,so 2eπi=−2,
 which makes sense."
-69,Question 1.72,"Ap e n n yi sd r o p p e df r o mt h et o po ft h eE m p i r eS t a t eB u i l d i n g .
+68,Question 1.72,"Ap e n n yi sd r o p p e df r o mt h et o po ft h eE m p i r eS t a t eB u i l d i n g .
 At what speed does it hit the ground, and how long does it take to get there?",1.72,Answer 1.72,"Let us use the standard high school physics equations for linear
 motion with constant acceleration. There are, however, two good reasons for
 having a sensible guess before doing any math. First, if our calculations give
@@ -1642,7 +1627,7 @@ drag from the air resistance produces an upward force that perfectly counters
 the force of gravity, and the penny stops accelerating). Even if it does not
 reach terminal velocity, my estimate of speed will be an upper bound only
 ©2021 Timothy Falcon Crack 169 All Rights Reserved Worldwide"
-70,Question 1.73,"Please express the integral f(x)=/integr⎬ltext∞
+69,Question 1.73,"Please express the integral f(x)=/integr⎬ltext∞
 t=xe−at2
 2+btdtin terms of
 N(x)( i . e . ,t h ec u m u l a t i v es t a n d a r dn o r m a l ) .",1.73,Answer 1.73,"You are asked to express the integral f(x)=/integr⎬ltext∞
@@ -1660,12 +1645,12 @@ the exponent, change variables, and be sure to remember the√
 Let us focus on completing the square in the exponent ﬁrst; we need the minus
 one-half multiplier, so we can pull that out and then add and subtract half
 ©2021 Timothy Falcon Crack 170 All Rights Reserved Worldwide"
-71,Question 1.74,"What is lim x→∞/p⎬renleft⎜ig√
+70,Question 1.74,"What is lim x→∞/p⎬renleft⎜ig√
 x2+x−x/p⎬renright⎜ig
 ?",1.74,Answer 1.74,"Well, if the answer were zero they wouldn’t be asking it. Just
 multiply by the ratio of its conjugate to itself and divide numerator and de-
 ©2021 Timothy Falcon Crack 171 All Rights Reserved Worldwide"
-72,Question 1.75,How do you diﬀerentiate xxwith respect to x?,1.75,Answer 1.75,"Lety=xx,then take logs, diﬀerentiate implicitly, use the product
+71,Question 1.75,How do you diﬀerentiate xxwith respect to x?,1.75,Answer 1.75,"Lety=xx,then take logs, diﬀerentiate implicitly, use the product
 rule, and then use the deﬁnition of yto recover the answer:
 ln(y)= xln(x)
 1
@@ -1673,7 +1658,7 @@ ydy
 dx=l n ( x)+1
 dy
 dx=xx(1 + ln( x))."
-73,Question 1.76,"Following on from the previous question, what is the minimum
+72,Question 1.76,"Following on from the previous question, what is the minimum
 ofxx? Please restrict your attention to x>0.",1.76,Answer 1.76,"Following on from the previous question, y=xximplies that
 dy
 dx=xx(1 + ln( x)). Solving the ﬁrst-order conditiondy
@@ -1699,7 +1684,7 @@ Note that when x<0,y=xxis not continuously real valued (nor is it a
 uniquely-valued function; see Meyerson [1996]). There are, however, some
 negative xvalues where y=xxis unambiguously real valued. For example,
 ©2021 Timothy Falcon Crack 172 All Rights Reserved Worldwide"
-74,Question 1.77,"/_387 You are seated at a table that has 100 quarters on it. You are
+73,Question 1.77,"/_387 You are seated at a table that has 100 quarters on it. You are
 told that there are 10 heads and 90 tails turned up. Unfortunately, the room
 is pitch black (or you are blindfolded) and you cannot see the quarters. You
 also cannot tell by touch which way up they are. So, how can you divide them
@@ -1745,7 +1730,7 @@ plot (i.e., an Argand plane of complex-valued z=xxperpendicular to real-valued x
 n=−9,−7,−5,−3,−1,0,2,4,6,8,10 (i.e., 11 threads); it looks cool when rotated in three dimen-
 sions. This interview question deals only with the special case x>0w h e n n= 0.
 ©2021 Timothy Falcon Crack 173 All Rights Reserved Worldwide"
-75,Question 1.78,How would you write a computer program to estimate π?,1.78,Answer 1.78,"I will give two diﬀerent approaches to estimate π.T h e ﬁ r s t a p -
+74,Question 1.78,How would you write a computer program to estimate π?,1.78,Answer 1.78,"I will give two diﬀerent approaches to estimate π.T h e ﬁ r s t a p -
 proach uses a simple Monte-Carlo simulation. The second uses the Leibniz
 formula. Other techniques exist.
 FIRST SOLUT ION
@@ -1782,9 +1767,9 @@ Then with N=1 0 ,000, [ B(N)+B(N−1)]/2 = 3 .14159264859028 ,which is
 accurate to seven decimal places, or eight if you round. With N=1 0,000,000,
 [B(N)+B(N−1)]/2 = 3 .14159265358979, which is accurate to 14 decimal
 places."
-76,Question 1.79,"There are 12 people sitting around a perfectly round table that
+75,Question 1.79,"There are 12 people sitting around a perfectly round table that
 is marked out to look like the dial of an analog clock. The host is sitting at
-12 o’clock, and 11 guests are sitting at each hour from 1 o’clock to 11 o’clock,
+12 o�clock, and 11 guests are sitting at each hour from 1 o�clock to 11 o�clock,
 respectively. (In fact, the original question did not mention a clock, but I
 think it makes for a clear mental image.) The host holds a prize. He will
 pass the prize to someone seated next to him. Then that person will pass it
@@ -1792,15 +1777,93 @@ to someone seated next to him, and so on. The host, or any guest, is equally
 likely to pass the prize clockwise or counter-clockwise. The last guest to touch
 the prize wins it. (That is, the 11th guest to lay hands upon the prize gets to
 keep it.) Which hour of the clock should you sit at to have the highest chance
-of winning the prize?",1.79,Answer 1.79,"The short answer is that sitting in any position from 1 o’clock to
-11 o’clock is equally likely to win the prize, with probability p=1 / 1 1f o re a c h
+of winning the prize?",1.79,Answer 1.79,"The short answer is that sitting in any position from 1 o�clock to
+11 o�clock is equally likely to win the prize, with probability p = 1/11 for each
 seat. If you are peeking here for hints, go back now and think again.
-63Note that arctan( z)=/summ⎬tiontext∞
-k=0(−1)kz2k+1
-2k+1for|z|≤1 and z̸=−1(Abramowitz and Stegun, 1972,
-p. 81). Plug in z=1t og e tt h eL e i b n i zf o r m u l a .
-©2021 Timothy Falcon Crack 174 All Rights Reserved Worldwide"
-77,Question 1.8,"/_387 Interviewer: “You are a bug sitting in one corner of a cubic room.
+The setup of this problem is known as a �random walk on a circle.� The solution
+overlaps with the �gambler�s ruin� problem. So, I will describe how someone
+seated at the table can win, in terms of the random walk on a circle, and then
+I will remind you of the gambler�s ruin problem, and use its solution to solve
+our problem.
+Assume you are seated at the i
+th hour of the clock-table, for some 1 ? i ? 11.
+Now imagine an arc painted on the outer edge of the clock-table, where the
+arc records who has been visited by the prize as it is passed around. This
+arc begins as a single blob of paint at the 12 o�clock position, but grows in
+clockwise or counter-clockwise jumps as the prize is passed around. In order
+for you, seated at the i
+th hour, to win the prize, every other guest has to touch
+it before you. In order for this to happen, two specific events must happen.
+First, the arc that records who has touched the prize so far must jump to
+a person sitting next to you at either the (i ? 1)th or (i + 1)th hour. (Note
+that we are counting modulo-12 here, with no zero. So, in the case i = 1,
+i ? 1 = 12 and the arc is already touching the (i ? 1)th hour.) Indeed, the
+game cannot conclude unless a person next to you touches the prize; this
+happens with probability unity. Given the symmetry of the argument that is
+about to follow, we can, without loss of generality, assume that the arc reaches
+the (i + 1)th hour before it reaches the (i ? 1)th hour.
+Second, if the arc has reached the (i + 1)th hour before it reaches the (i ? 1)th
+hour (e.g., you are sitting at four o�clock, and the prize arrives at five o�clock,
+not yet having arrived at three o�clock), then in order for you to win the prize,
+the prize must walk right around the clock again, and reach the (i ? 1)th hour
+(three o�clock in my example) without landing in your hands in the interim.
+No matter what happens next, you know that you have won the game if the
+prize walks its way a net of 10 seats clockwise from the (i + 1)th hour without
+ever backtracking far enough to land in your hands. Another way to say this
+is that if we count the net clockwise progress of the prize from the (i + 1)th
+hour, this net balance must reach 10 hours before it reaches ?1 hours (note
+that reaching ?1 hours is not needed for the game to conclude). We can now
+use a gambler�s ruin argument to find the probability of this event.
+Suppose that you are a gambler with $10 in your hand. Your opponent has $1
+in his hand. A fair coin is tossed repeatedly. If it is heads, you gain a dollar
+from your opponent, and if it is tails you lose a dollar to your opponent. If your
+wealth reaches $11 (i.e., your net balance increases by $1 and your opponent
+is ruined), then the game stops and you win. If, however, your wealth reaches
+$0 (i.e., your net balance drops by $10 and you are ruined), then the game
+stops and your opponent wins.
+The probability that you are ruined in this gamble is the same as the probability that your opponent�s wealth steps up by a net change of $10, never having
+reached a net change of ?$1. Given that the advance-decline probabilities are
+the same in both games (i.e., 50-50), the probability of your ruin is the same as the probability of the prize walking a net of 10 hours clockwise, never having
+walked a net of ?1 hours. So, if we can find the probability of your gambling
+ruin, we have the answer to our clock-table game.
+Consider a more general gambler�s ruin problem. You have $n in your pocket
+(in our case, $n = 10). Your opponent has $m in his pocket (in our case,
+$m = 1). A fair coin is tossed repeatedly. If it is heads, you gain a dollar from
+your opponent, and if it is tails you lose a dollar to your opponent. The game
+continues until one of the players is ruined. Let P(i) be the probability that a
+player with $i in his hand is ultimately ruined playing exactly this game, for
+0 ? i ? n + m.
+Now consider some intermediary balance $i where 1 ? i ? n + m ? 1. There
+is half a chance that the next coin toss is favorable, and there is half a chance
+that the next coin toss is unfavorable. So, by the total probability theorem,
+we have Equation A.21.64
+P(i) = P(ruin|favorable coin toss) � P(favorable coin toss) +
+P(ruin|unfavorable coin toss) � P(unfavorable coin toss)
+= P(i + 1) �
+1
+2 + P(i ? 1) �
+1
+2 (A.21)
+Multiplying Equation A.21 through by 2 and rearranging, we get the secondorder recurrence in Equation A.22.
+P(i + 1) ? 2P(i) + P(i ? 1) = 0, for 1 ? i ? n + m ? 1 (A.22)
+To solve a second-order recurrence, we need two boundary conditions. In our
+case, P(0) = 1 (you are already ruined), and P(n+m) = 0 (you already won).
+The (homogeneous) characteristic equation for the recurrence in Equation A.22
+is given by Equation A.23.
+?2 ? 2? + 1 = 0 (A.23)
+This quadratic equation has repeated characteristic roots at ?0 = 1. So, we
+are looking for solutions of the form given in Equation A.24.65
+P(i) = A � 1i + B � i � 1i = A + B � i (A.24)
+Plugging the boundary conditions into Equation A.24, we quickly deduce that
+A = 1 and B = ?1/(n + m). It follows that the probability of ruin is given
+by Equation A.25.
+P(i) = n + m ? i
+n + m (A.25)
+Back to our clock-table game, we plug i = 10, n = 10 and m = 1 into
+Equation A.25 to find that the probability of ruin (and of winning the clocktable game) is given by p = 1/11 , as expected. More generally, for g guests
+seated around a circular table, the probability that any guest wins the prize
+is equally likely and given by p = 1/g ."
+76,Question 1.8,"/_387 Interviewer: “You are a bug sitting in one corner of a cubic room.
 You wish to walk (no ﬂying) to the extreme opposite corner (the one farthest
 from you). Describe the shortest path that you can walk. Be sure to mention
 direction, length, and so on.”",1.8,Answer 1.8,"You (the bug) cannot ﬂy; you have to walk. You must ﬁnd the
@@ -1827,7 +1890,7 @@ room or two hypotenuses of triangles each of side lengths 1 and1
 either case, the path is of total length√
 5.
 ©2021 Timothy Falcon Crack 110 All Rights Reserved Worldwide"
-78,Question 1.80,What is a positive deﬁnite matrix?,1.8,Answer 1.80,"As y m m e t r i c n×nreal-valued matrix Ais said to be positive
+77,Question 1.80,What is a positive deﬁnite matrix?,1.8,Answer 1.80,"As y m m e t r i c n×nreal-valued matrix Ais said to be positive
 deﬁnite if for all non-zero n×1r e a l - v a l u e dv e c t o r s ⃗z,w eh a v et h a t ⃗z′A⃗z>0,
 where ⃗z′is the transpose of ⃗z(Ayers, 1962). Similarly, Ais negative deﬁnite,
 positive semi-deﬁnite, or negative semi-deﬁnite, if under the same conditions
@@ -1868,7 +1931,7 @@ part of A, and AA=1
 2(A−A′)i st h ea n t i - s y m m e t r i cp a r to f A. An analogous result holds for
 Hermition matrices, using the complex conjugate transpose.
 ©2021 Timothy Falcon Crack 177 All Rights Reserved Worldwide"
-79,Question 1.81,"Following on from the previous question, in practice, how do
+78,Question 1.81,"Following on from the previous question, in practice, how do
 you test whether a matrix is positive deﬁnite, without using any pre-canned
 routines?
 13In the original question the pizza was not cut, there was no box, but you had a knife. I retained
@@ -1898,7 +1961,7 @@ deleting rows k:5a n dc o l u m n s k:5 ,f o ra n y k∈{2,3,4,5}produces a sub-
 matrix whose determinant, Mk:5,k:5,i sal e a d i n gp r i n c i p a lm i n o r . ( N o t et h a t
 deleting no rows and no columns of the original matrix produces, trivially, a
 ©2021 Timothy Falcon Crack 178 All Rights Reserved Worldwide"
-80,Question 1.82,"Suppose that f(x, y)=x3+y3−2xy.D o e st h i sf u n c t i o nh a v ea
+79,Question 1.82,"Suppose that f(x, y)=x3+y3−2xy.D o e st h i sf u n c t i o nh a v ea
 local maximum or a local minimum?",1.82,Answer 1.82,"To identify local extrema of a function of two variables, we need
 to conduct the second (partial) derivative test (Abramowitz and Stegun, 1972,
 p. 14; Spiegel, 1981, p. 164). Let me review the test procedure, and then we
@@ -1931,7 +1994,7 @@ the function f(x, y).
 al o c a lm a x i m u m ,l o c a lm i n i m u m ,o rs a d d l ep o i n to ft h ef u n c t i o n f(x, y).
 There are several notes to add to this.
 ©2021 Timothy Falcon Crack 183 All Rights Reserved Worldwide"
-81,Question 1.83,"Three random variables have equal pairwise correlation ρ. What
+80,Question 1.83,"Three random variables have equal pairwise correlation ρ. What
 is the possible range of ρ?",1.83,Answer 1.83,"At ﬁrst glance, this sounds like a statistics question. I put it in this
 chapter, however, because it follows naturally from the previous two questions
 about matrices and their properties. I discuss two solution techniques. The
@@ -1954,11 +2017,11 @@ X1=aY+d
 X2=bY+e
 X3=cY+f,
 ©2021 Timothy Falcon Crack 185 All Rights Reserved Worldwide"
-82,Question 1.84,What is an integral?,1.84,Answer 1.84,"The point of this question is not for you to give a formal deﬁnition
+81,Question 1.84,What is an integral?,1.84,Answer 1.84,"The point of this question is not for you to give a formal deﬁnition
 of an integral, or a rundown of diﬀerent types of integrals, but rather to provide
 an opportunity for you to demonstrate simple/deep intuition.
 ©2021 Timothy Falcon Crack 187 All Rights Reserved Worldwide"
-83,Question 1.85,"How do you use a Monte-Carlo simulation to evaluate
+82,Question 1.85,"How do you use a Monte-Carlo simulation to evaluate
 E[g(X)] =/integr⎬ldispl⎬yx=+∞
 x=−∞g(x)fX(x)dx,
 where g(x) is a real-valued polynomial and X∼N(µ, σ2)?",1.85,Answer 1.85,"Following on from our previous answer about integrals, E[g(X)]
@@ -1984,7 +2047,7 @@ E[g(X)].
 Typical values of Nare of the order of 10,000 or 20,000. Standard central
 limit theorem results allow us to put a conﬁdence interval about our estimator.
 Large sample sizes give narrower conﬁdence intervals."
-84,Question 1.86,/_387 What is 29 ×29?,1.86,Answer 1.86,"When I saw 29 ×29, I immediately noticed that 29 is only 1 less
+83,Question 1.86,/_387 What is 29 ×29?,1.86,Answer 1.86,"When I saw 29 ×29, I immediately noticed that 29 is only 1 less
 than 30. I know that 30 ×30 = 900, so all I have to do is add 29 and 30 (to
 get 59) and then subtract that from 900 to get 841. Let me explain...
 You likely already know that a2−b2=(a+b)(a−b). In the case that a=b+1,
@@ -1999,17 +2062,17 @@ Alternatively, just multiply it out and add the parts:
 20×20 = 400 ,
 and 400+360+81=841.
 ©2021 Timothy Falcon Crack 193 All Rights Reserved Worldwide"
-85,Question 1.87,/_387 What is 43 ×43?,1.87,Answer 1.87,"Unlike the previous question, when I saw 43 ×43, I immediately
+84,Question 1.87,/_387 What is 43 ×43?,1.87,Answer 1.87,"Unlike the previous question, when I saw 43 ×43, I immediately
 thought I should just multiply it out and add the parts:
 3×3=9
 3×40 = 120
 40×3=1 2 0
 40×40 = 1 ,600,
 and 1,600+240+9=1849."
-86,Question 1.88,/_387 What is 21 ×19?,1.88,Answer 1.88,"When I heard 21 ×19, it jumped out at me as ( n+1 ) ×(n−1),
+85,Question 1.88,/_387 What is 21 ×19?,1.88,Answer 1.88,"When I heard 21 ×19, it jumped out at me as ( n+1 ) ×(n−1),
 forn=2 0 . W ek n o wt h a t( n+1 ) ×(n−1) = n2−1, and that 202= 400, so
 we get 399 immediately."
-87,Question 1.89,"/_387 There are three wooden barrels in the market. One contains
+86,Question 1.89,"/_387 There are three wooden barrels in the market. One contains
 apples only, one contains oranges only, and one contains both apples and
 oranges. Labels to this eﬀect are pinned to the barrels, but the labels have
 been mixed up so that no label correctly identiﬁes the contents of the barrel
@@ -2048,7 +2111,7 @@ and Oranges” label on the remaining barrel.
 Of course, if at the initial step you are instead handed an orange from the
 barrel labeled “Apples and Oranges,” then the argument is analogous (i.e., the
 ©2021 Timothy Falcon Crack 194 All Rights Reserved Worldwide"
-88,Question 1.9,"/_387 A mythical city contains 100,000 married couples but no children.
+87,Question 1.9,"/_387 A mythical city contains 100,000 married couples but no children.
 Each family wishes to “continue the male line,” but they do not wish to over-
 populate. So, each family has one baby per annum until the arrival of the ﬁrst
 boy. For example, if (at some future date) a family has ﬁve children, then it
@@ -2078,7 +2141,7 @@ boys and an equal number of girls, and so on.
 Some people are tempted to suppose that because all large families have many
 daughters and a single son, there must be more girls than boys. However,
 there are not many large families.11"
-89,Question 1.90,"/_387 Is 112.5larger or smaller than 400? You must do this in your
+88,Question 1.90,"/_387 Is 112.5larger or smaller than 400? You must do this in your
 head. You are not allowed to use a calculator or pencil and paper.",1.9,Answer 1.90,"To compare 112.5with 400, I am going to square both sides and
 ask how 115compares with 4002.I c a n q u i c k l y ﬁ g u r e t h a t 4 0 02is a 16 with
 four zeroes after it. So, I will be looking at the leading digits of 115to see how
@@ -2094,7 +2157,7 @@ thing smaller than 1,000, leaves me with 33,000, 26,000, and 1,000 which add
 to give 60,000. So, adding back in the numbers I dropped, which I am not
 going to actually bother doing, brings the grand sum to just over 160,000.
 Thus, 112.5is a little bit bigger than 400."
-90,Question 1.91,"/_387 You are given that the lengths of two sides of a triangle are 5
+89,Question 1.91,"/_387 You are given that the lengths of two sides of a triangle are 5
 and 6. What is the approximate length of the third side?",1.91,Answer 1.91,"The interviewer told you that the lengths of two sides of a triangle
 are 5 and 6, and asked you for the length of the third side. Let the two sides
 have angle θbetween them, then for 0◦<θ< 180◦,t h et h i r ds i d eh a sl e n g t h
@@ -2108,7 +2171,7 @@ With no calculator, I noted that 8 =√
 maybe L≈73
 4.M yg u e s si so u tb yl e s st h a n1 % : L=√
 61≈7.81."
-91,Question 1.92,"/_387 You have two large blank-faced cubic dice and a marker pen.
+90,Question 1.92,"/_387 You have two large blank-faced cubic dice and a marker pen.
 You are going to write a single-digit number on each face of each die so that
 you can display the two dice together on your desk to represent days of the
 month. You must use both dice. For example, (0 ,3) is the third of the month,
@@ -2128,7 +2191,7 @@ could not get (0 ,7) or (0 ,8). I could, however, get (0 ,9) by inverting the 6.
 Using that logic, let us drop the 6 and replace it with a 0: {0,1,2,7,8,9}and
 {0,1,2,3,4,5}. I can see other equally-good choices obtained by any shuﬄing
 of the 3, 4, 5, 7, 8, and 9."
-92,Question 1.93,"/_387Id on o th a v eat o a s t e r ,b u tIh a v eaf r y i n gp a nt h a tc a nh o l d
+91,Question 1.93,"/_387Id on o th a v eat o a s t e r ,b u tIh a v eaf r y i n gp a nt h a tc a nh o l d
 three slices of bread if I use it to make toast. It takes one minute to toast one
 side of the bread in my pan. Each side of the bread has to be toasted, so I can
 make at most three slices of toast in two minutes. (You may ignore any time
@@ -2137,7 +2200,7 @@ of toast?15",1.93,Answer 1.93,"Like so many of the simpler quantitative intervie
 is a naive answer that is near at hand: If you think it takes four minutes to
 make four slices of toast, then stop reading here, go back and think again.
 ©2021 Timothy Falcon Crack 195 All Rights Reserved Worldwide"
-93,Question 1.94,"Consider a wire-frame 1 ×1 cube. Label one vertex as Aand the
+92,Question 1.94,"Consider a wire-frame 1 ×1 cube. Label one vertex as Aand the
 opposing vertex as B, as in Figure 1.3. How many non-self-intersecting paths
 lead from AtoB?( N o n - s e l f - i n t e r s e c t i n gm e a n st h a tap a t hm a yn o tt o u c ha
 vertex more than once.)
@@ -2154,7 +2217,7 @@ every path that leaves Amust ﬁrst hit one of 1, 2, or 3. Each of these paths
 has two possible next choices. This gives us six beginnings of paths. At this
 point, the path then either jumps to Bin one step (with no choice), or to B
 ©2021 Timothy Falcon Crack 196 All Rights Reserved Worldwide"
-94,Question 1.95,Prove that there are inﬁnitely many prime numbers.,1.95,Answer 1.95,"I give two related proofs that inﬁnitely many prime numbers exist.
+93,Question 1.95,Prove that there are inﬁnitely many prime numbers.,1.95,Answer 1.95,"I give two related proofs that inﬁnitely many prime numbers exist.
 FIRST SOLUT ION
 Euclid gives a proof in about 300BC (Euclid, 2008, Book 9, Proposition 20).
 Given a ﬁnite list of prime numbers p1,p2,...,p N,l e tΠ= p1·p2···pNbe
@@ -2171,7 +2234,7 @@ forpis yet another.
 In other words, given any ﬁnite list of prime numbers, yet another prime
 number can be found. So, there must be inﬁnitely many prime numbers.
 ©2021 Timothy Falcon Crack 197 All Rights Reserved Worldwide"
-95,Question 1.96,"Show that when given any positive integer n, there exists a se-
+94,Question 1.96,"Show that when given any positive integer n, there exists a se-
 quence of nconsecutive positive integers none of which is prime.",1.96,Answer 1.96,"Following on from the answer to the previous question, let us use
 factorials to construct a sequence of nconsecutive positive integers none of
 which is prime.73Given positive integer n, without loss of generality, consider
@@ -2184,7 +2247,7 @@ Note that the ﬁrstnumber at which a run of nsuccessive composite numbers
 begins may be much lower than [( n+ 1)! + 2]. For example, when n=3 ,s u r e
 enough [(3 + 1)! + 2] = (4! + 2) = 26, and 26, 27, 28 are consecutive composite
 numbers, but so too are 8, 9, 10."
-96,Question 1.97,"/_387 Finally, can the mean of two consecutive prime numbers (e.g., 7
+95,Question 1.97,"/_387 Finally, can the mean of two consecutive prime numbers (e.g., 7
 and 11) ever be prime?
 15It was not asked by the interviewer, but can you ﬁnd a general formula M(n) that describes
 the minutes, M,r e q u i r e dt om a k e nslices of toast using this pan? Assume n≥2.
